@@ -11,7 +11,11 @@ A brief example for each question is included for the
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
+The technical problem is to train an RBM (Restricted Boltzmann Machine) to learn information about the H2 molecule and Rydberg atoms, specifically how the potential energy stored in the H2 molecule varies as the distance between the H atoms changes.
+
+There is a chemical bond between the two atoms and thereb is a force of attraction and replusion between these two atoms. The balance between these two forces determines the distance that separates the atoms in a chemical bond (called the bond length).
+
+The potential energy stored in the molecule can be plotted as a function of the two atoms' separation r. The attractive and repulsive forces will be in equilibrium at the very minimum point on the curves.
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
