@@ -9,6 +9,9 @@ Open up [Project1_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 * Train an RBM to reconstruct the potential energy of moleculary Hydrogen as the distance between the H atoms changes.
 * Train an RBM to reconstruct the groundstate of a Rydberg atom quantum computer.
 
+### Run on google colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)
+
 ## Further Challenges:
 * Additional data has been provided for 
 [LiH and BeH2](https://github.com/CDL-Quantum/CohortProject_2020/tree/master/datasets/qubit_molecules).
