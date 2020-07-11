@@ -19,3 +19,5 @@ Found out stable configurations/distances of atoms in molecules. Important if yo
   2.Drug design: sell simulation license to Roche, Schroedigner or BASF, etc.
   
   3.Battery design: Tesla, any automotive player, Rocket fuel simulation - stable configurations of explosives, etc.
+
+  4. Exceptionally good software tool: an R & D targetted powerful, interactive and an exhaustive simulation tool.  
