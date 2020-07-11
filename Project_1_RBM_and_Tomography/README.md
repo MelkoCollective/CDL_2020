@@ -18,7 +18,11 @@ For Task 1 we had some difficulties starting as our energies didn't look quite c
 ![Ebondr](../figures/Olga-Task-1.png)
 
 After resolving these issues we investigated the energy-radius surface with uncertainties.  
-[Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)    
+[Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb) 
+
+
+![EvsR](../figures/energy-vs-radius.png)
+
 
 # Task 2 Notebook  
 For Task 2, we analysed the convergence thresholds of the RBM reconstruction of Rydberg atoms
