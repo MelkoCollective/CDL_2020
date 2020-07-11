@@ -21,3 +21,9 @@ Found out stable configurations/distances of atoms in molecules. Important if yo
   3.Battery design: Tesla, any automotive player, Rocket fuel simulation - stable configurations of explosives, etc.
   
   4.Exceptionally good software tool: an R & D targetted powerful, interactive and an exhaustive simulation tool.  
+
+**90 second video**
+
+The video has been uploaded on youtube visible strictly to anyone with the following link:
+
+https://youtu.be/kRQFe70Lp0Y
