@@ -10,7 +10,7 @@ Open up [Project1_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 * Train an RBM to reconstruct the groundstate of a Rydberg atom quantum computer.
 
 
-#Task 1 Notebooks  
+# Task 1 Notebook 
 [Task 1 Olgas V Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Task1_Olga_V.ipynb)  
 [Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)  
 
