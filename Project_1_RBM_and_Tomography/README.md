@@ -15,7 +15,7 @@ Open up [Project1_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 For Task 1 we had some difficulties starting as our energies didn't look quite correct and our notebook was the following  
 [Task 1 Olgas V Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Olga_V.ipynb)      
 
-After resolving this issues we investigated the energy-radius surface with uncertainties.  
+After resolving these issues we investigated the energy-radius surface with uncertainties.  
 [Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)    
 
 # Task 2 Notebook  
@@ -29,7 +29,7 @@ In this notebook we compute several ground state properties of the LiH molecule 
 [Material properties of the H2 Molecule](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Physics_properties_of_the_H2_molecule.ipynb)  
 In this notebook we use the data computed from the H2 molecule from task one to compute material properties of the H2 gas. 
 
-[Training an RNN Challenge]()  
+[Training an RNN Challenge](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Train_RNN_Challenge2.ipynb)  
 In this notebok we train an RNN to reproduce the wavefunction of the H2 molecule like in Task1.  
 
 ### Run on google colab for Task 1
