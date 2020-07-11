@@ -63,6 +63,8 @@ Please find our ![business proposal here.](https://github.com/olgOk/CohortProjec
 
 Watch short [![Introduction](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)
 
+[![Introduction](../figures/video.png)](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)
+
 [![Watch](<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg")](https://youtu.be/W_8T6jdNLPs)
 
 ## Business Application
