@@ -13,7 +13,8 @@ Open up [Project1_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 # Task 1 Notebook 
 
 For Task 1 we had some difficulties starting as our energies didn't look quite correct and our notebook was the following  
-[Task 1 Olgas V Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Olga_V.ipynb)      
+[Task 1 Olgas V Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Olga_V.ipynb) 
+![Ebondr](../figures/Olga-Task-1.png)
 
 After resolving these issues we investigated the energy-radius surface with uncertainties.  
 [Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)    
