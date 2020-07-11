@@ -1,18 +1,10 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
-# Quantum Cohort Project Business Application
-
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consdier the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
-
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+# Quantum-assisted Machine Learning of Material Properties
 
 ## Step 1: Explain the technical problem you solved in this exercise
 There is a reason cartoons depict chemists as mad scientist who accidentally blow up their labs: predicting how chemicals will react when combined is often difficult. To make a prediction, we must understand how molecules behave as they collide with other molecules. This is determined by the chemical bond between the atoms of the molecule, which depends on the forces of attraction between the electrons and protons that make up the molecule. The balance between these forces determines the distance that separates the atoms in a chemical bond (called the bond length). Because electrons and protons are governed by the laws of quantum mechanics, these calculations are difficult and require colossal computing efforts.
 
-We have speeded up this calculation and made it massively cheaper by training a machine-learning algorithm called a Restricted Boltzmann Machine (RBM) to learn information about the H2 molecule. Specifically, it learns how the potential energy stored in the H2 molecule varies as the distance between the H atoms changes. Now, instead of making the full quantum mechanical calculation to find the forces inside the molecule, you can just ask the RBM for what the energies will be for the parameters you are interested in. The RBM will make accurate predictions even for parameter values it has not seen before and much cheaper and faster than the full calculation. 
+We have speeded up this calculation and made it massively cheaper by training a machine-learning algorithm called a Restricted Boltzmann Machine (RBM) to learn information about the H2 molecule. Specifically, it learns how the potential energy stored in the H2 molecule varies as the distance between the H atoms changes. Now, instead of making the full quantum mechanical calculation to find the forces inside the molecule, you can just ask the RBM for what the energies will be for the parameters you are interested in. The RBM will make accurate predictions even for parameter values it has not seen before and much cheaper and faster than the full calculation. As a first example we have calculated in WHICH NOTEBOOK material properties of a hydrogen gas.
 
 We have also started work on training the RBM for other types of molecules, such as LiH and BeH2, which will soon enable us to make predictions about chemical reactions and material properties.
 
