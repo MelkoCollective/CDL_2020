@@ -11,8 +11,8 @@ Open up [Project1_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 
 
 # Task 1 Notebook 
-[Task 1 Olgas V Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Task1_Olga_V.ipynb)  
-[Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)  
+[Task 1 Olgas V Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Olga_V.ipynb)  
+[Task 1 Oscar JH Jupyter notebook](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task1_Oscar_JH.ipynb)  
 
 # Task 2 Notebook  
 [ Task two notebook solutions](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Task2.ipynb)
