@@ -28,14 +28,16 @@ After resolving these issues we investigated the energy-radius surface with unce
 For Task 2, we analysed the convergence thresholds of the RBM reconstruction of Rydberg atoms
 [ Task two notebook solutions](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task2.ipynb)
 
+![Task2](../figures/number-hidden-units.png)
+
 # Additional challenges links
 [RBM LiH challenge](https://github.com/olgOk/CohortProject_2020/blob/master/datasets/qubit_molecules/LiH/lithium_reconstruction.ipynb)   
 In this notebook we compute several ground state properties of the LiH molecule such as binding energies and observe convergence properties.
 
-![Ebondr](../figures/energy-epochs.png)
-
 [Material properties of the H2 Molecule](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Physics_properties_of_the_H2_molecule.ipynb)  
 In this notebook we use the data computed from the H2 molecule from task one to compute material properties of the H2 gas. 
+
+![Temp](../figures/temp.png)
 
 [Training an RNN Challenge](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Train_RNN_Challenge2.ipynb)  
 In this notebok we train an RNN to reproduce the wavefunction of the H2 molecule like in Task1.  
