@@ -61,11 +61,8 @@ Can you use your machine learning skills to uncover the correlations between the
 
 Please find our ![business proposal here.](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Business_Application.md)
 
-Watch short 
-
 [![Introduction](../figures/video.png)](https://www.youtube.com/watch?v=W_8T6jdNLPs&feature=youtu.be)
 
-[![Watch](<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg")](https://youtu.be/W_8T6jdNLPs)
 
 ## Business Application
 For each week, your team is asked to complete a Business Application. Questions you will be asked are:
