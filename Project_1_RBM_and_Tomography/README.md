@@ -61,9 +61,7 @@ Can you use your machine learning skills to uncover the correlations between the
 
 Please find our ![business proposal here.](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Business_Application.md)
 
-Watch short [![Introduction](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)
-
-[![Introduction](../figures/video.png)](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)
+Watch short [![Introduction](../figures/video.png)](https://www.youtube.com/watch?v=W_8T6jdNLPs&feature=youtu.be)
 
 [![Watch](<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg")](https://youtu.be/W_8T6jdNLPs)
 
