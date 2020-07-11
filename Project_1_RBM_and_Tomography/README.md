@@ -18,10 +18,10 @@ Open up [Project1_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 [ Task two notebook solutions](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Task2.ipynb)
 
 # Additional challenges links
-[RBM LiH challenge]()
+[RBM LiH challenge]()  
 In this notebook we compute several ground state properties of the LiH molecule such as binding energies and observe convergence properties.
 
-[Material properties of the H2 Molecule](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Physics_properties_of_the_H2_molecule.ipynb)
+[Material properties of the H2 Molecule](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Physics_properties_of_the_H2_molecule.ipynb)  
 In this notebook we use the data computed from the H2 molecule from task one to compute material properties of the H2 gas. 
 
 [Training and RNN Challenge]()  
