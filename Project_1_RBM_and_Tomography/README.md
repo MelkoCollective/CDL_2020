@@ -24,7 +24,7 @@ In this notebook we compute several ground state properties of the LiH molecule 
 [Material properties of the H2 Molecule](https://github.com/olgOk/CohortProject_2020/blob/oscar_JH_task_1_and_2/Project_1_RBM_and_Tomography/Physics_properties_of_the_H2_molecule.ipynb)  
 In this notebook we use the data computed from the H2 molecule from task one to compute material properties of the H2 gas. 
 
-[Training and RNN Challenge]()  
+[Training an RNN Challenge]()  
 In this notebok we train an RNN to reproduce the wavefunction of the H2 molecule like in Task1.  
 
 ### Run on google colab for Task 1
