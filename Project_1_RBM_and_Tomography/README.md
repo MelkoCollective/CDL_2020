@@ -28,6 +28,8 @@ After resolving these issues we investigated the energy-radius surface with unce
 For Task 2, we analysed the convergence thresholds of the RBM reconstruction of Rydberg atoms
 [ Task two notebook solutions](https://github.com/olgOk/CohortProject_2020/blob/master/Project_1_RBM_and_Tomography/Task2.ipynb)
 
+![Task2](../figures/number-hidden-units.png)
+
 # Additional challenges links
 [RBM LiH challenge](https://github.com/olgOk/CohortProject_2020/blob/master/datasets/qubit_molecules/LiH/lithium_reconstruction.ipynb)   
 In this notebook we compute several ground state properties of the LiH molecule such as binding energies and observe convergence properties.
