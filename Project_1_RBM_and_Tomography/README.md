@@ -63,7 +63,7 @@ Please find our ![business proposal here.](https://github.com/olgOk/CohortProjec
 
 Watch short [![Introduction](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)](https://drive.google.com/file/d/1YMf2RjHjwtpx15PBb_7TX2ZB5h9nrN8L/view)
 
-[![Watch](https://img.youtube.com/vi/W_8T6jdNLPs)](https://youtu.be/W_8T6jdNLPs)
+[![Watch](<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg")](https://youtu.be/W_8T6jdNLPs)
 
 ## Business Application
 For each week, your team is asked to complete a Business Application. Questions you will be asked are:
