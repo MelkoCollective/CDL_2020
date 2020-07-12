@@ -2,6 +2,8 @@
 
 We trained several RBM models that were meant to capture the statistical behaviour of the quantum state of a molecule. 
 
+Please see **Week_1.ipynb** for the details of the models and results.
+
 The trained RBM models gives compact representations that mimic the state with fewer parameters. For the case of the Rydberg atom for instance, the quantum state involved 100 qubits which gives 2^100 complex parameters. But the RBM alternative has only a few hundreds parameters and is much easier to work with. 
 
 Note that this is a fully classical computation. In some sense, we are using classical machine learning techniques to help quantum computation. 
