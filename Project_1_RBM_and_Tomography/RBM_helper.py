@@ -117,7 +117,7 @@ class RBM():
         self.visible_bias -= lr*grads[1]
         self.hidden_bias -= lr*grads[2]
 
-    def train(self, input_data, k=10, batch_size=100, lr=0.01):
+    def train(self, input_data, k=50, batch_size=500, lr=0.0175):
           
         num_batches = ceil(input_data.shape[0] / batch_size)
         pos_batches = self.shuffle_data(input_data, batch_size)
@@ -125,7 +125,7 @@ class RBM():
 
         for b in range(num_batches):
             all_gradients = self.compute_batch_gradients(k, pos_batches[b], neg_batches[b])
-            
+
             self.update_params(all_gradients, lr)
 
     def partition_function(self, space):
