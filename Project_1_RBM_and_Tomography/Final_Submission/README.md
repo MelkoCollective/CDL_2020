@@ -1,4 +1,3 @@
-![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 ## Project 1: Machine Learning
 
 We trained several RBM models that were meant to capture the statistical behaviour of the quantum state of a molecule. 
