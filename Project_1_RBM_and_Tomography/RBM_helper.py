@@ -13,18 +13,19 @@ class RBM():
         super(RBM, self).__init__()
         self.n_vis = n_vis
         self.n_hin = n_hin
-        
+        self.device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
         self.initialize_parameters()
 
     def initialize_parameters(self):
         self.weights = torch.randn(
             self.n_hin, 
             self.n_vis, 
-            dtype=torch.double
+            dtype=torch.double,
+            device=self.device
         ) / np.sqrt(self.n_vis)
         
-        self.visible_bias = torch.zeros(self.n_vis, dtype=torch.double)
-        self.hidden_bias = torch.zeros(self.n_hin, dtype=torch.double)
+        self.visible_bias = torch.zeros(self.n_vis, dtype=torch.double, device=self.device)
+        self.hidden_bias = torch.zeros(self.n_hin, dtype=torch.double, device=self.device)
 
     def effective_energy(self, v):
         v = v.to(self.weights)
