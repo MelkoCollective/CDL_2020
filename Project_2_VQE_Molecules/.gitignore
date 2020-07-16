@@ -1,0 +1,4 @@
+*.out
+*.dat
+*.clean
+*.hdf5
