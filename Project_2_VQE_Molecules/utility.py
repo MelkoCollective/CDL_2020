@@ -688,9 +688,9 @@ def get_QCC_entanglers(DIS, M, n_qubits, lexi_ordering=False):
     return entanglers
 
 
-def construct_QMF_ansatz(n_qubits):
-    b = [Variable(name='beta_{}'.format(i)) for i in range(n_qubits)]
-    g = [Variable(name='gamma_{}'.format(i)) for i in range(n_qubits)]
+def construct_QMF_ansatz(n_qubits, layer: int = 0):
+    b = [Variable(name='{}beta_{}'.format(layer, i)) for i in range(n_qubits)]
+    g = [Variable(name='{}gamma_{}'.format(layer, i)) for i in range(n_qubits)]
 
     def euler_rot(beta, gamma, q0):
         return gates.Rx(target=q0, angle=beta) + gates.Rz(target=q0, angle=gamma)
@@ -704,11 +704,11 @@ def construct_QMF_ansatz(n_qubits):
     return U
 
 
-def construct_QCC_ansatz(entanglers):
+def construct_QCC_ansatz(entanglers, layer: int = 0):
     # entanglers must be a list of OpenFermion QubitOperators
     # Returns the QCC unitary circuit ansatz
 
-    t = [Variable(name='tau_{}'.format(i)) for i in range(len(entanglers))]
+    t = [Variable(name='{}tau_{}'.format(layer, i)) for i in range(len(entanglers))]
 
     for i in range(len(entanglers)):
         if i == 0:
