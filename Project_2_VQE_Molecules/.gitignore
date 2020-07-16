@@ -2,3 +2,4 @@
 *.dat
 *.clean
 *.hdf5
+.idea/
