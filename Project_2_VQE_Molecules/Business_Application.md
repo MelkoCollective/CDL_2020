@@ -19,7 +19,7 @@ the content (or links to the content) on your forked repository.
 -	Agricultural sector through fertilizers 
 -	Material Simulation (electronic structure to find advanced materials) 
 -	Battery Optimization 
--	Finance and Portfolio Management to maximize profit/wealth and minimize risk [[BCG, 2019]](https://arxiv.org/pdf/1907.04769.pdf ) 
+-	Finance and Portfolio Management to maximize profit/wealth and minimize risk [[Barkoutsos et al., 2020]](https://arxiv.org/pdf/1907.04769.pdf ) 
 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
