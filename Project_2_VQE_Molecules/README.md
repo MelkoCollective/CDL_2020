@@ -1,11 +1,13 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
+
 ## Project 2: VQE
-This week you will explore the Variational Quantum Eigensolver (VQE) for
-constructing potential energy surfaces for small molecules.
+
+In this project we have explored the Variational Quantum Eigensolver (VQE) for constructing potential energy surfaces for small molecules: LiH, H<sub>4</sub>, and N<sub>2</sub>.
+
 A very brief introduction to the main ideas behind the VQE are 
 [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/CDL_2020_docs.pdf)
-Open up [Project2_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Project_2_LandingPage.pdf)
-to begin learning about your tasks for this week!
+
+Assignments can be found [here.] (https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Project_2_LandingPage.pdf)
 
 ## Tasks and Challenges
 Using H2 and H2O as examples, you will implement the main steps of the VQE process from the setup of the Hamiltonian to obtaining the circuit for the IBM quantum computer.  A number of additional challenges and 
