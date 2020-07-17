@@ -5,7 +5,7 @@
 <!---  # Could the Quantum Computing Revolution Help Feed the World?  --->
 
 
-Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (Fig. 1). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately 1.2% of the world's energy, of which about 93% is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
+Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (Fig. 1). [[1,2]] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately 1.2% of the world's energy, of which about 93% is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
 <!--- ![alt text](http://large.stanford.edu/courses/2014/ph240/yuan2/images/f1big.png) --->
 
@@ -39,11 +39,7 @@ Examples:
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
-
-
-
-
+Video (Due Saturday!).
 
 
 ## References
