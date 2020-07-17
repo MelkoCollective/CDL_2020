@@ -7,7 +7,7 @@ In this project we have explored the Variational Quantum Eigensolver (VQE) for c
 A very brief introduction to the main ideas behind the VQE are 
 [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/CDL_2020_docs.pdf)
 
-Assignments can be found [here.] (https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Project_2_LandingPage.pdf)
+Assignments can be found [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Project_2_LandingPage.pdf)
 
 ## Tasks and Challenges
 Using H2 and H2O as examples, you will implement the main steps of the VQE process from the setup of the Hamiltonian to obtaining the circuit for the IBM quantum computer.  A number of additional challenges and 
