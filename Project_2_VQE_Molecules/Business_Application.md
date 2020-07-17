@@ -17,8 +17,16 @@ A brief example for each question is included for the
 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
+ (Maybe we may still need to add one or two sentence explaining potential benefits under each bullet) 
+-	Energy sector through generating energy from breaking molecular bonds 
+-	Agricultural sector through fertilizers 
+-	Material Simulation (electronic structure to find advanced materials) 
+-	Battery Optimization 
+-	Finance and Portfolio Management to maximize profit/wealth and minimize risk (link: https://arxiv.org/pdf/1907.04769.pdf ) 
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
+
+
+
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
