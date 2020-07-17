@@ -40,3 +40,19 @@ Examples:
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+
+
+
+
+
+
+## References
+[1] T. L. Roberts, "The Role of Fertilizer in Growing the World's Food," Better Crops 93, 12 (2009).
+
+[2] N. Alexandratos and J. Bruinsma, "World Agriculture Towards 2030/2050: The 2012 Revision," Food and Agriculture Organization of the United Nations, ESA Working Paper No. 12-03, June 2012.
+
+[3] "The Fertilizer Industry, World Food Supplies and the Environment," International Fertilizer Industry Association, December 1998.
+
+[4] S. Wood and A. Cowie, "A Review of Greenhouse Gas Emission Factors for Fertiliser Production," IEA Bioenergy, June 2004.
+
+[5] F. Tenkorang and J. Lowenberg-DeBoer, "Forecasting Long-Term Global Fertilizer Demand," Nutr. Cycl. Agroecosys. 83, 233 (2009).
