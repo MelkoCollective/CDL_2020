@@ -1,6 +1,9 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
+
+# Improving Fertilizer Production Using Quantum Computing
+<!--- # Quantum Computing For a Better Fertilizer Production --->
 <!---  # Could the Quantum Computing Revolution Help Feed the World?  --->
-# Quantum Computing For a Better Fertilizer Production
+
 
 Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (Fig. 1). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately 1.2% of the world's energy, of which about 93% is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
