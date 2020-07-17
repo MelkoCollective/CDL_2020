@@ -17,11 +17,10 @@ VQE & QAOA are both constituents of a class of  algorithms that are called varia
 
 By simulating at the lowest scale (electrons, nuclei, etc…) the molecular structure, one can develop a set of tools allowing us to determine a set of useful properties associated to certain compounds or materials. Typically, one could imagine to find high temperature superconductivity by identifying new set of alloys that couldn’t be imagined by the usual experimental research. The ability to play on the ground structure of the molecules allows the reconstruction of all kinds of different macroscopic properties, the same reasoning might apply for active principle in a chemical compound for the design of drugs.
 
-## Q&A #4: Is there a possibility assess therapeutic properties of these molecules i.e how do they get absorbed into the human body, how can they target specific cells or pathogens in the body.
-
+## Q&A #4: Is there a possibility assess therapeutic properties of these molecules i.e. how do they get absorbed into the human body, how can they target specific cells or pathogens in the body.
 
 The idea is that, when having the full simulation of the molecules at hand, one could try to also simulate the reaction of such molecule under different external conditions (aka pressure, temperature, viscosity, etc…). Therefore, it would take a lot more work to be able to transform this external information into an input of the quantum computer, but one could imagine that once such mappings are achieved, we might encounter all sorts of possible scenarios for different molecules. What is therefore remaining is the investigation of all the possible scenarios and picking the one yielding satisfactory results.
 
-## Q&A #5: Also, is it possible to evaluate physical properties of these molecules computationally rather than creating them. How can we create these molecules in real life. i.e even if they are computationally possible are there physical constraints to reach the energy states required for the creation of these new molecules?
+## Q&A #5: Also, is it possible to evaluate physical properties of these molecules computationally rather than creating them. How can we create these molecules in real life. i.e. even if they are computationally possible are there physical constraints to reach the energy states required for the creation of these new molecules?
 
 As it was suggested before, physical properties of materials are at the core of what we want to investigate with this kind of algorithm. Creating these molecules in real life is another challenge not anymore related to its simulation but to the feasibility of the simulated scenario. 
