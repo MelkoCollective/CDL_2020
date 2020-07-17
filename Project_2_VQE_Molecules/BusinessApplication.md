@@ -4,6 +4,11 @@
 
 This week our team has explored the Variational Quantum Eigensolver (VQE) for constructing potential energy surfaces for small molecules. Our main goal in the project was to illustrate main steps of the VQE framework using small molecules of increasing computational difficulty. In addition, we want to compare classical techniques of creating VQE algorithms.
 
+
+## Overview.
+
+Two quantities of interest that we could hope to derive with the help of VQE are essentially the Density of states, which correspond to the distribution of occupied quantum states according to their associated energies (which helps figuring out the configuration of orbitals and therefore the behavior of valence electrons for potential resistivity measurements), and the simulation of molecules under other kind of constraints such as temperature/pressure etc. 
+
 ## Q&A #1: What is the purpose of the analysis here?
 
 The analysis conducted here is the performance investigation of the variational quantum eigensolver (VQE) as a variational quantum algorithm dedicated to the simulation of molecules. What we want to check is if the results provided by the algorithms do yield same or better (in the sense of more accurate) results than classical computation for small molecules. This analysis will allow us to specify if this algorithm could demonstrate a significant and reliable advantage for simulations of larger molecules which are not tractable by classical computation due to the amount of data that has to be processed.
@@ -19,7 +24,7 @@ By simulating at the lowest scale (electrons, nuclei, etc…) the molecular stru
 
 ## Q&A #4: Is there a possibility assess therapeutic properties of these molecules i.e. how do they get absorbed into the human body, how can they target specific cells or pathogens in the body.
 
-The idea is that, when having the full simulation of the molecules at hand, one could try to also simulate the reaction of such molecule under different external conditions (aka pressure, temperature, viscosity, etc…). Therefore, it would take a lot more work to be able to transform this external information into an input of the quantum computer, but one could imagine that once such mappings are achieved, we might encounter all sorts of possible scenarios for different molecules. What is therefore remaining is the investigation of all the possible scenarios and picking the one yielding satisfactory results.
+The idea is that, when having the full simulation of the molecules at hand, one could try to also simulate the reaction of such molecule under different external conditions (aka pressure, temperature, viscosity, etc.). Therefore, it would take a lot more work to be able to transform this external information into an input of the quantum computer, but one could imagine that once such mappings are achieved, we might encounter all sorts of possible scenarios for different molecules. What is therefore remaining is the investigation of all the possible scenarios and picking the one yielding satisfactory results.
 
 ## Q&A #5: Also, is it possible to evaluate physical properties of these molecules computationally rather than creating them. How can we create these molecules in real life. i.e. even if they are computationally possible are there physical constraints to reach the energy states required for the creation of these new molecules?
 
