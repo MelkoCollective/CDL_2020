@@ -27,9 +27,10 @@ One of the fundamental technical challenges in physics and chemistry is to accur
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-Examples: 
-- Federal Express
-- Canada Post
+Office Cherifien des Phosphates (OCP Group) is a viable customer to efficiently employ phosphates resources. OCP group is based in Morocco and has 70% of the world’s phosphate raw reserves, which are essential for production of fertilizers world-wide. Additionally, it is a profitable market which allowed the company to yield a net profit of US$5.88 billion revenue. The OCP group would be of particular interest to the application of VQEs because nitrogen is central to their fertilizer production, thus the profitable outcome of this innovative technique will maximize their revenues through employing this newest technology to remain in the lead in this competitive industry. Fortunately, they are heavily involved in R&D by investing massively in new technologies such as their most recent investment in artificial intelligence in 2018 [7,8,9]. 
+
+The Teal Technology Services was a recent joint venture between the OCP group and IBM for smart farming and to accelerate the digital transformation of their clients. Given that IBM owns the VQE quantum computing technology while the OCP group is the leading manufacturers of fertilizer; this will serve as the is the ideal opportunity to reinforce their relations as the OCP group will highly benefits of IBM VQE technology and vice versa. [10]
+
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
@@ -48,3 +49,11 @@ Video (Due Saturday!).
 [5] F. Tenkorang and J. Lowenberg-DeBoer, "Forecasting Long-Term Global Fertilizer Demand," Nutr. Cycl. Agroecosys. 83, 233 (2009).
 
 [6] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, (2020).
+
+[7]	https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/ 
+
+[8]	https://www.moroccoworldnews.com/2019/04/270958/morocco-ocp-digital-lead-african-agriculture/ 
+
+[9]	https://investingnews.com/daily/resource-investing/agriculture-investing/phosphate-investing/worlds-largest-phosphate-miner-ocp-is-open-to-foreign-investors/ 
+
+[10] https://www.ocpgroup.ma/en/ocp-group-and-ibm-form-joint-venture-accelerate-digital-transformation-moroccan-and-african 
