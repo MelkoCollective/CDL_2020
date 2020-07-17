@@ -11,7 +11,10 @@ A brief example for each question is included for the
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
+-	One of the fundamental technical challenges in physics and chemistry is to accurately calculate the PES for small molecules. Although there exists some approximation techniques using classical computational methods, these are limited to cases that have less bonds (i.e. 1 or 2 bonds such as LiH and H4 respectively) and for weakly correlated systems. 
+-	But why do we need PES in the first place? Through the accurate computing of PES value, we can control many real world applications such as the breaking of N2 bonds to make NH3. Subsequently, the breaking of the NH3 bonds can serve the agricultural sector in producing fertilizers while the energy released from the bond-breaking process can be employed to supply energy demand. 
+-	The importance of quantum computing lies in the ability to accurately compute PES for small molecules with highly correlated electronic structure systems while reducing time complexity, which is deemed essential in real world applications. 
+
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
