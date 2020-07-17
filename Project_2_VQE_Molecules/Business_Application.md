@@ -1,10 +1,7 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
-# Quantum Cohort Project Business Application
+# Could the Quantum Computing Revolution Help Feed the World?
 
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consdier the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
+Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (Fig. 1). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately 1.2% of the world's energy, of which about 93% is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
@@ -19,7 +16,7 @@ the content (or links to the content) on your forked repository.
 -	Agricultural sector through fertilizers 
 -	Material Simulation (electronic structure to find advanced materials) 
 -	Battery Optimization 
--	Finance and Portfolio Management to maximize profit/wealth and minimize risk [[Barkoutsos et al., 2020]](https://arxiv.org/pdf/1907.04769.pdf ) 
+-	Finance and Portfolio Management to maximize profit/wealth and minimize risk [[Barkoutsos et al., 2020]](https://arxiv.org/pdf/1907.04769.pdf). 
 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
