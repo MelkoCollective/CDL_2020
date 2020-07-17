@@ -215,120 +215,54 @@ ccenergy                            :     17.117u     68.250s     69.307w    140
 
 **************************************************************************************
 
-Host: DESKTOP-1VB572E
+Host: Hermannis-MacBook-Pro.local
 
-Timers On : Thu Jul 16 00:46:21 2020
-Timers Off: Thu Jul 16 01:11:34 2020
+Timers On : Thu Jul 16 16:45:47 2020
+Timers Off: Thu Jul 16 17:20:02 2020
 
-Wall Time:     1512.69 seconds
+Wall Time:     2055.21 seconds
 
                                                        Time (seconds)
 Module                                       User      System        Wall        Calls
-DFH: sparsity prep                  :      3.150u      0.183s      2.394w     77 calls
-DFH: initialize()                   :      9.400u      1.800s     10.028w     77 calls
-DFH: AO Construction                :      0.000u      0.000s      0.013w     77 calls
-DFH: AO-Met. Contraction            :      0.000u      0.000s      0.008w     77 calls
-HF: Form core H                     :      0.167u      1.117s      1.609w     77 calls
-HF: Form S/X                        :      0.000u      0.000s      0.023w     77 calls
-HF: Guess                           :     21.483u      2.633s     17.670w     77 calls
-SAD Guess                           :     18.733u      2.383s     15.559w     77 calls
-HF: Form G                          :      0.050u      0.033s      0.085w    231 calls
-JK: D                               :      0.017u      0.017s      0.007w    231 calls
-JK: USO2AO                          :      0.000u      0.000s      0.012w    231 calls
-JK: JK                              :      0.000u      0.000s      0.038w    231 calls
-DFH: compute_JK()                   :      0.000u      0.000s      0.032w    231 calls
-DFH: Grabbing AOs                   :      0.000u      0.000s      0.002w    231 calls
-DFH: compute_J                      :      0.000u      0.000s      0.006w    231 calls
-DFH: compute_K                      :      0.000u      0.000s      0.007w    231 calls
-JK: AO2USO                          :      0.000u      0.000s      0.004w    231 calls
-HF: Form F                          :      0.017u      0.000s      0.010w    231 calls
-HF: Form D                          :      0.000u      0.033s      0.004w    231 calls
-HF: DIIS                            :      0.517u      0.400s      1.835w    154 calls
-DIISManager::add_entry              :      0.100u      0.333s      1.557w    154 calls
-DIISManager::extrapolate            :      0.083u      0.033s      0.058w    154 calls
-bMatrix setup                       :      0.000u      0.000s      0.012w    154 calls
-bMatrix pseudoinverse               :      0.067u      0.000s      0.022w    154 calls
-New vector                          :      0.000u      0.000s      0.016w    154 calls
-HF: Form C                          :      0.000u      0.000s      0.010w    154 calls
-CIWave: CIvect write                :      0.050u      0.083s      0.517w    872 calls
-CIWave: CIvect read                 :      0.050u      0.350s      0.252w   6442 calls
-CIWave: s2                          :      0.000u      0.000s      0.004w    206 calls
-CIWave: s3                          :      0.000u      0.000s      0.004w    412 calls
-ccenergy                            :      2.733u     23.233s     42.957w     15 calls
-F build                             :      0.083u      0.067s      0.130w     91 calls
-Wmbej build                         :      0.050u      0.033s      0.473w     91 calls
-C->Wmbej                            :      0.033u      0.000s      0.390w     91 calls
-F->Wmbej                            :      0.000u      0.000s      0.021w     91 calls
-E->Wmbej                            :      0.017u      0.033s      0.029w     91 calls
-X->Wmbej                            :      0.000u      0.000s      0.019w     91 calls
-Z                                   :      0.000u      0.000s      0.002w     91 calls
-T2 Build                            :      0.367u      0.150s      0.299w     91 calls
-BT2                                 :      0.050u      0.017s      0.057w     91 calls
-ABCD:new                            :      0.050u      0.017s      0.055w     91 calls
-ABCD:S                              :      0.000u      0.000s      0.009w     91 calls
-ABCD:A                              :      0.000u      0.000s      0.009w     91 calls
-ABCD:axpy                           :      0.000u      0.000s      0.010w     91 calls
-FT2                                 :      0.000u      0.000s      0.013w     91 calls
-WmbejT2                             :      0.033u      0.050s      0.070w     91 calls
-CT2                                 :      0.117u      0.083s      0.090w     91 calls
 
 --------------------------------------------------------------------------------------
-DFH: sparsity prep                  :      3.150u      0.183s      2.394w     77 calls
-DFH: initialize()                   :      9.400u      1.800s     10.028w     77 calls
-| DFH: AO Construction              :      0.000u      0.000s      0.013w     77 calls
-| DFH: AO-Met. Contraction          :      0.000u      0.000s      0.008w     77 calls
-HF: Form core H                     :      0.167u      1.117s      1.609w     77 calls
-HF: Form S/X                        :      0.000u      0.000s      0.023w     77 calls
-HF: Guess                           :     21.483u      2.633s     17.670w     77 calls
-| SAD Guess                         :     18.733u      2.383s     15.559w     77 calls
-HF: Form G                          :      0.050u      0.033s      0.085w    231 calls
-| JK: D                             :      0.017u      0.017s      0.007w    231 calls
-| JK: USO2AO                        :      0.000u      0.000s      0.012w    231 calls
-| JK: JK                            :      0.000u      0.000s      0.038w    231 calls
-| | DFH: compute_JK()               :      0.000u      0.000s      0.032w    231 calls
-| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.002w    231 calls
-| | | DFH: compute_J                :      0.000u      0.000s      0.006w    231 calls
-| | | DFH: compute_K                :      0.000u      0.000s      0.007w    231 calls
-| JK: AO2USO                        :      0.000u      0.000s      0.004w    231 calls
-HF: Form F                          :      0.017u      0.000s      0.010w    231 calls
-HF: Form D                          :      0.000u      0.033s      0.004w    231 calls
-HF: DIIS                            :      0.517u      0.400s      1.835w    154 calls
-| DIISManager::add_entry            :      0.100u      0.333s      1.557w    154 calls
-| DIISManager::extrapolate          :      0.083u      0.033s      0.058w    154 calls
-| | bMatrix setup                   :      0.000u      0.000s      0.012w    154 calls
-| | bMatrix pseudoinverse           :      0.067u      0.000s      0.022w    154 calls
-| | New vector                      :      0.000u      0.000s      0.016w    154 calls
-HF: Form C                          :      0.000u      0.000s      0.010w    154 calls
-CIWave: CIvect write                :      0.050u      0.083s      0.517w    872 calls
-CIWave: CIvect read                 :      0.050u      0.350s      0.252w   6442 calls
-CIWave: s2                          :      0.000u      0.000s      0.004w    206 calls
-CIWave: s3                          :      0.000u      0.000s      0.004w    412 calls
-ccenergy                            :      2.733u     23.233s     42.957w     15 calls
-| F build                           :      0.083u      0.067s      0.130w     91 calls
-| Wmbej build                       :      0.050u      0.033s      0.473w     91 calls
-| | C->Wmbej                        :      0.033u      0.000s      0.390w     91 calls
-| | F->Wmbej                        :      0.000u      0.000s      0.021w     91 calls
-| | E->Wmbej                        :      0.017u      0.033s      0.029w     91 calls
-| | X->Wmbej                        :      0.000u      0.000s      0.019w     91 calls
-| Z                                 :      0.000u      0.000s      0.002w     91 calls
-| T2 Build                          :      0.367u      0.150s      0.299w     91 calls
-| | BT2                             :      0.050u      0.017s      0.057w     91 calls
-| | | ABCD:new                      :      0.050u      0.017s      0.055w     91 calls
-| | | | ABCD:S                      :      0.000u      0.000s      0.009w     91 calls
-| | | | ABCD:A                      :      0.000u      0.000s      0.009w     91 calls
-| | | | ABCD:axpy                   :      0.000u      0.000s      0.010w     91 calls
-| | FT2                             :      0.000u      0.000s      0.013w     91 calls
-| | WmbejT2                         :      0.033u      0.050s      0.070w     91 calls
-| | CT2                             :      0.117u      0.083s      0.090w     91 calls
 
 **************************************************************************************
 
-Host: DESKTOP-1VB572E
+Host: Hermannis-MacBook-Pro.local
 
-Timers On : Thu Jul 16 00:51:22 2020
-Timers Off: Thu Jul 16 01:11:34 2020
+Timers On : Thu Jul 16 17:20:18 2020
+Timers Off: Thu Jul 16 17:21:12 2020
 
-Wall Time:     1211.62 seconds
+Wall Time:       53.66 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: Hermannis-MacBook-Pro.local
+
+Timers On : Thu Jul 16 17:21:55 2020
+Timers Off: Thu Jul 16 17:23:39 2020
+
+Wall Time:      104.39 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: Hermannis-MacBook-Pro.local
+
+Timers On : Thu Jul 16 17:23:46 2020
+Timers Off: Thu Jul 16 22:45:18 2020
+
+Wall Time:    19292.47 seconds
 
                                                        Time (seconds)
 Module                                       User      System        Wall        Calls
