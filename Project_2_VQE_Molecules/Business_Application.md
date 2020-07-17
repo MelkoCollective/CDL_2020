@@ -50,7 +50,7 @@ Video (Due Saturday!).
 
 [6] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, (2020).
 
-[7]	https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/ 
+[7]	Moroccan Giant OCP Invests In Artificial Intelligence. (https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/)
 
 [8]	https://www.moroccoworldnews.com/2019/04/270958/morocco-ocp-digital-lead-african-agriculture/ 
 
