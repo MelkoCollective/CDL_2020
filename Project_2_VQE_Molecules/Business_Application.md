@@ -7,7 +7,7 @@
 
 ## Overview
 
-Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (Fig. 1). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately **1.2%** of the world's energy, of which about **93%** is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
+Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (please refer to the figure below). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately **1.2%** of the world's energy, of which about **93%** is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
 <p align="center">
   <img src="http://large.stanford.edu/courses/2014/ph240/yuan2/images/f1big.png" width="250" height="250">
@@ -19,7 +19,7 @@ One of the fundamental technical challenges in physics and chemistry is to accur
 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
- (Maybe we may still need to add: 1) one or two sentences explaining potential benefits under each bullet; 2) at least mention relevant references regarding the market growth using keys numbers from publicaly available reports from strategic consulting firms) 
+Maybe we may still need to add: 1) one or two sentences explaining potential benefits under each bullet; 2) at least mention relevant references regarding the market growth using keys numbers from publicaly available reports from strategic consulting firms. 
 -	Energy sector through generating energy from breaking molecular bonds 
 -	Agricultural sector through fertilizers 
 -	Material Simulation (electronic structure to find advanced materials) 
