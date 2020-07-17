@@ -17,7 +17,7 @@ One of the fundamental technical challenges in physics and chemistry is to accur
 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
- (Maybe we may still need to add one or two sentences explaining potential benefits under each bullet) 
+ (Maybe we may still need to add one or two sentences explaining potential benefits under each bullet or at least mention relevant references) 
 -	Energy sector through generating energy from breaking molecular bonds 
 -	Agricultural sector through fertilizers 
 -	Material Simulation (electronic structure to find advanced materials) 
