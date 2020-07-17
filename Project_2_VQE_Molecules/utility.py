@@ -321,6 +321,22 @@ def obtain_PES(molecule, bond_lengths, basis, method):
 
         while obtained_e == False:
 
+            '''
+            mol_data = get_molecular_data(molecule, bond_lengths[i], xyz_format=True)
+            mol_data = quantumchemistry.Molecule(mol_data, basis)
+
+            if method == 'cisd':
+                result = mol_data.compute_energy('detci', options={"detci__ex_level": 2})
+            else:
+                result = mol_data.compute_energy(method)
+
+            energies[i] = result
+            obtained_e = True
+
+            bond_lengths[i] += 0.00000042
+            nudged_geo_tries += 1
+            '''
+
             try:
                 mol_data = get_molecular_data(molecule, bond_lengths[i], xyz_format=True)
                 mol_data = quantumchemistry.Molecule(mol_data, basis)
