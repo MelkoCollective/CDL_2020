@@ -9,7 +9,9 @@ Synthetic fertilizers have sustained the population growth in the past century s
 
 <!--- ![alt text](http://large.stanford.edu/courses/2014/ph240/yuan2/images/f1big.png) --->
 
-<img align="center" src="http://large.stanford.edu/courses/2014/ph240/yuan2/images/f1big.png" width="250" height="250">
+<p align="center">
+  <img src="http://large.stanford.edu/courses/2014/ph240/yuan2/images/f1big.png" width="250" height="250">
+</p>
 
 
 
