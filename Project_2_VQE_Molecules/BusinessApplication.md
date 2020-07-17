@@ -2,7 +2,7 @@
 
 # Quantum Cohort Project Business Application
 
-This week our team explores the Variational Quantum Eigensolver (VQE) for constructing potential energy surfaces for small molecules. Our main goal in the project was to illustrate main steps of the VQEframework using small molecules of increasing computational difficulty. In addition, we want to compare classical technoques of creating VQE algorithms.
+This week our team has explored the Variational Quantum Eigensolver (VQE) for constructing potential energy surfaces for small molecules. Our main goal in the project was to illustrate main steps of the VQEframework using small molecules of increasing computational difficulty. In addition, we want to compare classical technoques of creating VQE algorithms.
 
 ## Q&A #1: What is the purpose of the analysis here?
 
