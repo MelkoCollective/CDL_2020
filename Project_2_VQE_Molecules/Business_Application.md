@@ -38,7 +38,7 @@ Video (Due Saturday!).
 
 
 ## References
-[1] T. L. Roberts, "The Role of Fertilizer in Growing the World's Food," Better Crops 93, 12 (2009).
+[1] T. L. Roberts, "The Role of Fertilizer in Growing the World's Food," Better Crops 93, 12, 2009.
 
 [2] N. Alexandratos and J. Bruinsma, "World Agriculture Towards 2030/2050: The 2012 Revision," Food and Agriculture Organization of the United Nations, ESA Working Paper No. 12-03, June 2012.
 
@@ -46,14 +46,14 @@ Video (Due Saturday!).
 
 [4] S. Wood and A. Cowie, "A Review of Greenhouse Gas Emission Factors for Fertiliser Production," IEA Bioenergy, June 2004.
 
-[5] F. Tenkorang and J. Lowenberg-DeBoer, "Forecasting Long-Term Global Fertilizer Demand," Nutr. Cycl. Agroecosys. 83, 233 (2009).
+[5] F. Tenkorang and J. Lowenberg-DeBoer, "Forecasting Long-Term Global Fertilizer Demand," Nutr. Cycl. Agroecosys. 83, 233, 2009.
 
-[6] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, (2020).
+[6] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, 2020.
 
-[7]	Moroccan Giant OCP Invests In Artificial Intelligence. <br /> (https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/)
+[7]	Moroccan Giant OCP Invests In Artificial Intelligence. <br /> https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/
 
-[8]	https://www.moroccoworldnews.com/2019/04/270958/morocco-ocp-digital-lead-african-agriculture/ 
+[8]	Morocco’s OCP Invests in Digital to Take Lead in African Agriculture. <br /> https://www.moroccoworldnews.com/2019/04/270958/morocco-ocp-digital-lead-african-agriculture/ 
 
-[9]	https://investingnews.com/daily/resource-investing/agriculture-investing/phosphate-investing/worlds-largest-phosphate-miner-ocp-is-open-to-foreign-investors/ 
+[9]	World's Largest Phosphate Miner OCP is Open to Foreign Investors. <br /> https://investingnews.com/daily/resource-investing/agriculture-investing/phosphate-investing/worlds-largest-phosphate-miner-ocp-is-open-to-foreign-investors/ 
 
-[10] https://www.ocpgroup.ma/en/ocp-group-and-ibm-form-joint-venture-accelerate-digital-transformation-moroccan-and-african 
+[10] OCP Group and IBM from Joint Venture to accelerate digital transformation for Moroccan and African companies. <br /> https://www.ocpgroup.ma/en/ocp-group-and-ibm-form-joint-venture-accelerate-digital-transformation-moroccan-and-african 
