@@ -6,6 +6,11 @@ A very brief introduction to the main ideas behind the VQE are
 [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/CDL_2020_docs.pdf)
 Open up [Project2_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Project_2_LandingPage.pdf)
 to begin learning about your tasks for this week!
+## Setup
+A conda environment .yaml file has been provided to create a replica of the environment that has been used to run all code samples in this repo.
+Command:
+cd environment
+conda env create --file CDLWeek2.yml
 
 ## Tasks and Challenges
 Using H2 and H2O as examples, you will implement the main steps of the VQE process from the setup of the Hamiltonian to obtaining the circuit for the IBM quantum computer.  A number of additional challenges and 
