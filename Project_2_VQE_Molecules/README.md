@@ -18,6 +18,8 @@ business-related questions are suggested in the above.
 ## S3_Unitary_Ansatz
 
 ## S4_Measurement
+In MeasurementUnitaryGenerator.py we encapsulate all the functionality (partitioning into fully commuting groups and qubit-wise commuting groups) required for preparing the pre-measurement unitaries.
+As a challenge, we also tried implementing further reduction via SVD truncation. We find that we are able to reconstruct the hamiltonian from the SVD, but we need to set high thresholds for truncation in order to get results similar to Table 1 of https://arxiv.org/pdf/2007.01234.pdf. For example, with H20, we need to set the threshold to ~50 in order to get a significant reduction (at this value we end up with 25 measurement groups after FC partitioning). To verify the resulting Hamiltonian, we computed its minimum eigenvalue (-82.4) and compared against that of the non-truncated version (-99.2). The energy difference seems large. We’d need further time to understand our method in detail and verify that we are applying the right steps.
 
 ## S5_Circuits
 
