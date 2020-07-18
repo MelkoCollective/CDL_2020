@@ -27,20 +27,22 @@ We are gonna add here a grouped bar charts to benchmark the ground state energie
 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
-Maybe we may still need to add: 1) one or two sentences explaining potential benefits under each bullet; 2) at least mention relevant references regarding the market growth using keys numbers from publicaly available reports from strategic consulting firms. 
+The near-term hybrid quantum algorithm, VQE has immediate and future applications in interdisciplinary areas among chemistry, material science and finance: 
+
 -	Energy sector through generating energy from breaking molecular bonds 
 -	Agricultural sector through fertilizers
-- Screening and design of new drugs for medical applications (molecular dynamics simulations)[6]
+- Solving deep evironmental problems on the planet with Ozone dissociation [6] 
+- Screening and design of new drugs using molecular dynamics simulations. [7]
 -	Material Simulation (electronic structure to find advanced materials) 
 -	Battery Optimization 
--	Finance and Portfolio Management to maximize profit/wealth and minimize risk. [6] 
+-	Finance and Portfolio Management to maximize profit/wealth and minimize risk. [8] 
 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-Office Cherifien des Phosphates (OCP Group) is a viable customer to efficiently employ phosphates resources. OCP group is based in Morocco and has **70%** of the world’s phosphate raw reserves, which are essential for production of fertilizers world-wide. Additionally, it is a profitable market which allowed the company to yield a net profit of **US$5.88** billion revenue. The OCP group would be of particular interest to the application of VQEs because nitrogen is central to their fertilizer production, thus the profitable outcome of this innovative technique will maximize their revenues through employing this newest technology to remain in the lead in this competitive industry. Fortunately, they are heavily involved in R&D by investing massively in new technologies such as their most recent investment in **artificial intelligence** in 2018. [7,8,9] 
+Office Cherifien des Phosphates (OCP Group) is a viable customer to efficiently employ phosphates resources. OCP group is based in Morocco and has **70%** of the world’s phosphate raw reserves, which are essential for production of fertilizers world-wide. Additionally, it is a profitable market which allowed the company to yield a net profit of **US$5.88** billion revenue. The OCP group would be of particular interest to the application of VQEs because nitrogen is central to their fertilizer production, thus the profitable outcome of this innovative technique will maximize their revenues through employing this newest technology to remain in the lead in this competitive industry. Fortunately, they are heavily involved in R&D by investing massively in new technologies such as their most recent investment in **artificial intelligence** in 2018. [9,10,11] 
 
-The Teal Technology Services was a recent **joint venture** between the **OCP group** and **IBM** for smart farming and to accelerate the digital transformation of their clients. Given that IBM owns the VQE quantum computing technology while the OCP group is the leading manufacturers of fertilizer; this will serve as the is the ideal opportunity to reinforce their relations as the OCP group will highly benefits of IBM VQE technology and vice versa. [10]
+The Teal Technology Services was a recent **joint venture** between the **OCP group** and **IBM** for smart farming and to accelerate the digital transformation of their clients. [12]
 
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
@@ -59,16 +61,16 @@ https://www.dropbox.com/s/ceq2x7sd662zxom/Project_week_2.mp4?dl=0
 
 [5] F. Tenkorang and J. Lowenberg-DeBoer, "Forecasting Long-Term Global Fertilizer Demand," Nutr. Cycl. Agroecosys. 83, 233, 2009.
 
-[6] 16 Startups Using Quantum Theory To Accelerate Drug Discovery <br /> https://www.biopharmatrend.com/post/99-8-startups-applying-quantum-calculations-for-drug-discovery/
+[6] FY2016 LDRD Annual Report - Simulating Excited State Energies and Dynamics with Superconducting Qubits (Pg. 30) <br /> https://www2.lbl.gov/DIR/assets/docs/16LDRD-PUB_LBNL-103E-2016.pdf
 
+[7] 16 Startups Using Quantum Theory To Accelerate Drug Discovery <br /> https://www.biopharmatrend.com/post/99-8-startups-applying-quantum-calculations-for-drug-discovery/
 
+[8] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, 2020.
 
-[6] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, 2020.
+[9]	Moroccan Giant OCP Invests In Artificial Intelligence. <br /> https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/
 
-[7]	Moroccan Giant OCP Invests In Artificial Intelligence. <br /> https://moroccotravelblog.com/scalia_news/moroccan-giant-ocp-invests-in-artificial-intelligence/
+[10]	Morocco’s OCP Invests in Digital to Take Lead in African Agriculture. <br /> https://www.moroccoworldnews.com/2019/04/270958/morocco-ocp-digital-lead-african-agriculture/ 
 
-[8]	Morocco’s OCP Invests in Digital to Take Lead in African Agriculture. <br /> https://www.moroccoworldnews.com/2019/04/270958/morocco-ocp-digital-lead-african-agriculture/ 
+[11]	World's Largest Phosphate Miner OCP is Open to Foreign Investors. <br /> https://investingnews.com/daily/resource-investing/agriculture-investing/phosphate-investing/worlds-largest-phosphate-miner-ocp-is-open-to-foreign-investors/ 
 
-[9]	World's Largest Phosphate Miner OCP is Open to Foreign Investors. <br /> https://investingnews.com/daily/resource-investing/agriculture-investing/phosphate-investing/worlds-largest-phosphate-miner-ocp-is-open-to-foreign-investors/ 
-
-[10] OCP Group and IBM from Joint Venture to accelerate digital transformation for Moroccan and African companies. <br /> https://www.ocpgroup.ma/en/ocp-group-and-ibm-form-joint-venture-accelerate-digital-transformation-moroccan-and-african 
+[12] OCP Group and IBM from Joint Venture to accelerate digital transformation for Moroccan and African companies. <br /> https://www.ocpgroup.ma/en/ocp-group-and-ibm-form-joint-venture-accelerate-digital-transformation-moroccan-and-african 
