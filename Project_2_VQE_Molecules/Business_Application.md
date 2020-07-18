@@ -25,24 +25,30 @@ In addition to this understanding, our team decided to conduct primary interview
 Gavin Jones, Team Lead, Quantum Applications, IBM (PhD Chemistry, UCLA)
 
 Pain points
+
 This was a very insightful call with Gavin. I started off by asking him generally about customer articulated pain points within chemistry/pharma. Gavin said that people in industry aren’t very interested in the latest research, e.g. PES bond stretching. Yes, they may be interested in PES from a benchmarking standpoint, but they want to focus on applications that industry cares about. They want to better understand 2-3 molecule reactions. One area of interest are catalysts performing reactions with one molecule and then another, thereby accelerating the union of those two molecules. Also, can we rearrange reactions?
 
 Areas of interest outside of PSE
+
 Outside of reactions, another area of interest are general properties of molecules. Examples include dipole moments, excited states (this is one property, he says, that all industries care about!), electro-chemical processes - Can we make OLEDs, photoacid generators, and better batteries out of these things? Scientists also care about the interaction of molecules with light. On the materials side, they care about periodic solids and crystalline materials. And, one thing scientists care about that is cross-cutting is quantum machine learning to improve anything that they are doing classically. 
 I asked him how receptive the business side is to quantum experimentation. He said that they are in very early stages, so it is still very scientist driven. He said that they still have to be convinced that they need to be ready for a quantum future. But, he said that one thing that surprised him is that there is quite a bit of C-level interest in quantum. He believes that one reason that they are excited is because they realize that they don’t have to invest that much to get started (i.e. they don’t have to build a quantum computer themselves). Also, sometimes C-level executives are interested in areas outside of simulation, like optimization. CEOs are asking their teams to look into the benefits of quantum computing. 
 
 Great anecdote
+
 I asked Gavin if he knows of cases where VQE has been used in industries outside of chemistry/pharmaceuticals. He said that VQE has actually been adapted and used in finance for the use case of CVAR (conditional value-at-risk). Then they took this method from finance and used it back in the chemistry world!
 Also he said people have thought about how to use VQE QAOA for optimization algorithms within chemistry. 
 
 Large molecules
+
 I asked Gavin if there large molecules that currently cannot be studied, but that are very important/impactful. His immediate answer was the iron complex that is used for nitrogen fixation (1-2% of the world’s energy is consumed for this process). But he said we are probably years away from fully understanding that. 
 
 Personal excitement
+
 Gavin would love to see the day where quantum computers are used routinely in chemistry. He remembers roles that he had where he was modeling different materials and reactions. He never knew how believable his results were, and the methods could be quite wrong. He said that sometimes he didn’t have time for benchmarking. So, he would have to go back to experimentalists in the lab to verify his results. He’s excited about having more accurate methods. 
 I asked him what’s the impact of something that’s not so accurate. He gave an example of trying to design a new catalyst. Experimentalists may come to him with a problem - we have seen X happening and we don’t know why. Then he would try to model the problem on a classical computer. They try your results in the lab, and it’s quite embarrassing if it does not work! If it was more accurate you could help them improve yields for desired products, reaction rates. 
 
 James Ma, Product Manager, Zapata (Computer Science background)
+
 James isn’t a chemistry expert, so he didn’t have much to say about the technical components of VQE, molecules etc. But, he did mention that quantum advantage hasn’t been proven in VQE so the benefits to customers is an open question, Here are some highlights from our conversation:
 
 Hedging: The first is what is already commonly known - We haven’t been able to simulate something or access research because of the limits of classical computing. We can't execute algorithms in a reasonable amount of time. So we view this as a hedge since this is an active area of research. It’s on us to allocate resources to this.  
@@ -74,19 +80,24 @@ Here is the evidence that we found that these 10 firms are quantum interested:
 Johnson & Johnson
 Supply chain executive believes quantum can have an impact in the next few years
 https://www.cxotalk.com/video/johnson-johnson-creates-intelligent-supply-chain
-Neil Ackerman, Global Supply Chain Digital Executive: https://www.linkedin.com/in/neilackerman/
+Neil Ackerman, Global Supply Chain Digital Executive: 
+https://www.linkedin.com/in/neilackerman/
 
 Roche
 Found a number of articles, social media posts:
 https://www.roche.com/quantum-computing.htm
 https://www.roche.com/future-quantum-computing.htm
-Martin Strahm,Head of Data Science: https://www.linkedin.com/in/martin-strahm-56a67b12a/
+
+Martin Strahm,Head of Data Science: 
+https://www.linkedin.com/in/martin-strahm-56a67b12a/
 https://www.facebook.com/RocheCareers/posts/2458483347511552
 
 Pfizer
 Some evidence that Pfizer has partnerships with AI companies that are experimenting with quantum computing:
 https://www.breakthroughs.com/health-tomorrow/how-quantum-physics-and-ai-disrupting-drug-discovery-development
-Bruno Hancock, Global Head of Materials Science: https://www.linkedin.com/in/bruno-hancock-20a3b210/
+
+Bruno Hancock, Global Head of Materials Science: 
+https://www.linkedin.com/in/bruno-hancock-20a3b210/
 https://pharmaphorum.com/news/pfizer-ai-drug-discovery-xtalpi/
 
 Bayer
@@ -94,10 +105,11 @@ Bayer is hiring for the role, Quantum Computing Manager. The posting says that B
 https://career.bayer.us/en/job/quantum-computing-manager--SF142341
 This article mentions that in 2018, Bayer was working with Atos to explore quantum computing applications for human disease patterns:
 https://atos.net/en/2018/press-release_2018_11_07/atos-bayer-rwth-aachen-university-use-atos-quantum-learning-machine-study-human-disease-patterns
-Ulf Hengstmann, IT Manager: https://www.linkedin.com/in/ulf-hengstmann-bbb479/
+Ulf Hengstmann, IT Manager: 
+https://www.linkedin.com/in/ulf-hengstmann-bbb479/
 
 Novartis
-My sister works here! They have an existing partnership with Microsoft that they would like to expand. This may include quantum computing. 
+They have an existing partnership with Microsoft that they would like to expand. This may include quantum computing. 
 Forbes article mentions that new CEO is keen on using quantum computing
 https://www.forbes.com/sites/matthewherper/2018/03/26/ai-telemedicine-quantum-new-novartis-boss-says-tech-will-finally-change-the-drug-biz/#308a58656b54
 
@@ -107,7 +119,7 @@ https://www.wsj.com/articles/merck-venture-arm-invests-in-quantum-computing-star
 Announcement of partnership with HQS Quantum Simulations, a quantum startup:
 https://www.emdgroup.com/en/news/quantum-computing-04-06-2019.html
 Philip Harbach, Head of In Silico Research: https://www.linkedin.com/in/philipp-harbach-579670172/
-I met Kam Chana, Director Computational Platforms, at a quantum conference (QTech) in Boston last September.
+Kam Chana, Director Computational Platforms, attended a quantum conference (QTech) in Boston last September.
 https://www.linkedin.com/in/kam-chana/
 
 GlaxoSmithKline
@@ -117,13 +129,15 @@ It looks like GSK has partnered with industry groups to explore quantum:
 https://quantumlab.info/2019-1
 https://admin.ktn-uk.co.uk/app/uploads/2019/04/QC_Pharma_140319.pdf
 https://gtr.ukri.org/projects?ref=EP%2FT001062%2F1
-Potential lead - Bonnie Kruft, Director of Data Science: https://www.linkedin.com/in/bonniekruft/?originalSubdomain=uk
+Potential lead - Bonnie Kruft, Director of Data Science:
+https://www.linkedin.com/in/bonniekruft/?originalSubdomain=uk
 
 Sanofi
 Did not find any evidence of quantum interest/investment
 
 AbbVie
-Brian Martin, Head of AI in R&D Information Research: https://www.linkedin.com/in/brianm1028/
+Brian Martin, Head of AI in R&D Information Research: 
+https://www.linkedin.com/in/brianm1028/
 Tweet: https://twitter.com/abbvie/status/1228695498191757312
 Brian attends several quantum conferences (I saw him at QTech)
 https://www.quantumtechcongress.com/agenda/conference-day-one
