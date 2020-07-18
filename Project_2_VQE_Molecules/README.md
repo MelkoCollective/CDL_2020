@@ -43,6 +43,8 @@ Check on our Business Appplication [here.](https://github.com/Anand270294/Cohort
 
 [INSERT VIDEO!]()
 
-## Presenting your results in your pull request
+## Our Team Members
+
+Find out team members [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Contributions.md)
 
 
