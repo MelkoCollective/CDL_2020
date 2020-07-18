@@ -13,6 +13,7 @@ business-related questions are suggested in the above.
 
 ## S1_Classical_Methods
 We employ a variety of different classical algorithms for calculating the molecular bond energy. The choice of algorithm is based on a tradeoff between speed and accuracy. These methods give us an anchor to help us calibrate and understand our smaller scale quantum experiments.
+
 ![h2](../figures/h2.png)
 ![h2o](../figures/h2o.png)
 ![h4](../figures/h4.png)
