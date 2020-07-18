@@ -27,14 +27,8 @@ As a challenge, we also tried implementing further reduction via SVD truncation.
 ## S5_Circuits
 
 ## Business Application
-One again, your team is asked to complete a Business Application. Questions you will be asked are:
-
-* Explain to a layperson the technical problem you solved in this exercise.
-* Explain or provide examples of the types of real-world problems this solution can solve.
-* Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved.
-* Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language.
-
 For more details refer to the [Business Application found here](./Business_Application.md)
+[![Introduction](../figures/youtube.png)](https://youtu.be/hcUpBK2gFis)
 
 ## Presenting your results in your pull request
 For your pull request, consider the following for the presentation of your final results:
