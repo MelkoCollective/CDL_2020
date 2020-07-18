@@ -10,7 +10,7 @@
 Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (please refer to the figure below). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately **1.2%** of the world's energy, of which about **93%** is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
 <p align="center">
-  <img src="http://large.stanford.edu/courses/2014/ph240/yuan2/images/f1big.png" width="250" height="250">
+<img src="Images/Fertilizer_use.png" width="400" height="350">
 </p>
 
 ## Step 1: Explain the technical problem you solved in this exercise
@@ -19,10 +19,10 @@ One of the fundamental technical challenges in physics and chemistry is to accur
 
 We are gonna add here a grouped bar charts to benchmark the ground state energies with classical, simulator and quantum computer results. Hopefully the results from the IBM quantum computers will be ready by tomorrow for comparison and analysis.
 
-<!--- ![](Images/bar-chart.png) --->
+<!--- ![](Images/Bar_chart.png) --->
 
 <p align="center">
-<img src="Images/bar-chart.png" width="250" height="250">
+<img src="Images/Bar_chart.png" width="400" height="350">
 </p>
 
 
