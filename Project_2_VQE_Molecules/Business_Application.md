@@ -7,7 +7,7 @@
 
 ## Overview
 
-Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (please refer to the figure below). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately **1.2%** of the world's energy, of which about **93%** is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
+Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and the production of fertilizer is expected to expand in the coming decades to feed an ever-growing world population (please refer to the figure below). [1,2] Fertilizer manufacturing is an energy-intensive industry. It has been estimated that it accounts for approximately **1.2%** of the world's energy, of which about **93%** is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
 <p align="center">
 <img src="Images/Fertilizer_use.png" width="450" height="300">
