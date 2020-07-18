@@ -45,7 +45,7 @@ The Teal Technology Services was a recent **joint venture** between the **OCP gr
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-Video (Due Saturday!).
+https://www.dropbox.com/s/ceq2x7sd662zxom/Project_week_2.mp4?dl=0
 
 
 ## References
