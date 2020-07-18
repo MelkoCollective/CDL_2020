@@ -13,6 +13,7 @@ business-related questions are suggested in the above.
 
 ## S1_Classical_Methods
 We employ a variety of different classical algorithms for calculating the molecular bond energy. The choice of algorithm is based on a tradeoff between speed and accuracy. These methods give us an anchor to help us calibrate and understand our smaller scale quantum experiments.
+![h2](../figures/h2.png)
 
 ## S2_Hamiltonian_gen
 Generating the qubit hamiltonian requires mapping the fermionic states to qubit states through Jordan-Wigner transformation. The qubit hamiltonian produces the number of orbitals needed to represent the molecule and the number of qubits required. We then tapper the hamiltonian to reduce the number of qubits required to represent the molecule. The elements of the tapered hamiltonian generate a matrix. The eigenvalues are from this matrix.
