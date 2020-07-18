@@ -9,7 +9,7 @@ to begin learning about your tasks for this week!
 ## Setup
 A conda environment .yaml file has been provided to create a replica of the environment that has been used to run all code samples in this repo.
 
-Command:
+**Command:**
 
 cd environment
 
