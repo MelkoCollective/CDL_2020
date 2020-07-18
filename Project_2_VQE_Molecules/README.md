@@ -10,8 +10,11 @@ A very brief introduction to the main ideas behind the VQE are
 Assignments can be found [here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Project_2_LandingPage.pdf)
 
 ## Tasks and Challenges
-Using H2 and H2O as examples, you will implement the main steps of the VQE process from the setup of the Hamiltonian to obtaining the circuit for the IBM quantum computer.  A number of additional challenges and 
-business-related questions are suggested in the above.
+
+
+### Step #1: Generating PES using classical methods.
+
+In this part, we implemented three most commly used methods for extraction of thr molecule structure: HF, CCSD, and FCI. All three methods scale polynomially with the system size  but fail to deliver chemical accuracy along PESs. We were, however, able to estimate approximately ground state Bound Energy.  
 
 ## Business Application
 One again, your team is asked to complete a Business Application. Questions you will be asked are:
