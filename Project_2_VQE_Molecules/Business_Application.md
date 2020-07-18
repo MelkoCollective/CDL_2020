@@ -139,11 +139,10 @@ AbbVie
 Brian Martin, Head of AI in R&D Information Research: 
 https://www.linkedin.com/in/brianm1028/
 Tweet: https://twitter.com/abbvie/status/1228695498191757312
-Brian attends several quantum conferences (I saw him at QTech)
+
+Brian attends several quantum conferences
 https://www.quantumtechcongress.com/agenda/conference-day-one
 https://www.bio-itworld.com/2020/02/11/abbvies-fresh-look-at-how-ai-and-quantum-computing-will-transform-biotech.aspx
-Blog mention:
-https://stories.abbvie.com/stories/scientists-rock-ice-cube-that-launched-career.htm
 
 Abbott
 Did not find any evidence of quantum interest/investment
