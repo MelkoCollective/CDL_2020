@@ -34,7 +34,7 @@ As a challenge, we also tried implementing further reduction via SVD truncation.
 ## Business Application
 [![Introduction](../figures/youtube.png)](https://youtu.be/hcUpBK2gFis)
 
-# For more details refer to the [Business Application found here](./Business_Application.md)
+**For more details refer to the [Business Application found here](./Business_Application.md)**
 
 # Further Challenges - Business-related questions in the context of quantum entrepreneurship
 
