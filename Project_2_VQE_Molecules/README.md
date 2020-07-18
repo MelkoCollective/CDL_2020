@@ -40,22 +40,22 @@ As a challenge, we also tried implementing further reduction via SVD truncation.
 
 1. What other molecular properties can one obtain using VQE for the purpose of rational material and drug design?
 
-Interview with Gavin from IBM
+  Interview with Gavin from IBM
 
-Outside of reactions, another area of interest are general properties of molecules. Examples include dipole moments, excited states (this is one property, he says, that all industries care about!), electro-chemical processes - Can we make OLEDs, photoacid generators, and better batteries out of these things? Scientists also care about the interaction of molecules with light. On the materials side, they care about periodic solids and crystalline materials. And, one thing scientists care about that is cross-cutting is quantum machine learning to improve anything that they are doing classically. 
+  Outside of reactions, another area of interest are general properties of molecules. Examples include dipole moments, excited states (this is one property, he says, that all industries care about!), electro-chemical processes - Can we make OLEDs, photoacid generators, and better batteries out of these things? Scientists also care about the interaction of molecules with light. On the materials side, they care about periodic solids and crystalline materials. And, one thing scientists care about that is cross-cutting is quantum machine learning to improve anything that they are doing classically. 
 
 2. What are the systems (molecules/materials) which are challenging for classical computing and whose modelling is valuable?
 
-Interview with Gavin from IBM
+  Interview with Gavin from IBM
 
-I asked Gavin if there large molecules that currently cannot be studied, but that are very important/impactful. His immediate answer was the iron complex that is used for nitrogen fixation (1-2% of the world’s energy is consumed for this process). But he said we are probably years away from fully understanding that. 
+  I asked Gavin if there large molecules that currently cannot be studied, but that are very important/impactful. His immediate answer was the iron complex that is used for nitrogen fixation (1-2% of the world’s energy is consumed for this process). But he said we are probably years away from fully understanding that. 
 
 3. What businesses can benefit from more accurate electronic strucutre calculations?
 
-Interview with Gavin from IBM
+  Interview with Gavin from IBM
 
-I asked Gavin if he knows of cases where VQE has been used in industries outside of chemistry/pharmaceuticals. He said that VQE has actually been adapted and used in finance for the use case of CVAR (conditional value-at-risk). Then they took this method from finance and used it back in the chemistry world!
-Also he said people have thought about how to use VQE QAOA for optimization algorithms within chemistry.
+  I asked Gavin if he knows of cases where VQE has been used in industries outside of chemistry/pharmaceuticals. He said that VQE has actually been adapted and used in finance for the use case of CVAR (conditional value-at-risk). Then they took this method from finance and used it back in the chemistry world!
+  Also he said people have thought about how to use VQE QAOA for optimization algorithms within chemistry.
 
 ## Presenting your results in your pull request
 For your pull request, consider the following for the presentation of your final results:
