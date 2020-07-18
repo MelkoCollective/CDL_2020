@@ -8,8 +8,11 @@ Open up [Project2_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_
 to begin learning about your tasks for this week!
 ## Setup
 A conda environment .yaml file has been provided to create a replica of the environment that has been used to run all code samples in this repo.
+
 Command:
+
 cd environment
+
 conda env create --file CDLWeek2.yml
 
 ## Tasks and Challenges
