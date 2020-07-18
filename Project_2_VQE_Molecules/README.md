@@ -13,6 +13,14 @@ business-related questions are suggested in the above.
 
 ## S1_Classical_Methods
 
+## S2_Hamiltonian_gen
+
+## S3_Unitary_Ansatz
+
+## S4_Measurement
+
+## S5_Circuits
+
 ## Business Application
 One again, your team is asked to complete a Business Application. Questions you will be asked are:
 
