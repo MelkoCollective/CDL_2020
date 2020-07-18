@@ -22,15 +22,15 @@ In this part, we implemented three most commly used methods for extraction of th
 
 ### Step #2: Generating the qubit Hamiltonian.
 
-To proceed to VQE, we generated the qubit Hamiltonian. We first generated the electronic Hamiltonian in the second quantized form and then transformed it into the qubit form using two of the fermion-to-qubit transformations: Jordan-Wigner and Bravyi-Kitaev. Both transformations give consistant results.
+To proceed with VQE, we generated the qubit Hamiltonian. We first generated the electronic Hamiltonian in the second quantized form and then mapped it into a qubit form using two of the most known fermion-to-qubit transformations: Jordan-Wigner and Bravyi-Kitaev. Both mappings give consistant results in our simulations.
 
 ### Step #3: Unitary Transformation.
 
-We used two types of the unitary transformations for generating quantum gates: QCC and UCC. One issue we faced while working on this part is a need of active space minimization. For instance, the Hamiltonian of LiH molecule consists of 631 Hamiltonian terms, what is extremely large. Our approuch was to initialize the LiH molecule with an active space containing the second A1 orbitals (meaning the first 0A1 orbital is frozen) and the B1 orbital. This active space adjustment allowed us to run calculations faster with sufficient result. 
+We used two types of unitary transformations for generating quantum gates: QCC and UCC. One issue we faced while working on this part is a need of active space minimization. For instance, the Hamiltonian of LiH molecule consists of 631 Hamiltonian terms, which is extremely large. Our approach was to initialize the LiH molecule with an active space containing the second A1 orbitals (meaning the first 0A1 orbital is frozen) and the B1 orbital. This active space adjustment allowed us to run calculations faster with satisfying results. 
 
 ### Step #4: Hamiltonian Measurements.
 
-To obtain the expectation value of the qubit Hamiltonian it needs to be measured at the end of the VQE circuit. Since current quantum hardware is limited to single-qubit projective measurement, only terms commuting within individual qubit's subspace can be measured together.
+To obtain the expectation value of the qubit Hamiltonian, it needs to be measured at the end of the VQE circuit. Since current quantum hardware is limited to single-qubit projective measurement, only terms commuting within individual qubit's subspace can be measured together.
 
 ### Step #5: Use of Quantum Hardware
 
@@ -46,12 +46,12 @@ We calculated excited electronic states for LiH molecule using the shift energy 
 
 ## Business Application
 
-Check on our Business Appplication [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/BusinessApplication.md)
+Check out our Business Appplication [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/BusinessApplication.md)
 
 [INSERT VIDEO!]()
 
 ## Our Team Members
 
-Find out team members [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Contributions.md)
+Find out about team members [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/Contributions.md)
 
 
