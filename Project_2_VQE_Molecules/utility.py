@@ -32,7 +32,7 @@ def get_qubit_hamiltonian(mol, geometry, basis, charge=0, multiplicity=1, qubit_
     else:
         raise(ValueError(qubit_transf, 'Unknown transformation specified'))
 
-    return remove_complex(hamq)
+    return remove_complex(hamq), mol
 
 def remove_complex(H : QubitOperator, tiny=1e-8):
     '''
@@ -88,11 +88,15 @@ def get_molecular_data(mol, geometry, xyz_format=False):
             ['N', [0, 0, geometry]]
         ]
     elif mol == 'h4':
+        length = 1.738
+        half_angle = math.radians(geometry/2)
+        width = length * math.cos(half_angle)
+        height = length * math.sin(half_angle)
         mol_data = [
             ['H', [0, 0, 0]],
-            ['H', [0, 0, geometry]],
-            ['H', [0, geometry, 0]],
-            ['H', [0, geometry, geometry]]
+            ['H', [0, 0, height]],
+            ['H', [0, width, 0]],
+            ['H', [0, width, height]]
         ]
     elif mol == 'nh3':
         bondAngle = 107
