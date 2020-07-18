@@ -9,6 +9,8 @@ High-level problem: Using VQE to obtain potential energy surfaces (PSEs) for sma
 
 4. Measuring the outcome of each trial run actually requires a large number of physical measurements because quantum hardware can only measure the system in one quantum dimension at a time. We use novel techniques to reduce the number of measurements required, by grouping components of the quantum system together into configurations which require only one measurement for the whole group. By forming these groups, we can reduce the number of measurements required by factors of 3 to several 100. Again, the tradeoff is between speed and accuracy. Coarser grouping reduces accuracy but results in less measurements.
 
+5. We provide a simple framework to calculate PES energy using quantum hardware devices. Our quantumPES module allows your scientists to select a molecule, prepare the circuits for deployment and finally launch the jobs with three lines of code. Our optimization of the the molecule energy function for submission to the Quantum computers ensures the smallest job footprint is created to minimize the number of circuits to be executed.  
+
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
