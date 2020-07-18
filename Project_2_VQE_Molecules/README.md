@@ -12,10 +12,13 @@ Using H2 and H2O as examples, you will implement the main steps of the VQE proce
 business-related questions are suggested in the above.
 
 ## S1_Classical_Methods
+We employ a variety of different classical algorithms for calculating the molecular bond energy. The choice of algorithm is based on a tradeoff between speed and accuracy. These methods give us an anchor to help us calibrate and understand our smaller scale quantum experiments.
 
 ## S2_Hamiltonian_gen
+Generating the qubit hamiltonian requires mapping the fermonic states to qubit states through Jordan-Wigner transformation. The qubit hamiltonian produces the number of orbitals needed to represent the molecule and therefore the number of qubits required. We then tapper the hamiltonian to reduce the number of qubits required to represent the molecule. The elements of the tapered hamiltonian are then used to generate a matrix. The eigenvalues are then calculated from this matrix.
 
 ## S3_Unitary_Ansatz
+We generate elementary unitary operations with UCC and QCC .Unitary Coupled Cluster seemed very resource heavy and took too long to generate any useful results. The Qubit Coupled Cluster was instead leveraged as it returned results within reasonable time frames. The calculations were done with STO-3G basis because the size of the calculations were reasonable and achievable with our available machines. 
 
 ## S4_Measurement
 In MeasurementUnitaryGenerator.py we encapsulate all the functionality (partitioning into fully commuting groups and qubit-wise commuting groups) required for preparing the pre-measurement unitaries.
