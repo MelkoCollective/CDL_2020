@@ -1,7 +1,7 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Business Application
 
-## Business Application of Variational Quantum Eigensolver: Constructing Potential Energy Surfaces for Small Molecules Group 4 (Week 2)
+### Business Application of Variational Quantum Eigensolver: Constructing Potential Energy Surfaces for Small Molecules Group 4 (Week 2)
 
 ### Members
 
