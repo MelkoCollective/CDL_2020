@@ -164,3 +164,5 @@ Costs: Compared to classical computing, quantum computing outcomes will be more 
 Quantum inspired: Finally, we often hear the critique - useful quantum computers are years away. However, and here is what many people are not aware of - many of our clients that are experimenting and learning about quantum algorithms now are using these learnings to improve their classical algorithms and workflows! That means that investing in quantum computing today can have benefits TODAY. 
  
 If you are interested in learning more, please reach out to us at Creative Destruction Lab. 
+
+[![Introduction](../figures/video.png)](https://www.youtube.com/watch?v=W_8T6jdNLPs&feature=youtu.be)
