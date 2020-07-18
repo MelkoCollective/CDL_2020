@@ -30,7 +30,7 @@ We are gonna add here a grouped bar charts to benchmark the ground state energie
 Maybe we may still need to add: 1) one or two sentences explaining potential benefits under each bullet; 2) at least mention relevant references regarding the market growth using keys numbers from publicaly available reports from strategic consulting firms. 
 -	Energy sector through generating energy from breaking molecular bonds 
 -	Agricultural sector through fertilizers
-- Screening and design of new drugs for medical applications (molecular dynamics simulations)
+- Screening and design of new drugs for medical applications (molecular dynamics simulations)[6]
 -	Material Simulation (electronic structure to find advanced materials) 
 -	Battery Optimization 
 -	Finance and Portfolio Management to maximize profit/wealth and minimize risk. [6] 
@@ -58,6 +58,10 @@ Video (Due Saturday!).
 [4] S. Wood and A. Cowie, "A Review of Greenhouse Gas Emission Factors for Fertiliser Production," IEA Bioenergy, June 2004.
 
 [5] F. Tenkorang and J. Lowenberg-DeBoer, "Forecasting Long-Term Global Fertilizer Demand," Nutr. Cycl. Agroecosys. 83, 233, 2009.
+
+[6] 16 Startups Using Quantum Theory To Accelerate Drug Discovery <br /> https://www.biopharmatrend.com/post/99-8-startups-applying-quantum-calculations-for-drug-discovery/
+
+
 
 [6] Barkoutsos et al., "Improving Variational Quantum Optimization using CVaR, " quantum-journal.org, 2020.
 
