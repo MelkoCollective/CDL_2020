@@ -40,7 +40,7 @@ We have evaluated QCC's for each of 4 molecules and get consistent result in QAS
 
 ### Further Challenge
 
-We have calculated energy of 1st excitation state of H2 using [SSVQE](https://arxiv.org/pdf/1810.09434.pdf). ([Notebook](exiited_states.ipynb)).
+We have calculated energy of 1st excitation state of H2 using [SSVQE](https://arxiv.org/pdf/1810.09434.pdf). ([Notebook](exited_states.ipynb)).
 
 
 ## Business Application
