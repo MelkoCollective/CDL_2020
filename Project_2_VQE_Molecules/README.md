@@ -16,6 +16,9 @@ Assignments can be found [here.](https://github.com/CDL-Quantum/CohortProject_20
 
 In this part, we implemented three most commly used methods for extraction of the molecule structure: HF, CCSD, and FCI. All three methods scale polynomially with the system size  but fail to deliver chemical accuracy along PESs. We were, however, able to estimate approximately ground state Bound Energy.  
 ![LIH Classica](img/lih_classical.png)
+![H4 Classica](img/h4_classical.png)
+![N2 Classica](img/n2_classical.png)
+
 
 ### Step #2: Generating the qubit Hamiltonian.
 
@@ -31,11 +34,14 @@ To obtain the expectation value of the qubit Hamiltonian it needs to be measured
 
 ### Step #5: Use of Quantum Hardware
 
-To carry out the VQE algorithm on the actual quantum hardware, wee have to present unitary transformations as a sequence of gates, i.e. circuit. We executed the quantum circuit on the IBM Q hardware. 
+To carry out the VQE algorithm on the actual quantum hardware, wee have to present unitary transformations as a sequence of gates, i.e. circuit. We executed the quantum circuit for thr LiH molecule on the IBM Q hardware.
+![LiH q circuit](img/circuit.png)
+
 
 ### Further Challenges.
 
-Excited electronic states for [LiH molecule.]()
+We calculated excited electronic states for LiH molecule using the shift energy technique, for instance, the ground state energy was shifted to the first excited state.
+![LiH molecule.](img/lih_excited.png)
 
 
 ## Business Application
