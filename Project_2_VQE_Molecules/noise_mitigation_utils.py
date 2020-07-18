@@ -38,7 +38,7 @@ class NoiseMitigation:
         x1 = U.canonical_depth
         x2 = noisy_U.canonical_depth
         zero_n = NoiseMitigation.linear_fit([x1, x2], [low_noise, noisy])
-        return zero_n
+        return zero_n, low_noise
 
     @staticmethod
     def linear_fit(xs: Union[np.ndarray, list], ys: Union[np.ndarray, list]):
