@@ -32,6 +32,7 @@ As a challenge, we also tried implementing further reduction via SVD truncation.
 We provide a simple framework to calculate PES energy using quantum hardware devices. Our quantumPES module allows your scientists to select a molecule, prepare the circuits for deployment and finally launch the jobs with three lines of code. Our optimization of the the molecule energy function for submission to the Quantum computers ensures the smallest job footprint is created to minimize the number of circuits to be executed. 
 
 **H2**
+
 ![circuit](../figures/h2_circuit.png)
 ![circuit](../figures/h2_histogram.png)
 
