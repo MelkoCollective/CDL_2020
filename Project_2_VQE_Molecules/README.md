@@ -49,7 +49,7 @@ We calculated excited electronic states for LiH molecule using the shift energy 
 
 Check out our Business Application [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/BusinessApplication.md)
 
-[![Introduction](img/Screenshot_video)](https://drive.google.com/file/d/1MaH9MalWaxWEUjs7zQCwPlYT9tPd5Bhf/view?usp=sharing)
+[![Video](img/Screenshot_video)](https://drive.google.com/file/d/1MaH9MalWaxWEUjs7zQCwPlYT9tPd5Bhf/view?usp=sharing)
 
 ## Our Team Members
 
