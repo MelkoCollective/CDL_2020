@@ -42,7 +42,7 @@ The near-term hybrid quantum algorithm, VQE has immediate and future application
 
 Office Cherifien des Phosphates (OCP Group) is a viable customer to efficiently employ phosphates resources. OCP group is based in Morocco and has **70%** of the world’s phosphate raw reserves, which are essential for production of fertilizers world-wide. Additionally, it is a profitable market which allowed the company to yield a net profit of **US$5.88** billion revenue. The OCP group would be of particular interest to the application of VQEs because nitrogen is central to their fertilizer production, thus the profitable outcome of this innovative technique will maximize their revenues through employing this newest technology to remain in the lead in this competitive industry. Fortunately, they are heavily involved in R&D by investing massively in new technologies such as their most recent investment in **artificial intelligence** in 2018. [9,10,11] 
 
-The Teal Technology Services was a recent **joint venture** between the **OCP group** and **IBM** for smart farming and to accelerate the digital transformation of their clients. [12]
+The Teal Technology Services was a recent **joint venture** between the **OCP group** and **IBM** for smart farming and to accelerate the digital transformation of their clients. [12] Given that IBM can provide state of the art quantum computing technology while the OCP group is the leading manufacturers of fertilizer; this will serve as the ideal opportunity to reinforce their relations as the OCP group will highly benefits from IBM quantum technology and vice versa.
 
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
