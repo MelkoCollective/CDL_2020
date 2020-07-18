@@ -165,4 +165,4 @@ Quantum inspired: Finally, we often hear the critique - useful quantum computers
  
 If you are interested in learning more, please reach out to us at Creative Destruction Lab. 
 
-[![Introduction](../figures/video.png)](https://www.youtube.com/watch?v=W_8T6jdNLPs&feature=youtu.be)
+[![Introduction](../figures/video.png)](https://youtu.be/hcUpBK2gFis)
