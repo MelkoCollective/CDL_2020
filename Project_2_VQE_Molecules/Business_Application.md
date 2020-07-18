@@ -3,8 +3,6 @@
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-<Pravin, Mario - please add any context if you can, thanks!>
-
 High-level problem: Using VQE to obtain potential energy surfaces (PSEs) for small molecules.
 
 1. We employ a variety of different classical algorithms for calculating the molecular bond energy. The choice of algorithm is based on a tradeoff between speed and accuracy. These methods give us an anchor to help us calibrate and understand our smaller scale quantum experiments.
