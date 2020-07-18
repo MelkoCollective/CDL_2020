@@ -19,7 +19,11 @@ One of the fundamental technical challenges in physics and chemistry is to accur
 
 We are gonna add here a grouped bar charts to benchmark the ground state energies with classical, simulator and quantum computer results. Hopefully the results from the IBM quantum computers will be ready by tomorrow for comparison and analysis.
 
-![](Images/bar-chart.png)
+<!--- ![](Images/bar-chart.png) --->
+
+<p align="center">
+<img src="Images/bar-chart.png" width="250" height="250">
+</p>
 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
