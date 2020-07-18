@@ -18,7 +18,7 @@ We employ a variety of different classical algorithms for calculating the molecu
 Generating the qubit hamiltonian requires mapping the fermonic states to qubit states through Jordan-Wigner transformation. The qubit hamiltonian produces the number of orbitals needed to represent the molecule and therefore the number of qubits required. We then tapper the hamiltonian to reduce the number of qubits required to represent the molecule. The elements of the tapered hamiltonian are then used to generate a matrix. The eigenvalues are then calculated from this matrix.
 
 ## S3_Unitary_Ansatz
-We generate elementary unitary operations with UCC and QCC .Unitary Coupled Cluster seemed very resource heavy and took too long to generate any useful results. The Qubit Coupled Cluster was instead leveraged as it returned results within reasonable time frames. The calculations were done with STO-3G basis because the size of the calculations were reasonable and achievable with our available machines. 
+We generate elementary unitary operations with UCC and QCC .Unitary Coupled Cluster seemed very resource heavy and took too long to generate any useful results. The Qubit Coupled Cluster was instead leveraged as it returned results within reasonable time frames. The calculations were done with STO-3G basis because the size of the calculations were reasonable and achievable with our available machines. Ideally we would utilize 6-31g
 
 ## S4_Measurement
 In MeasurementUnitaryGenerator.py we encapsulate all the functionality (partitioning into fully commuting groups and qubit-wise commuting groups) required for preparing the pre-measurement unitaries.
