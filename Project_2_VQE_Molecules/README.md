@@ -14,23 +14,35 @@ Assignments can be found [here.](https://github.com/CDL-Quantum/CohortProject_20
 
 ### Step #1: Generating PES using classical methods.
 
-In this part, we implemented three most commly used methods for extraction of thr molecule structure: HF, CCSD, and FCI. All three methods scale polynomially with the system size  but fail to deliver chemical accuracy along PESs. We were, however, able to estimate approximately ground state Bound Energy.  
+In this part, we implemented three most commly used methods for extraction of the molecule structure: HF, CCSD, and FCI. All three methods scale polynomially with the system size  but fail to deliver chemical accuracy along PESs. We were, however, able to estimate approximately ground state Bound Energy.  
+
+### Step #2: Generating the qubit Hamiltonian.
+
+To proceed to VQE, we generated the qubit Hamiltonian. We first generated the electronic Hamiltonian in the second quantized form and then transformed it into the qubit form using two of the fermion-to-qubit transformations: Jordan-Wigner and Bravyi-Kitaev. Both transformations give consistant results.
+
+### Step #3: Unitary Transformation.
+
+We used two types of the unitary transformations for generating quantum gates: QCC and UCC. One issue we faced while working on this part is a need of active space minimization. For instance, the Hamiltonian of LiH molecule consists of 631 Hamiltonian terms, what is extremely large. Our approuch was to initialize the LiH molecule with an active space containing the second A1 orbitals (meaning the first 0A1 orbital is frozen) and the B1 orbital. This active space adjustment allowed us to run calculations faster with sufficient result. 
+
+### Step #4: Hamiltonian Measurements.
+
+To obtain the expectation value of the qubit Hamiltonian it needs to be measured at the end of the VQE circuit. Since current quantum hardware is limited to single-qubit projective measurement, only terms commuting within individual qubit's subspace can be measured together.
+
+### Step #5: Use of Quantum Hardware
+
+To carry out the VQE algorithm on the actual quantum hardware, wee have to present unitary transformations as a sequence of gates, i.e. circuit. We executed the quantum circuit on the IBM Q hardware. 
+
+### Further Challenges.
+
+Excited electronic states for [LiH molecule.]()
+
 
 ## Business Application
-One again, your team is asked to complete a Business Application. Questions you will be asked are:
 
-* Explain to a layperson the technical problem you solved in this exercise.
-* Explain or provide examples of the types of real-world problems this solution can solve.
-* Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved.
-* Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language.
+Check on our Business Appplication [here.](https://github.com/Anand270294/CohortProject_2020/blob/master/Project_2_VQE_Molecules/BusinessApplication.md)
 
-For more details refer to the [Business Application found here](./Business_Application.md)
+[INSERT VIDEO!]()
 
 ## Presenting your results in your pull request
-For your pull request, consider the following for the presentation of your final results:
-- Work entirely in the directory for Project 2.
-- Edit this README.md file with a highlight of your main technical results.  Provide links to any other files with your detailed results, e.g. Jupyter notebooks.
-- For your Business Application, feel free to provide your answers directly in the 
-[Business_Application.md](./Business_Application.md) file.
-- Do not directly upload your video file (or any other large files) to the repository.  Instead, provide a link e.g. to a YouTube video, or a Google Drive file.
-- Include a file contributions.md that lists the contributions of each group member.
+
+
