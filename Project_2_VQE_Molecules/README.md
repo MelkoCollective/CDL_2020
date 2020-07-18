@@ -41,6 +41,7 @@ To carry out the VQE algorithm on the actual quantum hardware, wee have to prese
 ### Further Challenges.
 
 We calculated excited electronic states for LiH molecule using the shift energy technique, for instance, the ground state energy was shifted to the first excited state.
+
 ![LiH molecule.](img/lih_excited.png)
 
 
