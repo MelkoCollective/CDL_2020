@@ -15,7 +15,7 @@ Assignments can be found [here.](https://github.com/CDL-Quantum/CohortProject_20
 ### Step #1: Generating PES using classical methods.
 
 In this part, we implemented three most commly used methods for extraction of the molecule structure: HF, CCSD, and FCI. All three methods scale polynomially with the system size  but fail to deliver chemical accuracy along PESs. We were, however, able to estimate approximately ground state Bound Energy.  
-[LIH Classica](img/lih_classical.png)
+![LIH Classica](img/lih_classical.png)
 
 ### Step #2: Generating the qubit Hamiltonian.
 
