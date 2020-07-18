@@ -10,7 +10,7 @@
 Synthetic fertilizers have sustained the population growth in the past century since they were introduced in 1914, and fertilizer production is expected to increase in the coming decades to feed an ever-growing world population (please refer to the figure below). [1,2] Fertilizer manufacture is an energy-intensive industry. It has been estimated that fertilizer production accounts for approximately **1.2%** of the world's energy, of which about **93%** is consumed by nitrogen-based fertilizers. [3,4] Unlike two other essential soil nutrients, phosphorous and potassium, nitrogen does not persist in the soil long after application, making frequent reapplication of nitrogen-based fertilizers necessary. [5]
 
 <p align="center">
-<img src="Images/Fertilizer_use.png" width="400" height="350">
+<img src="Images/Fertilizer_use.png" width="450" height="300">
 </p>
 
 ## Step 1: Explain the technical problem you solved in this exercise
@@ -22,7 +22,7 @@ We are gonna add here a grouped bar charts to benchmark the ground state energie
 <!--- ![](Images/Bar_chart.png) --->
 
 <p align="center">
-<img src="Images/Bar_chart.png" width="400" height="350">
+<img src="Images/Bar_chart.png" width="450" height="300">
 </p>
 
 
