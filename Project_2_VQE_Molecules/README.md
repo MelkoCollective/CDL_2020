@@ -36,6 +36,11 @@ We provide a simple framework to calculate PES energy using quantum hardware dev
 ![circuit](../figures/h2_circuit.png)
 ![circuit](../figures/h2_histogram.png)
 
+**H20**
+
+![circuit](../figures/h2o_circuit.png)
+![circuit](../figures/circuit_histogram.png)
+
 
 ## Business Application
 [![Introduction](../figures/youtube.png)](https://youtu.be/hcUpBK2gFis)
