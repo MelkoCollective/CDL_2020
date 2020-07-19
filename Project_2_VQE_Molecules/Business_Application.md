@@ -21,9 +21,9 @@ We are gonna add here a grouped bar charts to benchmark the ground state energie
 
 <!--- ![](Images/Bar_chart.png) --->
 
-<p align="center">
-  <img src="Images/Bar_chart.png" width="450" height="350" hspace="100"> <img src="Images/Bar_chart_2.png" width="450" height="350">
-</p>
+<!--- <p align="center"> --->
+  <img src="Images/Bar_chart.png" width="450" height="350" hspace="50"> <img src="Images/Bar_chart_2.png" width="450" height="350">
+<!--- </p> --->
 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
