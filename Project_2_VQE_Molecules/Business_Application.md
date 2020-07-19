@@ -17,7 +17,7 @@ Synthetic fertilizers have sustained the population growth in the past century s
 
 One of the fundamental technical challenges in physics and chemistry is to accurately calculate the potential energy surfaces (PESs) for small molecules. Although there exists some approximation techniques using classical computational methods, these are limited to cases that have less bonds (i.e. 1 or 2 bonds such as LiH and H<sub>4</sub> respectively) and for weakly correlated systems. But why do we need PES in the first place? Through the accurate computing of PES value, we can control many real world applications such as the breaking of N<sub>2</sub> bonds to make NH<sub>3</sub>. Subsequently, the breaking of the NH<sub>3</sub> bonds can serve the agricultural sector in producing fertilizers while the energy released from the bond-breaking process can be employed to supply energy demand.  The importance of quantum computing lies in the ability to accurately compute PES for small molecules with highly correlated electronic structure systems while reducing time complexity, which is deemed essential in real world applications. 
 
-We are gonna add here a grouped bar charts to benchmark the ground state energies with classical, simulator and quantum computer results. Hopefully the results from the IBM quantum computers will be ready by tomorrow for comparison and analysis.
+Here we are adding grouped bar charts to benchmark the ground state energies with classical, simulator and quantum computer results. Hopefully the results from the IBM quantum computers will be ready by tomorrow for comparison and analysis.
 
 <!--- ![](Images/Bar_chart.png) --->
 
