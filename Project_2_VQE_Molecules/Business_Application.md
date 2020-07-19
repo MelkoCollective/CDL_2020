@@ -5,9 +5,9 @@
 
 ### Members
 
-* Nick Allgood  
-* Claudio Giampi'  
-* Santanu Ganguly  
+* Nick Allgood  (Technical)
+* Claudio Giampi'  (Business)
+* Santanu Ganguly  (Technical)
 * Pooria Mandai
 
 ## Step 1: Explain the technical problem you solved in this exercise
