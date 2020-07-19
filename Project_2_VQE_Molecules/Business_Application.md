@@ -6,6 +6,8 @@
 
 Modelling Potential Energy Surfaces for small molecules by efficiently applying the VQE algorithm. Potential Energy Surfaces can be used to explore properties of structures composed of atoms, for example, finding the minimum energy shape of a molecule or computing the rates of a chemical reaction.
 
+As a challenge we added a step 6, and 7 which focused on noise mitgation techniques and post processing using the DWAVE. 
+
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
 The more chemical bonds, the harder is the task of modelling the corresponding Potential Energy Surface. And without knowing the Potential Energy Surface it's not feasible to computationally develop the most efficient catalysts that would facilitate the needed chemical reaction. As such, being able to reliably model PES could yield huge benefits for companies whose core business operations rely on chemical synthesis.
