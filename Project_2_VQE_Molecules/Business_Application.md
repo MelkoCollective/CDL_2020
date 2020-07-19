@@ -22,7 +22,7 @@ We are gonna add here a grouped bar charts to benchmark the ground state energie
 <!--- ![](Images/Bar_chart.png) --->
 
 <p align="center">
-  <img src="Images/Bar_chart.png" width="450" height="350" hspace="20"> <img src="Images/Bar_chart_2.png" width="450" height="350">
+  <img src="Images/Bar_chart.png" width="450" height="350" hspace="30"> <img src="Images/Bar_chart_2.png" width="450" height="350">
 </p>
 
 
