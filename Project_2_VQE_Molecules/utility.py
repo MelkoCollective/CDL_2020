@@ -689,8 +689,8 @@ def get_QCC_entanglers(DIS, M, n_qubits, lexi_ordering=False):
 
 
 def construct_QMF_ansatz(n_qubits, layer: int = 0):
-    b = [Variable(name='{}beta_{}'.format(layer, i)) for i in range(n_qubits)]
-    g = [Variable(name='{}gamma_{}'.format(layer, i)) for i in range(n_qubits)]
+    b = [Variable(name='beta_{}'.format(layer, i)) for i in range(n_qubits)]
+    g = [Variable(name='gamma_{}'.format(layer, i)) for i in range(n_qubits)]
 
     def euler_rot(beta, gamma, q0):
         return gates.Rx(target=q0, angle=beta) + gates.Rz(target=q0, angle=gamma)
