@@ -10,13 +10,9 @@
 //#include <fstream.h>
 #include <strstream>
 #include <stdio.h>
-using std::ofstream;
-using std::ifstream;
-using std::ends;
-using std::ios;
 #include <string.h>
 #include <math.h>
-//using namespace std;
+using namespace std;
 #define EXTERN extern "C"
 #if HP
 #define FORTRAN(x) (x)

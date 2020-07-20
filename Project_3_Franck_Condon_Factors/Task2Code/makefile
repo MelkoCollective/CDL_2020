@@ -1,7 +1,7 @@
 .SUFFIXES: .o .c .f .cxx
 # DEBUG option remove for efficiency
-CC=/usr/local/bin/g++
-cc=/usr/local/bin/gcc
+CC=/usr/bin/g++
+cc=/usr/bin/gcc
 FC=/usr/local/bin/gfortran
 options= -DDUSHQUICK -DBLAS -DLINUX -O2 -Wno-deprecated
 objects=FC.o matvec.o prod.o
