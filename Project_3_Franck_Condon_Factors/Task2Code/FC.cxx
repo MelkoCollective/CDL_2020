@@ -30,6 +30,8 @@ Modifications:
 
 
 #include "FC.h"
+#include <iostream>
+#include <fstream>
 double int00=1.;
 int factrl(int n);
 vector triplelmn(int ni,int nj,int nk,int nl,int nm,int nn,
@@ -105,6 +107,10 @@ vector iklhot(int ni,int nk,int nl,int modei,int modek,int model,
 	      matrix &Pmat,matrix &Qmat,matrix &Rmat,diagmat &II,
 	      vector &delta);
 double const speedofl=137.0359895;
+
+
+using namespace std;
+
 int main(int argc,char** argv)
 {
   if (argc!=2) {
@@ -131,6 +137,17 @@ int main(int argc,char** argv)
 
   N=3*natom-6;
 
+  // Open a stream to the output file
+  ofstream outputfile;
+  outputfile.open("input_for_exercise3.txt");
+
+  //
+  cout << "--------------------------------" << "\n";
+  cout << "The number of atoms in the molecule" << "\n";
+  cout << N << "\n";
+  outputfile << N << "\n";
+  cout << "--------------------------------" << "\n";
+
   vector massvec(natom);
   diagmat sqmass(3*natom);
   diagmat invsqmass(3*natom);
@@ -154,6 +171,10 @@ int main(int argc,char** argv)
 
   //Omega values are sqrt of eigenvalues of mass-weighted Hessian
   //Represented by Omega (Eq. 37) in Quesada 2019 Paper
+
+
+
+ 
 
   matrix Lmat(3*natom,N);
   matrix Lmation(3*natom,N);
@@ -182,6 +203,27 @@ int main(int argc,char** argv)
       }
     }
   }
+
+
+   //
+  cout << "----------------------------------------" << "\n";
+  cout << "The ground state frequencies: (cm**-1)"  << "\n";
+  for(i=0; i<N;i++){
+    cout << omega(i)*hatocm << "\n";
+    outputfile << omega(i)*hatocm << "\n";
+  }
+  cout << "----------------------------------------" << "\n";
+
+  //
+  cout << "----------------------------------------" << "\n";
+  cout << "The ion frequencies: (cm**-1)"  << "\n";
+  for(i=0; i<N;i++){
+    cout << omegaion(i)*hatocm << "\n";
+    outputfile << omegaion(i)*hatocm << "\n";
+  }
+  cout << "----------------------------------------" << "\n";
+  
+  
 
   double wmin,wmax,fwhm,gamma,v00;
   double T;
@@ -288,6 +330,20 @@ int main(int argc,char** argv)
   matrix OSmat=transpose(Lmation)*Lmat;
   matrix Smat=OSmat;
 
+  // Here we print out the Smatrix (Duschinsky matrix)
+  cout << "===================================" << "\n";
+  cout << "The Duschinsky matrix: (Unitless) " << "\n";
+
+  for(i=0; i<N;i++){
+    for(j=0;j<N;j++){
+      cout << Smat(i,j) << "\n";
+      outputfile << Smat(i,j) << "\n";
+    }
+  }
+
+  cout << "===================================" << "\n";
+  
+
   /* orthogonalisation of S */ 
   for (k=0;k<N;k++) {
     double proj1=0.0; 
@@ -308,6 +364,7 @@ int main(int argc,char** argv)
   }
   if (ortho_of_S == 'N') Smat=OSmat;
 
+
   matrix orthoS=transpose(Smat)*Smat;
   matrix orthoL=transpose(Lmat)*Lmat;
   matrix orthoLion=transpose(Lmation)*Lmation;
@@ -327,6 +384,19 @@ int main(int argc,char** argv)
   //Displacement Vector, delta
   //d (Eq. 42c) in Quesada 2019 Paper
   vector delta=lambdaion*dvec;
+
+
+  // Print out the Displacement vector
+  cout << "===================================" << "\n";
+  cout << "The displacement vector: (Unitless) " << "\n";
+  for(i=0;i<N;i++){
+    cout << delta(i) << "\n";
+    outputfile << delta(i) << "\n";
+  }
+  cout << "===================================" << "\n";
+
+
+  outputfile.close(); // close the output stream
 
   /*  <0|0> transition  */
   for (j=0;j<N;j++) int00*=(omegaion(j)/omega(j));
