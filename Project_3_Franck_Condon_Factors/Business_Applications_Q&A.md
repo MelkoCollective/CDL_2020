@@ -73,11 +73,11 @@ Let’s take a look at a few popular licenses and the permissions they grant(gre
 
 2. Apache 2.0
 
-![CohortProject_2020](img/apachelicense2.0.PNG)
+![CohortProject_2020](img/apache license 2.0.PNG)
 
 3. GNU GPLv3
 
-![CohortProject_2020](img/gnugplv3.PNG)
+![CohortProject_2020](img/gnu gplv3.PNG)
 
 
 Details of these licenses and more licenses can be explored here [[1]](https://choosealicense.com/no-permission/).
