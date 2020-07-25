@@ -21,18 +21,23 @@ In this task, we calculated the Frank-Condon factors for H2-H2+ molecules using 
 ![Task1](task1_fig1.png)
 
 
-### Task2: Solution
+#### Task2: Solution
 In task two, we compiled the FC.cxx code. The program was able to generate the Frank-Codon factors for the H2-H2+ molecule. The figure of the spectra is below
 
 ![Task2](task2_fig1.png)
 
 
-### Task3: Solution
+#### Task3: Solution
 In task three, we simulated Gaussian Boson sampling to compute the Frank-Codon factors. This required us to modify the code from task 2 to generate the required input file. After
 we had the correct input file our code was able to generate a spectra which matched what was generated for task 2.
 
 The modifified task2 code is here: [modified task2 code](Task2Code/FCC.cxx)
+
 The jupyter notebook for our solution is here: [jupyter notebook for task3](Task3.ipynb)
+
+The ouput of our jupyter notebook is below.
+
+![Task3](task3_fig1.png)
 
 
 ## Further Challenges:
