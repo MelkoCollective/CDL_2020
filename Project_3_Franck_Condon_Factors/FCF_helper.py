@@ -97,7 +97,7 @@ class FCFSpec():
                 FCF = overlap**2.
         
                 # n_0   n_p   FCF
-                data = np.zeros(3)
+                data = np.zeros(4)
 
                 if (k==0 and l==0):
                     reference = FCF
