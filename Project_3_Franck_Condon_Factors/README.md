@@ -13,6 +13,11 @@ In our [Project3_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2
 * Calculate the Franck-Condon Factors (and spectra) of a more complex molecule (V<sub>3</sub>) using matrix elements
 * Calculate the Franck-Condon Factors (and spectra) of that molecule using vibronic sampling. This calculation involves Gaussian Boson Sampling (GBS), which would allow these factors to be calculated using a quantum circuit.
 
+
+#### Task 1
+In this task, we calculated the Frank-Condon factors for H2-H2+ molecules using the harmonic oscillator approximation.
+![Task1](task1_fig1.png)
+
 ## Further Challenges:
 * An alternative and analogous method to calculating these Franck-Condon Factors using matrix elements is to use a loop hafnian approach. This loop hafnian approach uses GBS which would allow these factors to be calculated using a quantum circuit. Use the result of Task 3 to provide data to a skeleton code provided that uses loop hafnians to calculate the Franck-Condon Factors.
 * Explain briefly the similarities and differences between these three methods.
