@@ -46,14 +46,11 @@ The ouput of our jupyter notebook is below.
 * What are advantages and disadvantages of codes licensed for the public domain and those that are licensed for private use
 
 ## Business Application
-One again, your team is asked to complete a Business Application. Questions you will be asked are:
 
-* Explain to a layperson the technical problem you solved in this exercise.
-* Explain or provide examples of the types of real-world problems this solution can solve.
-* Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved.
-* Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language.
+The questions presented in Project 3 landing page have been addressed extensively [here](https://github.com/CDL2020Week3Cohort6/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Business_Applications_Q&A.md)
 
-For more details refer to the [Business Application found here](./Business_Application.md)
+
+For more details about Business Applications refer to the [Business Application found here](./Business_Application.md)
 
 ## Presenting your results in your pull request
 For your pull request, consider the following for the presentation of your final results:
