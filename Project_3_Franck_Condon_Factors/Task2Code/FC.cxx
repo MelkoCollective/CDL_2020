@@ -1076,6 +1076,25 @@ int main(int argc,char** argv)
   ZPEc*=(.5*hatocm);
   std::cout<<"ZPE neutral= "<<ZPEn<<std::endl;
   std::cout<<"ZPE cation= "<<ZPEc<<std::endl;
+
+  std::strstream task3filename;
+  task3filename << filenamein.str() << ".task3.out" << ends;
+  ofstream task3(task3filename.str());
+  task3 << natom << std::endl;
+  for (j=0;j<N;j++) {
+    task3 << omega(j) * hatocm << std::endl;
+  }
+  for (j=0;j<N;j++) {
+    task3 << omegaion(j) * hatocm << std::endl;
+  }
+  for (i=0;i<N;i++) {
+    for (j=0;j<N;j++) {
+      task3 << Smat(i,j) << std::endl;
+    }
+  }
+  for (j=0;j<N;j++) {
+    task3 << delta(j) << std::endl;
+  }
 }
 
 double position(int modei,int modej,int modek,
