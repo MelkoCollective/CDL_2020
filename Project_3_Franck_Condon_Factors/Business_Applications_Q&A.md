@@ -44,6 +44,10 @@ Artificial intelligence, quantum computing, lasers, and genetic engineering seem
 ##  3. Explain to a layperson what is a quantum circuit and its relationship to theoretical chemistry/physics.
 The elementary component of a quantum computer – a qubit – is a two-state quantum system. A qubit can be constructed from many different physical systems. The qubits can be assembled to create "quantum gates", analogous to classical logic gates. There are various types of quantum gates such as Hadamard, Pauli, Unitary, Swap etc. The action of a quantum gate can be represented by drawing a circuit diagram. Each unitary operator or gate is represented by a block with lines (or “wires”) used to represent input and output. For example, the representations of the Pauli operators X, Y , and Z and their action on a single qubit are shown in the following Figure 1 (taken from [1]). The circuit diagram representation of a Hadamard gate is shown in Figure 2.
 
+![CohortProject_2020](img/pauli.PNG)
+
+![CohortProject_2020](img/hadamard.PNG)
+
 
 
 The rudimentary fundamentals of quantum computing has its base in theoretical physics. The basics of quantum computing dictate the usage of simulated or physical quantum gates in quantum circuits in order to run and leverage any quantum algorithm. One of the most critical applications of quantum computing as identified currently is in quantum and theoretical chemistry and associated modelling.
@@ -63,6 +67,17 @@ Copyleft is the practice of granting the right to freely distribute and modify i
 A permissive open source license is a non-copyleft open source license that guarantees the freedom to use, modify, and redistribute, while also permitting proprietary derivative works.
 Let’s take a look at a few popular licenses and the permissions they grant(green), conditions of producing said documents they pose(blue) and limitations they have(red). 
 
+1. MIT License
+
+![CohortProject_2020](img/MITlicense.PNG)
+
+2. Apache 2.0
+
+![CohortProject_2020](img/apachelicense2.0.PNG)
+
+3. GNU GPLv3
+
+![CohortProject_2020](img/gnugplv3.PNG)
 
 
 Details of these licenses and more licenses can be explored here [[1]](https://choosealicense.com/no-permission/).
