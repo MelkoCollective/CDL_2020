@@ -84,8 +84,10 @@ class FCFSpec():
             E0 = self.H2_energy(k)
             for l in range(self.n_p+1):
                 Ep = self.H2p_energy(l)
+               
 
                 overlap = 0
+                spectral_intensity = E0 - Ep
                 for p in range(self.quadrature_points):
                     
                     new_point = 0.5*(self.R_max - self.R_min)*GLquad[0][p] + 0.5*(self.R_max + self.R_min)
@@ -105,6 +107,7 @@ class FCFSpec():
                 data[0] = k
                 data[1] = l
                 data[2] = FCF
+                data[3] = spectral_intensity
 
                 all_data.append(data)
 
