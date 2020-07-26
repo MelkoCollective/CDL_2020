@@ -192,11 +192,11 @@ int main(int argc,char** argv)
     
   // Save omega values 
   for(i=0; i<N; i++){
-    outputfile << omega(i)*hatocm << "\n";
+    outputV3Data << omega(i)*hatocm << "\n";
   }
 
   for(i=0; i<N;i++){
-    outputfile << omegaion(i)*hatocm << "\n";
+    outputV3Data << omegaion(i)*hatocm << "\n";
   }
    
   double wmin,wmax,fwhm,gamma,v00;
@@ -306,7 +306,7 @@ int main(int argc,char** argv)
   // Save Duschinsky matrix
   for(i=0; i<N;i++){
     for(j=0;j<N;j++){
-      outputfile << Smat(i,j) << "\n";
+      outputV3Data << Smat(i,j) << "\n";
     }
   }
 
@@ -352,10 +352,10 @@ int main(int argc,char** argv)
     
   // Save Displacement vector
   for(i=0;i<N;i++){
-    outputfile << delta(i) << "\n";
+    outputV3Data << delta(i) << "\n";
   }
 
-  outputfile.close();
+  outputV3Data.close();
 
   /*  <0|0> transition  */
   for (j=0;j<N;j++) int00*=(omegaion(j)/omega(j));
