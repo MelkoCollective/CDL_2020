@@ -3,10 +3,10 @@
 
 ### Members
 
-* Nick Allgood (Business)
-* Agustin Bingu (Technical)
-* Jake Malliarios (Technical)
-* Anand (T Anandakkoomar)
+* Nick Allgood - Business
+* Anand (T Anandakkoomar) - Technical Task 1 & 2
+* Jake Malliaros - Technical Task 3
+* Agustin Bingu
 * Natalie Kilber
 
 ## Tasks
