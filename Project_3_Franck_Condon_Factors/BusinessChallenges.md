@@ -42,7 +42,7 @@ This means that the price is lower at every quantity demanded.
 See image below - we expect supply and demand curves to be “normal” - not too flat and not too steep. 
 When cost decreases occur, we would expect the supply curve to shift out. 
 
-![supply&demand](/img/supplydemand.png)
+![supplydemand](/img/supplydemand.png)
 
 ## Explain to a layperson what a quantum circuit is and its relationship to theoretical chemistry/physics
 
