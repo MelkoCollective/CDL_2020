@@ -44,4 +44,4 @@ We would target pharmaceutical and chemicals companies.
 
 In this warm into you can find a short video explaning our value proposition. (click to play)
 
-[![Introduction](img/intro.gif)](https://youtu.be/q3ivB6iBF9Y)
+[![Introduction](img/video.png)](https://youtu.be/q3ivB6iBF9Y)
