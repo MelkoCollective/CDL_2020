@@ -2,6 +2,6 @@
 
 ## Meat our Team
 
-1. [Yogesh Riyat](https://github.com/yriyat)
-2. [Eduard Smetanin](https://github.com/eduardsmetanin)
-3. [Olga Okrut](https://github.com/olgOk)
+1. Business: [Yogesh Riyat](https://github.com/yriyat)
+2. Tech: [Eduard Smetanin](https://github.com/eduardsmetanin)
+3. Tech: [Olga Okrut](https://github.com/olgOk)
