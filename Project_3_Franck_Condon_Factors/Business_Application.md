@@ -34,9 +34,7 @@ polymerization, curing, and manufacturing processes.
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-Examples: 
-- Federal Express
-- Canada Post
+Clarity Movement Co. is an environmental startup transforming how cities understand and solve air pollution with next-generation air quality monitoring technology since 2014. Our turn-key solution provides real-time, hyper-local air quality data that supplements a city’s existing regulatory monitors with a continuously-calibrated network of hundreds to thousands of additional air quality sensors. The Clarity Air Monitoring Solution makes air quality management more accessible, cost effective, and actionable than ever before.
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
