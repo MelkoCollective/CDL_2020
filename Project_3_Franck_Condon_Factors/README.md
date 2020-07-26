@@ -31,3 +31,7 @@ Our team then ploted graphs which reflets the photoionization spectrums of the g
 2. [In this challenge]() we compared three methods for FCF calculations.
 
 ## Business Application
+
+## Contributors
+
+Find more about our team [here.](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Contributors.md)
