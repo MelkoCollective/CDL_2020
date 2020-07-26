@@ -34,7 +34,7 @@ Our team then ploted graphs which reflets the photoionization spectrums of the g
 
 You can find potential business applecations [here.](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/BusinessApplication.md)
 
-Furhter Business Challanges can be found [here.]()
+Furhter Business Challanges can be found [here.](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/BusinessChallenges.md)
 
 ## Contributors
 
