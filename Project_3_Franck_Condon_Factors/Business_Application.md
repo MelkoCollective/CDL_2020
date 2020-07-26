@@ -5,7 +5,27 @@ The questions for business applications of the problem solved in week 3 project 
 
 ## Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
+A common past approach to material engineering has been:
+
+-Investing resources into engineering candidate materials,
+
+   eg: designing an organic semiconductor for display technology
+
+-Integrating them into the technology of interest,
+
+   eg: coming up with a way to integrate the organic semiconductor material into a display
+
+-Testing their efficacy with respect to the application of interest
+
+   eg: testing performance characteristics like: contrast, brightness, energy saving, durability, viewing from an angle
+
+As we gain more computational power for calculating the properties of molecular systems, it becomes more feasible to consider material engineering challenges from a microscopic perspective. That is, it becomes practical to engineer materials directly from first principles, rather than by trial and error.
+
+One such approach involves calculating the “vibronic spectra” of molecular structures. Vibronic spectra are a characterisation of the frequencies at which a molecule switches between different modes of overall vibration and electronic excitation (vibration of electrons relative to the backbone of the molecule). Understanding these transitions, helps us understand a lot about how a molecule will behave when subject to certain conditions, or when interacting with other types of molecules.
+
+In our display technology example we might be able to use vibronic spectra to come up with a good estimate for some of the performance characteristics measured in point 3, thereby saving us a large amount of R&D resources.
+
+
 
 ## Explain or provide examples of the types of real-world problems this solution can solve
 
