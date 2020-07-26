@@ -27,7 +27,7 @@ The OLEDs provide advantages in follwing manner[[3]](https://www.oled-info.com/o
 
 
 ## Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
-Below are some key market players exploring the use of OLEDs who can be potential customers for this application:
+Below are some key market players exploring the use of OLEDs and thus can be potential customers for this application:
 
 | Company/Corporation |  
 |-|
