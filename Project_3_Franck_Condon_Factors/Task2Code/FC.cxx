@@ -131,6 +131,13 @@ int main(int argc,char** argv)
 
   N=3*natom-6;
 
+  //Declare output stream to opperate on files, and save in a txt format
+  ofstream outputV3Data;
+  outputV3Data.open("V3_input_task3.txt");
+
+  //Save number of atoms
+  outputV3Data << N << "\n";
+
   vector massvec(natom);
   diagmat sqmass(3*natom);
   diagmat invsqmass(3*natom);
@@ -182,7 +189,16 @@ int main(int argc,char** argv)
       }
     }
   }
+    
+  // Save omega values 
+  for(i=0; i<N; i++){
+    outputV3Data << omega(i)*hatocm << "\n";
+  }
 
+  for(i=0; i<N;i++){
+    outputV3Data << omegaion(i)*hatocm << "\n";
+  }
+   
   double wmin,wmax,fwhm,gamma,v00;
   double T;
   double res;  
@@ -281,12 +297,18 @@ int main(int argc,char** argv)
     lambda(j)=sqrt(omega(j)); lambdaion(j)=sqrt(omegaion(j)); 
   }
 
-
   //S matrix is Duschinsky transformation 
   //Represented by O_D in Quesada 2019 paper (see note after Eq. 42c)
   //Represented by S (Eq. 4) in Roy, Carrington 1995 paper 
   matrix OSmat=transpose(Lmation)*Lmat;
   matrix Smat=OSmat;
+    
+  // Save Duschinsky matrix
+  for(i=0; i<N;i++){
+    for(j=0;j<N;j++){
+      outputV3Data << Smat(i,j) << "\n";
+    }
+  }
 
   /* orthogonalisation of S */ 
   for (k=0;k<N;k++) {
@@ -327,6 +349,13 @@ int main(int argc,char** argv)
   //Displacement Vector, delta
   //d (Eq. 42c) in Quesada 2019 Paper
   vector delta=lambdaion*dvec;
+    
+  // Save Displacement vector
+  for(i=0;i<N;i++){
+    outputV3Data << delta(i) << "\n";
+  }
+
+  outputV3Data.close();
 
   /*  <0|0> transition  */
   for (j=0;j<N;j++) int00*=(omegaion(j)/omega(j));
