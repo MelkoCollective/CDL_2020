@@ -42,7 +42,7 @@ This means that the price is lower at every quantity demanded.
 See image below - we expect supply and demand curves to be “normal” - not too flat and not too steep. 
 When cost decreases occur, we would expect the supply curve to shift out. 
 
-![supplydemand](/img/supplydemand.png)
+![supplydemand](img/supplydemand.png)
 
 ## Explain to a layperson what a quantum circuit is and its relationship to theoretical chemistry/physics
 
@@ -50,13 +50,13 @@ First, let’s understand the difference between classical and quantum circuits 
 Classical computers process information using transistors each of which can store one bit of information - we call this a classical bit. 
 A classical bit is binary; it can be in one of two states - a 0 or a 1. These are discrete, robust states that can be measured. 
 
-![classical bit](/img/classical_bit.png)
+![classical bit](img/classical_bit.png)
 
 We can contrast this with a quantum computer where the logical elements are quantum bits or qubits. Qubits can also be set into state 0 or state 1. 
 But, since qubits follow the law of quantum mechanics they can do much more. For example, a qubit can be in a superposition state 
 which is a single state that carries aspects of both a 0 state and a 1 state simultaneously! 
 
-![qubit](/img/quantum_bit.png)
+![qubit](img/quantum_bit.png)
 
 Nature operates quantum mechanically, and so essentially nature is a quantum computer itself. That means that chemistry/physics are inherently quantum.
 So, logically, it follows that if you want to understand natural systems then the most accurate way would be doing so with a system 
