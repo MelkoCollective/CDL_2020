@@ -6,7 +6,7 @@ In this project our team calculated Franck-Condon Factors (FCF), which are usefu
 
 ## Tasks and Challenges:
 
-1. [Task #1](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task1.ipynb) Calculate the Franck-Condon Factors (and spectra) of molecular Hydrogen using a simple model
+1. [Task #1](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task1.ipynb) In this task, we calculated the FCF and the spectra of molecule Hydrogen using harmonic oscillator approximation. We then approximated each possible transition by Gaussian function. One can infer from the plot that the highest intensity corresponds to the transmition from n=0 to n=2 (0->2) and, thus, corresponds to the most likely vibronic transitions. It means that the wavefunction of the state with n=0 and the state with n=2 are more likely to overlap. 
 
 ![](img/task1.png)
 
