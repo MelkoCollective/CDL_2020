@@ -21,18 +21,26 @@ Some of the real world problems that this solution can solve include :
 
 Comets consist of almost pristine material from the early formation of our solar system, unprocessed by harsh solar sunlight. Studying the chemistry of these "dirty snowballs" gives us a clue as to the composition and nature of our solar system in its infancy and constrains theories of how life may have formed on Earth. Another application would be probing the formation of stars in colliding galaxies.
 
+Reference : http://loke.as.arizona.edu/~ckulesa/camp/spectroscopy_examples.html
+
 ## 2) Drug Discovery 
 
 Vibrational spectroscopies, including infrared and Raman techniques, are important tools for the characterization of chemical composition, molecular structures, and chain orientation under mechanical deformation of polymeric materials.
+
+Reference : https://www.researchgate.net/publication/334309511_Some_Applications_of_Vibrational_Spectroscopy_for_the_Analysis_of_Polymers_and_Polymer_Composites
 
 ## 3) Chemical Sensor Applications in Medicine and Climate Science
 
 Spectroscopy has successfully been used as transducers for chemical sensors. Other than most standard transducers, vibrational spectroscopic sensors are capable of multi-component detection, both qualitatively and quantitatively. This opens a wide field of possible applications, covering in-situ real-time industrial process control as well as environmental pollutant screening. This has applications in Magnetic Resonance Imaging (MRI) and Climate Science.
 
+Reference : https://www.researchgate.net/publication/236259701_VIBRATIONAL_SPECTROSCOPIC_SENSORS_-_Fundamentals_Instrumentation_and_Applications
+
 ## 4) Manufacturing
 
 The development of fiber-optic-based spectrometers has broadened the use of vibrational spectroscopy for process monitoring in various fields including
 polymerization, curing, and manufacturing processes.
+
+Reference : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6680764/
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
