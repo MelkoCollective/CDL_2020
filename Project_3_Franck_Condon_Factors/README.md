@@ -21,3 +21,5 @@ Below are the links to our files for the following tasks and challenges:
 ## Business Application
 
 [Business Application](https://github.com/tina-seb/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Business_Application.md)
+
+Video : https://www.youtube.com/watch?v=N2EDokyRkhU&feature=youtu.be
