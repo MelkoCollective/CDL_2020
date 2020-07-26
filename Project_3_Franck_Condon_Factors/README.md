@@ -17,7 +17,7 @@ Our team then ploted graphs which reflets the photoionization spectrums of the g
 ![](img/task2_1.png) 
 ![](img/task2_2.png)
 
-3. [Task #3](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task3.ipynb) In this part, we calculated the FCFs of the molecule using vibronic sampling. We simulated Gaussian Boson Sampling (GBS) that allowed to calculate FCFs using a quantum circuit.
+3. [Task #3](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task3.ipynb) In this part, we calculated the FCFs of the molecule using vibronic sampling. We simulated Gaussian Boson Sampling (GBS) that allowed to calculate FCFs using a quantum circuit. In order to simulate a sample, we, first, have to apply the sequense of gates, measure the resulted energy, and contribute it to the spectrum. We ran these simulation over many samples. The plots beneath reflect these simulations for the n=10, 100, 1000, 20000 number of samples starting from the top plot. One can conclude that the larger pick coressponds to the state with the higher FCF. Analyzing the plots, we can infer that spectrum starts to converge from the n=100 samples.
 
 ![](img/10.png)
 ![](img/100.png)
