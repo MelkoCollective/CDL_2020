@@ -17,7 +17,7 @@ The technical problem we solved in this exercise involves calculating the Frank 
 
 Some of the real world problems that this solution can solve include :
 
-1) Astronomy
+1) Astronomy - Comets consist of almost pristine material from the early formation of our solar system, unprocessed by harsh solar sunlight. Studying the chemistry of these "dirty snowballs" gives us a clue as to the composition and nature of our solar system in its infancy and constrains theories of how life may have formed on Earth. Another application would be probing the formation of stars in colliding galaxies.
 
 2) Drug Discovery - Vibrational spectroscopies, including infrared and Raman techniques, are important tools
 for the characterization of chemical composition, molecular structures, and chain orientation under
@@ -25,7 +25,7 @@ mechanical deformation of polymeric materials.
 
 3) Chemical Sensor Applications in Medicine and Climate Science
 
-While frequently regarded as pure laboratory techniques, the corresponding methods, namely infrared and Raman spectroscopy, have successfully been used as transducers for chemical sensors. Other than most standard transducers, vibrational spectroscopic sensors are capable of multi-component detection, both qualitatively and quantitatively. With the development of improved systems and the introduction of novel components, fully portable sensing systems can now be built at competitive prices. This opens a wide field of possible applications, covering in-situ real-time industrial process control as well as environmental pollutant screening. This has applications in Magnetic Resonance Imaging (MRI) and Climate Science.
+While frequently regarded as pure laboratory techniques spectroscopy has successfully been used as transducers for chemical sensors. Other than most standard transducers, vibrational spectroscopic sensors are capable of multi-component detection, both qualitatively and quantitatively. This opens a wide field of possible applications, covering in-situ real-time industrial process control as well as environmental pollutant screening. This has applications in Magnetic Resonance Imaging (MRI) and Climate Science.
 
 4) Manufacturing
 
