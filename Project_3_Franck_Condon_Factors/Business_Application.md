@@ -1,28 +1,44 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Business Application
 
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consdier the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
+The questions for business applications of the problem solved in week 3 project have been addressed here.
 
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
-
-## Step 1: Explain the technical problem you solved in this exercise
+## Explain the technical problem you solved in this exercise
 
 Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
 
-## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
+## Explain or provide examples of the types of real-world problems this solution can solve
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
+Franck-Condon analysis enables us to study vibronic progressions in molecules. The modeling of vibronic progressions in optical absorption requires a knowledge of the vibrational properties in the excited state potential.Study of Resonant Raman Spectroscopy and Vibronic Progressions is important for organic semiconductors.[[1]](https://doi.org/10.1016/B0-12-369401-9/00658-6).
 
-## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
+**Organic semiconductor** devices now form the basis of an ongoing revolution in electronics in the twenty‐first century. Organic materials having well‐defined electrical properties are being deployed for optoelectronic devices such as **organic light‐emitting diodes (OLEDs)**. OLEDs are now displacing the use of liquid crystal displays in consumer electronics such as cell phones, tablets, and televisions. Organic materials generally can be classified into small‐molecule organic materials and large‐molecule organic materials. Conjugated polymers are suitable candidates for both organic solar cells and OLEDs.[[2]](https://onlinelibrary.wiley.com/doi/10.1002/9781119450986.ch7#:~:text=Summary,%E2%80%90emitting%20diodes%20(OLEDs).
 
-Examples: 
-- Federal Express
-- Canada Post
+The OLEDs provide advantages in follwing manner[[3]](https://www.oled-info.com/oled-introduction#:~:text=An%20OLED%20display%20have%20the,flexible%2C%20foldable%20and%20transparent%20displays) and thus may revolutionize the electronics :
 
-## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
+-Improved image quality - better contrast, higher brightness, fuller viewing angle, a wider color range and much faster refresh rates.
+
+-Lower power consumption.
+
+-Simpler design that enables ultra-thin, flexible, foldable and transparent displays
+
+-Better durability - OLEDs are very durable and can operate in a broader temperature range
+
+
+
+
+## Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
+Below are some key market players exploring the use of OLEDs and QLEDs
+
+| Company/Corporation | OLED | QLED |
+|-|-|-|
+| LG Display Co. Ltd. | x | x |
+| Samsung Electronics Co. Ltd. | x | x |
+| AU Optronics | x |  |
+| Japan Display Inc. | x |  |
+| NEC Display Solutions | x |  |
+| Sony Corporation | x |  |
+
+
+## Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
