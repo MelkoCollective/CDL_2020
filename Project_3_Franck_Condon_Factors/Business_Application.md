@@ -36,12 +36,18 @@ polymerization, curing, and manufacturing processes.
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
+## 1) Environmental Sensing
+
 Clarity Movement Co. is an environmental startup transforming how cities understand and solve air pollution with next-generation air quality monitoring technology since 2014. Their turn-key solution provides real-time, hyper-local air quality data that supplements a city’s existing regulatory monitors with a continuously-calibrated network of hundreds to thousands of additional air quality sensors. The Clarity Air Monitoring Solution makes air quality management more accessible, cost effective, and actionable than ever before.
 
 Clarity Movement will be an example of a potential customer for the use of these techniques in the use of sensitive chemical sensor applications to detect air quality and pollutant screening.
 
+https://www.clarity.io/
+
 ![ClarityMovement](ClarityMovement.PNG) 
 
+
+Other potential environmental sensing clients would be Aclima, eLichens and Libelium.
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
