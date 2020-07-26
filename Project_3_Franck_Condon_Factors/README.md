@@ -18,6 +18,8 @@ Below are the links to our files for the following tasks and challenges:
 
 * What are advantages and disadvantages of codes licensed for the public domain and those that are licensed for private use
 
+[Business Application](https://github.com/tina-seb/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/GPL%20vs%20Apache%20new.pdf)
+
 ## Business Application
 
 [Business Application](https://github.com/tina-seb/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Business_Application.md)
