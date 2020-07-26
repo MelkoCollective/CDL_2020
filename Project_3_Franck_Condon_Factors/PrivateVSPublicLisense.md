@@ -6,7 +6,7 @@ In this part, we entroduced pros and cons of codes licensed for the public domai
 
 ## There are many advantages to using open source/public domain software/code:
 
-* <bold>No/minimal rewriting</bold> -You don’t have to re-write the code that is publicly available from scratch and it can be used as a base/pattern for private use.
+* <b>No/minimal rewriting</b> -You don’t have to re-write the code that is publicly available from scratch and it can be used as a base/pattern for private use.
 Updates - Whenever a new algorithm is introduced that might, for example, improve performance, you can use it to improve you private code.  
 No switching/trial costs - Sometimes there are many different programs that apply to what you are trying to achieve - with open source you can try them all and pick the one that is best for you at no cost. 
 Crowdsourced customer service - The popular open source projects are maintained by several contributors, so you are not dependent on a single company or a single person for updates. There may also be a quality benefit here if you believe that multiple contributors translates into better quality code. 
