@@ -40,11 +40,11 @@ Problem we are solving:
 
 Market Entry Strategy:
 -	Initial CDE Segment to target:
-o	We will be targeting the defence sector – anti-terrorism, chemical disaster management, detecting air-borne chemical threats
+  - We will be targeting the defence sector – anti-terrorism, chemical disaster management, detecting air-borne chemical threats
 -	Initial CDE geography to target:
 The largest geographical market for CDE correlates to countries most affected by terrorism
-o	Initially, we will be targeting the US as North America is the largest market for chemical detection technology
-o	Followed by India, France and the UK which are the subsequent countries identified to be most vulnerable to terrorism
+  - Initially, we will be targeting the US as North America is the largest market for chemical detection technology
+  - Followed by India, France and the UK which are the subsequent countries identified to be most vulnerable to terrorism
 
 Target Customers:
 Suppliers of Chemical Detection Equipment to the government and commercial industries:
