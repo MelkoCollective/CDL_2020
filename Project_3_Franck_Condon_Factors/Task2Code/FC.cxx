@@ -133,7 +133,7 @@ int main(int argc,char** argv)
 
   //Declare output stream to opperate on files, and save in a txt format
   ofstream outputV3Data;
-  outputV3Data.open("V3_input_task3_1.txt");
+  outputV3Data.open("V3_input_task3.txt");
 
   //Save number of atoms
   outputV3Data << N << "\n";
