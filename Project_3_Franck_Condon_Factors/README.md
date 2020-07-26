@@ -28,8 +28,6 @@ Our team then ploted graphs which reflets the photoionization spectrums of the g
 
 1. [In this challenge](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/PrivateVSPublicLisense.md) we elaborated more on private and public lisense. 
 
-2. [In this challenge]() we compared three methods for FCF calculations.
-
 ## Business Application
 
 You can find potential business applications [here.](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/BusinessApplication.md)
