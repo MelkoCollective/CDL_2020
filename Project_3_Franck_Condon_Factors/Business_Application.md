@@ -9,7 +9,7 @@ Example: Finding a global minimum in settings where a classical approach may not
 
 ## Explain or provide examples of the types of real-world problems this solution can solve
 
-Franck-Condon analysis enables us to study vibronic progressions in molecules. The modeling of vibronic progressions in optical absorption requires a knowledge of the vibrational properties in the excited state potential.Study of Resonant Raman Spectroscopy and Vibronic Progressions is important for organic semiconductors.[[1]](https://doi.org/10.1016/B0-12-369401-9/00658-6).
+Franck-Condon analysis enables us to study vibronic progressions in molecules. The modeling of vibronic progressions in optical absorption requires a knowledge of the vibrational properties in the excited state potential. Study of vibronic progressions is important for understanding several properties of organic semiconductors.[[1]](https://doi.org/10.1016/B0-12-369401-9/00658-6).
 
 **Organic semiconductor** devices now form the basis of an ongoing revolution in electronics in the twenty‐first century. Organic materials having well‐defined electrical properties are being deployed for optoelectronic devices such as **organic light‐emitting diodes (OLEDs)**. OLEDs are now displacing the use of liquid crystal displays in consumer electronics such as cell phones, tablets, and televisions. Organic materials generally can be classified into small‐molecule organic materials and large‐molecule organic materials. Conjugated polymers are suitable candidates for both organic solar cells and OLEDs.
 
