@@ -11,11 +11,26 @@ A brief example for each question is included for the
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
+The technical problem we solved in this exercise involves calculating the Frank Cordon Factors (FCFs), which are useful in studying vibronic transitions in molecules. We calculated the FCFs for H2-H2+ using the harmonic oscillator approximation. Calculating FCFs is basically the same as calculating the overlap between the wavefunctions before and after the vibronic transitions. We then calculated the photoionization spectrum for V3 and finally simulated a Gaussian Boson Sampling experiment, which generates samples for computing a vibronic spectrum.
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
+Some of the real world problems that this solution can solve include :
+
+1) Astronomy
+
+2) Drug Discovery - Vibrational spectroscopies, including infrared and Raman techniques, are important tools
+for the characterization of chemical composition, molecular structures, and chain orientation under
+mechanical deformation of polymeric materials.
+
+3) Chemical Sensor Applications in Medicine and Climate Science
+
+While frequently regarded as pure laboratory techniques, the corresponding methods, namely infrared and Raman spectroscopy, have successfully been used as transducers for chemical sensors. Other than most standard transducers, vibrational spectroscopic sensors are capable of multi-component detection, both qualitatively and quantitatively. With the development of improved systems and the introduction of novel components, fully portable sensing systems can now be built at competitive prices. This opens a wide field of possible applications, covering in-situ real-time industrial process control as well as environmental pollutant screening. This has applications in Magnetic Resonance Imaging (MRI) and Climate Science.
+
+4) Manufacturing
+
+The development of fiber-optic-based spectrometers has broadened the use of vibrational spectroscopy for process monitoring in various fields including
+polymerization, curing, and manufacturing processes.
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
