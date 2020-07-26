@@ -17,24 +17,28 @@ The technical problem we solved in this exercise involves calculating the Frank 
 
 Some of the real world problems that this solution can solve include :
 
-1) Astronomy - Comets consist of almost pristine material from the early formation of our solar system, unprocessed by harsh solar sunlight. Studying the chemistry of these "dirty snowballs" gives us a clue as to the composition and nature of our solar system in its infancy and constrains theories of how life may have formed on Earth. Another application would be probing the formation of stars in colliding galaxies.
+## 1) Astronomy 
 
-2) Drug Discovery - Vibrational spectroscopies, including infrared and Raman techniques, are important tools
-for the characterization of chemical composition, molecular structures, and chain orientation under
-mechanical deformation of polymeric materials.
+Comets consist of almost pristine material from the early formation of our solar system, unprocessed by harsh solar sunlight. Studying the chemistry of these "dirty snowballs" gives us a clue as to the composition and nature of our solar system in its infancy and constrains theories of how life may have formed on Earth. Another application would be probing the formation of stars in colliding galaxies.
 
-3) Chemical Sensor Applications in Medicine and Climate Science
+## 2) Drug Discovery 
 
-While frequently regarded as pure laboratory techniques spectroscopy has successfully been used as transducers for chemical sensors. Other than most standard transducers, vibrational spectroscopic sensors are capable of multi-component detection, both qualitatively and quantitatively. This opens a wide field of possible applications, covering in-situ real-time industrial process control as well as environmental pollutant screening. This has applications in Magnetic Resonance Imaging (MRI) and Climate Science.
+Vibrational spectroscopies, including infrared and Raman techniques, are important tools for the characterization of chemical composition, molecular structures, and chain orientation under mechanical deformation of polymeric materials.
 
-4) Manufacturing
+## 3) Chemical Sensor Applications in Medicine and Climate Science
+
+Spectroscopy has successfully been used as transducers for chemical sensors. Other than most standard transducers, vibrational spectroscopic sensors are capable of multi-component detection, both qualitatively and quantitatively. This opens a wide field of possible applications, covering in-situ real-time industrial process control as well as environmental pollutant screening. This has applications in Magnetic Resonance Imaging (MRI) and Climate Science.
+
+## 4) Manufacturing
 
 The development of fiber-optic-based spectrometers has broadened the use of vibrational spectroscopy for process monitoring in various fields including
 polymerization, curing, and manufacturing processes.
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-Clarity Movement Co. is an environmental startup transforming how cities understand and solve air pollution with next-generation air quality monitoring technology since 2014. Our turn-key solution provides real-time, hyper-local air quality data that supplements a city’s existing regulatory monitors with a continuously-calibrated network of hundreds to thousands of additional air quality sensors. The Clarity Air Monitoring Solution makes air quality management more accessible, cost effective, and actionable than ever before.
+Clarity Movement Co. is an environmental startup transforming how cities understand and solve air pollution with next-generation air quality monitoring technology since 2014. Their turn-key solution provides real-time, hyper-local air quality data that supplements a city’s existing regulatory monitors with a continuously-calibrated network of hundreds to thousands of additional air quality sensors. The Clarity Air Monitoring Solution makes air quality management more accessible, cost effective, and actionable than ever before.
+
+Clarity Movement will be an example of a potential customer for the use of these techniques in the use of sensitive chemical sensor applications to detect air quality and pollutant screening.
 
 ![ClarityMovement](ClarityMovement.PNG) 
 
