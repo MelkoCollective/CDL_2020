@@ -16,13 +16,13 @@ The aim of this exercise was to derive a fundamental molecular property named Fr
 
 For the purpose of Chemical Identification:
 •	Chemical agent Identification/Detection in chemical warfare or terrorist attacks
-o	Detecting airborne chemical threats
+•	Detecting airborne chemical threats
 •	Biological agent Identification/D in warfare
 •	Real-time industrial monitoring
-o	Identification of Toxic Industrial Materials and Toxic Industrial Chemicals by public health safety bodies, industry regulators and auditors, e.g:
-	Gas leaks in mines 
-	Nuclear Powerplants
-	Chemical Plants
+•	Identification of Toxic Industrial Materials and Toxic Industrial Chemicals by public health safety bodies, industry regulators and auditors, e.g:
+•	Gas leaks in mines 
+•	Nuclear Powerplants
+•	Chemical Plants
 •	Food quality assessment (e.g. of dairy or meat products) in exports/imported goods
 •	Identifying counterfeit food products (e.g. honey, olive oil) which may contain substances harmful if ingested
 •	Respiratory gas analysis in hospitals
@@ -30,9 +30,9 @@ o	Identification of Toxic Industrial Materials and Toxic Industrial Chemicals by
 •	Aviation security (e.g. trace detectors at airport checkpoints for illicit drugs or explosives)
 For the purpose of Molecule Property Discovery:
 •	Reduces time for drug/molecule discovery for use in the pharmaceutical industry or new material discovery
-o	Characterization of proteins
+•	Characterization of proteins
 •	Chemical disaster management
-o	Reduces time needed to analyze unknown chemical or biological agents in warfare or terrorist attacks, and hence reduces response time
+•	Reduces time needed to analyze unknown chemical or biological agents in warfare or terrorist attacks, and hence reduces response time
 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
