@@ -24,4 +24,10 @@ Our team then ploted graphs which reflets the photoionization spectrums of the g
 ![](img/1000.png)
 ![](img/20000.png)
 
+## Further Challenges
+
+1. [In this challenge]() we elaborated more on private and public lisense. 
+
+2. [In this challenge]() we compared three methods for FCF calculations.
+
 ## Business Application
