@@ -17,7 +17,7 @@ Our team then ploted graphs which reflets the photoionization spectrums of the g
 ![](img/task2_1.png) 
 ![](img/task2_2.png)
 
-3. [Task #3](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task3.ipynb) Calculate the Franck-Condon Factors (and spectra) of that molecule using vibronic sampling. This calculation involves Gaussian Boson Sampling (GBS), which would allow these factors to be calculated using a quantum circuit.
+3. [Task #3](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task3.ipynb) In this part, we calculated the FCFs of the molecule using vibronic sampling. We simulated Gaussian Boson Sampling (GBS) that allowed to calculate FCFs using a quantum circuit.
 
 ![](img/10.png)
 ![](img/100.png)
