@@ -1,12 +1,12 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 ## Project 3: Franck-Condon Factors
 
-This project will guide you through calculating Franck-Condon Factors, which is related to the intensities in spectra of vibrational transitions across electronic surfaces. Spectra can be measured through experiments, but having accurate theoretical calculations of these Franck-Condon Factors allow scientists to instead predict these experimental results. This is especially useful if the chemical species is expensive, difficult to acquire or difficult to study or if the experiment itself is expensive or difficult.
+Task 1 : Calculating FCF for H2-H2+ molecule
 
-A very brief introduction to the main ideas behind the project are
-[here.](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/CDL_2020_docs.pdf)
+Using the approximation of the harmonic oscillator, we calculate classically the vibronic transitions for given energy levels determining associated Franck Condon Factors. 
 
-In our [Project3_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Project3_LandingPage.pdf), we provide more technical information about the chemistry and physics behind these Franck-Condon Factors and we encourage you to explore more literature if interested.  Click on this link to begin learning about your tasks for this week!
+! [FCF for H2 molecule](/H2_FCF)
+
 
 ## Tasks include:
 * Calculate the Franck-Condon Factors (and spectra) of molecular Hydrogen using a simple model
@@ -19,12 +19,7 @@ In our [Project3_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2
 * What are advantages and disadvantages of codes licensed for the public domain and those that are licensed for private use
 
 ## Business Application
-One again, your team is asked to complete a Business Application. Questions you will be asked are:
 
-* Explain to a layperson the technical problem you solved in this exercise.
-* Explain or provide examples of the types of real-world problems this solution can solve.
-* Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved.
-* Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language.
 
 For more details refer to the [Business Application found here](./Business_Application.md)
 
