@@ -20,4 +20,4 @@ Below are the links to our files for the following tasks and challenges:
 
 ## Business Application
 
-[Business Application](https://github.com/tina-seb/CohortProject_2020/blob/master/Project_2_VQE_Molecules/S1_Classical_Methods_Demo.ipynb)
+[Business Application](https://github.com/tina-seb/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Business_Application.md)
