@@ -11,9 +11,9 @@ The aim of this exercise was to derive a fundamental molecular property named Fr
 For the purpose of Chemical Identification:
 - Chemical agent identification/detection in chemical warfare or terrorist attacks
 - Detecting airborne chemical threats
-- Biological agent Identification/D in warfare
+- Biological agent identification/detection in warfare
 - Real-time industrial monitoring
-- Identification of Toxic Industrial Materials and Toxic Industrial Chemicals by public health safety bodies, industry regulators and auditors, e.g:
+- Identification of toxic industrial materials and toxic industrial chemicals by public health safety bodies, industry regulators and auditors, e.g:
     - Gas leaks in mines, nuclear powerplants, or chemical plants
 - Food quality assessment (e.g. of dairy or meat products) in exports/imported goods
 - Identifying counterfeit food products (e.g. honey, olive oil) which may contain substances harmful if ingested
@@ -30,16 +30,7 @@ For the purpose of Molecule Property Discovery:
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-**Chemical Detection Equipment (CDE) Market**
-
-Background:
--	The threat of hostile use of explosives against both military and civilian targets is always evolving. New explosive materials are being developed to evade detection and the means by which the explosive device is camouflaged and delivered to its target are always changing. The **fast** and **specific** **detection** of the presence of chemical weapons or toxic industrial chemicals is of critical importance in both military and public safety environments in order to enact protective counter-measures and to quickly identify the effective treatments for those injured. 
--   Growth in the CDE market is driven by an increase in global terrorist threats and increasing government safety regulations in the US and internationally(*****).
-
-Problem we are solving:
--	Alongside CDE’s technical performance, CDEs are also judged on their price and total cost of device ownership. Currently, the high operating cost, primarily from the cost of the chemicals used in making detection equipment, is hindering the growth of the global chemical detection equipment market.
-
-
+#### Chemical Detection Equipment (CDE) Market
 **Market Entry Strategy:**
 - Initial CDE Segment to target:
     - We will be targeting the defence sector – anti-terrorism, chemical disaster management, detecting air-borne chemical threats
@@ -48,11 +39,17 @@ The largest geographical market for CDE correlates to countries most affected by
   - Initially, we will be targeting the US as North America is the largest market for chemical detection technology
   - Followed by India, France and the UK which are the subsequent countries identified to be most vulnerable to terrorism
 
+Background:
+-	The threat of hostile use of explosives against both military and civilian targets is always evolving. As a rule of war, new explosive materials are continuously being developed and camouflage and delivery techniques are always changing. The **fast** and **specific** **detection** of the presence of chemical weapons or toxic industrial chemicals is of critical importance in both military and public safety environments in order to enact protective counter-measures and to quickly identify the effective treatments for those injured. 
+-   Growth in the CDE market is driven by an increase in global terrorist threats and increasing government (US & international) on the buying and selling of hazardous materials [[1]](https://www.researchandmarkets.com/reports/5020227/chemical-detection-equipment-market-global).
+
+Problem we are solving:
+-	Alongside CDE’s technical performance, CDEs are also judged on their price and total cost of device ownership. Currently, the high operating cost, primarily from the cost of the chemicals used in making detection equipment, is hindering the growth of the global chemical detection equipment market.
+
 Target Customers:
 Suppliers of Chemical Detection Equipment to the government and commercial industries:
 
 - Thermo Fisher Scientific Incorporation and Smiths Group Plc = 39.45% market share in 2017
-    - 2 dominant players in the CDE market
 - Bruker Corporation = 4.88% market share in 2017
 - FLIR Systems Inc. = 4.67% market share in 2017
 - S. E. International
@@ -71,4 +68,3 @@ https://bioinfoinc.com/product2018-security-analytical-instrumentation-market/
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
