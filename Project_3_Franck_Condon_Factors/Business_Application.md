@@ -11,7 +11,7 @@ Example: Finding a global minimum in settings where a classical approach may not
 
 Franck-Condon analysis enables us to study vibronic progressions in molecules. The modeling of vibronic progressions in optical absorption requires a knowledge of the vibrational properties in the excited state potential.Study of Resonant Raman Spectroscopy and Vibronic Progressions is important for organic semiconductors.[[1]](https://doi.org/10.1016/B0-12-369401-9/00658-6).
 
-**Organic semiconductor** devices now form the basis of an ongoing revolution in electronics in the twenty‐first century. Organic materials having well‐defined electrical properties are being deployed for optoelectronic devices such as **organic light‐emitting diodes (OLEDs)**. OLEDs are now displacing the use of liquid crystal displays in consumer electronics such as cell phones, tablets, and televisions. Organic materials generally can be classified into small‐molecule organic materials and large‐molecule organic materials. Conjugated polymers are suitable candidates for both organic solar cells and OLEDs[[2]](https://onlinelibrary.wiley.com/doi/10.1002/9781119450986.ch7#:~:text=Summary,%E2%80%90emitting%20diodes%20(OLEDs).
+**Organic semiconductor** devices now form the basis of an ongoing revolution in electronics in the twenty‐first century. Organic materials having well‐defined electrical properties are being deployed for optoelectronic devices such as **organic light‐emitting diodes (OLEDs)**. OLEDs are now displacing the use of liquid crystal displays in consumer electronics such as cell phones, tablets, and televisions. Organic materials generally can be classified into small‐molecule organic materials and large‐molecule organic materials. Conjugated polymers are suitable candidates for both organic solar cells and OLEDs.
 
 The OLEDs provide advantages in follwing manner[[3]](https://www.oled-info.com/oled-introduction#:~:text=An%20OLED%20display%20have%20the,flexible%2C%20foldable%20and%20transparent%20displays) and thus may revolutionize the electronics :
 
@@ -27,16 +27,16 @@ The OLEDs provide advantages in follwing manner[[3]](https://www.oled-info.com/o
 
 
 ## Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
-Below are some key market players exploring the use of OLEDs and QLEDs
+Below are some key market players exploring the use of OLEDs who can be potential customers for this application:
 
-| Company/Corporation | OLED | QLED |
-|-|-|-|
-| LG Display Co. Ltd. | x | x |
-| Samsung Electronics Co. Ltd. | x | x |
-| AU Optronics | x |  |
-| Japan Display Inc. | x |  |
-| NEC Display Solutions | x |  |
-| Sony Corporation | x |  |
+| Company/Corporation |  
+|-|
+| LG Display Co. Ltd. | 
+| Samsung Electronics Co. Ltd. |
+| AU Optronics | x |  
+| Japan Display Inc. | x | 
+| NEC Display Solutions | x | 
+| Sony Corporation | x |  
 
 
 ## Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
