@@ -10,7 +10,9 @@ In this project our team calculated Franck-Condon Factors (FCF), which are usefu
 
 ![](img/task1.png)
 
-2. [Task #2](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task2Code/Task2.ipynb) Calculate the Franck-Condon Factors (and spectra) of a more complex molecule (V<sub>3</sub>) using matrix elements
+2. [Task #2](https://github.com/olgOk/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task2Code/Task2.ipynb)  In this task, we calculated the FCF and the spectra of a more complex molecule using matrix elements. When it comes to polyatomic systems, one can use the harmonic oscillator approximation but have to introduce anharmonic effects, e.g. the mode mixing. Thus, one can introduce Duschinky matrix that represents the mode mixing effects.
+
+Our team then ploted graphs which reflets the photoionization spectrums of the given molecule; the graph on the left was smoothed by a Lorentzian function. 
 
 ![](img/task2_1.png) 
 ![](img/task2_2.png)
