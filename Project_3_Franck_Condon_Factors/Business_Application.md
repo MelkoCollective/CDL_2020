@@ -1,13 +1,7 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Business Application
 
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consdier the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
 
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 
 ## Step 1: Explain the technical problem you solved in this exercise
 The aim of this exercise was to derive a fundamental molecular property named Franck Condons Factor using classical and breakthrough quantum computing methods. This quantity is crucial to assess spectroscopic properties, and digs up the knowledge of the inherent structure of the molecule. 
