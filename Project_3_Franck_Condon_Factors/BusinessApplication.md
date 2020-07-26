@@ -39,3 +39,9 @@ We would target pharmaceutical and chemicals companies.
 8. LyondellBasell Industries
 9. Mitsubishi Chemical
 10. LG Chemical
+
+## Presentation
+
+In this warm into you can find a short video explaning our value proposition. (click to play)
+
+[![Introduction](img/intro.gif)](https://youtu.be/q3ivB6iBF9Y)
