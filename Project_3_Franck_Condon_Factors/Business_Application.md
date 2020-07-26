@@ -50,4 +50,4 @@ https://www.clarity.io/
 Other potential environmental sensing clients would be Aclima, eLichens and Libelium.
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-https://www.youtube.com/watch?v=CodrXcxhZu8&feature=youtu.be
+https://www.youtube.com/watch?v=N2EDokyRkhU&feature=youtu.be
