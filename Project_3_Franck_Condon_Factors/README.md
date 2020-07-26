@@ -35,6 +35,8 @@ The modifified task2 code is here: [modified task2 code](Task2Code/FCC.cxx)
 
 The jupyter notebook for our solution is here: [jupyter notebook for task3](Task3.ipynb)
 
+We did a sweep over a number of samples starting from 10 up to 10000. We found that convergence happens somewhere around 333~1000 samples.
+
 The ouput of our jupyter notebook is below.
 
 ![Task3](task3_fig1.png)
