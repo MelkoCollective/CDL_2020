@@ -47,16 +47,8 @@ The ouput of our jupyter notebook is below.
 
 ## Business Application
 
-The questions presented in Project 3 landing page have been addressed extensively [here](https://github.com/CDL2020Week3Cohort6/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Business_Applications_Q&A.md)
+The questions presented in Project 3 landing page have been addressed extensively [here](https://github.com/CDL2020Week3Cohort6/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Business_Applications_Q&A.md).
 
 
-For more details about Business Applications refer to the [Business Application found here](./Business_Application.md)
+For more details about Business Applications refer to the [Business Application found here](./Business_Application.md).
 
-## Presenting your results in your pull request
-For your pull request, consider the following for the presentation of your final results:
-- Work entirely in the directory for Project 3.
-- Edit this README.md file with a highlight of your main technical results.  Provide links to any other files with your detailed results, e.g. Jupyter notebooks.
-- For your Business Application, feel free to provide your answers directly in the 
-[Business_Application.md](./Business_Application.md) file.
-- Do not directly upload your video file (or any other large files) to the repository.  Instead, provide a link e.g. to a YouTube video, or a Google Drive file.
-- Include a file contributions.md that lists the contributions of each group member.
