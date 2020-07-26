@@ -41,7 +41,7 @@ The largest geographical market for CDE correlates to countries most affected by
 
 Background:
 -	The threat of hostile use of explosives against both military and civilian targets is always evolving. As a rule of war, new explosive materials are continuously being developed and camouflage and delivery techniques are always changing. The **fast** and **specific** **detection** of the presence of chemical weapons or toxic industrial chemicals is of critical importance in both military and public safety environments in order to enact protective counter-measures and to quickly identify the effective treatments for those injured. 
--   Growth in the CDE market is driven by an increase in global terrorist threats and increasing government (US & international) on the buying and selling of hazardous materials [[1]](https://www.researchandmarkets.com/reports/5020227/chemical-detection-equipment-market-global).
+-   Growth in the CDE market is driven by an increase in global terrorist threats and increasing government (US & international) on the buying and selling of hazardous materials 
 
 Problem we are solving:
 -	Alongside CDE’s technical performance, CDEs are also judged on their price and total cost of device ownership. Currently, the high operating cost, primarily from the cost of the chemicals used in making detection equipment, is hindering the growth of the global chemical detection equipment market.
