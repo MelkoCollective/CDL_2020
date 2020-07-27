@@ -26,15 +26,15 @@
 ### Task3
 ([Notebook](Task3.ipynb))
 
-![img](Plots/Task_3/10_sample_spectrum.PNG)
-![img](Plots/Task_3/1000_sample_spectrum.PNG)
-![img](Plots/Task_3/20000_sample_spectrum.PNG)
+![img](Plots/Task_3/10_sample_spectrum.png)
+![img](Plots/Task_3/1000_sample_spectrum.png)
+![img](Plots/Task_3/20000_sample_spectrum.png)
 
 ## Further Challenges:
 
 
 ## Business Application:
 
-![Link](Business_Application.md)
+[Link](Business_Application.md)
 
 
