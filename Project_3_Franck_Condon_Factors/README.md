@@ -17,6 +17,7 @@ Using the approximation of the harmonic oscillator, we calculate classically the
 
 
 Task 2 : Use matrix elements to calculate FCF and spectra of V<sub>3</sub>
+
 We use FC.cxx and the input file V<sub>3</sub> that contained information about the molecule to generate the following figure
 <img src="https://github.com/Week3-Group1-CDL2020/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task2_plot.png"  width="800" height="400">
 We also include the V3_tex.pdf that contains a table of the spectrum assignments. We also placed print statements within the FC.cxx code to learn the Duschinsky Matrix and the displacement vector (for the next task)
@@ -24,6 +25,7 @@ We also include the V3_tex.pdf that contains a table of the spectrum assignments
 
 
 Task 3 : Gaussian Boson Sampling (GBS) for calculating FCF and spectra
+
 The data for the input is taken from the last experiment. The sampling seems to converge after 200 samples except for a slight bump at 600 samples. Doing it over 800 samples was taking too long of a time.
 <img src="https://github.com/Week3-Group1-CDL2020/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task3_plot.png" width="800" height="400">
 
