@@ -12,7 +12,7 @@ Task 1 : Calculating FCF for H2-H2+ molecule
 
 Using the approximation of the harmonic oscillator, we calculate classically the vibronic transitions for given energy levels determining associated Franck Condon Factors. 
 
-<img src="https://github.com/Week3-Group1-CDL2020/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/H2_FCF.png" width="800" height="600">
+<img src="https://github.com/Week3-Group1-CDL2020/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/H2_FCF.png" width="600" height="400">
 
 
 
