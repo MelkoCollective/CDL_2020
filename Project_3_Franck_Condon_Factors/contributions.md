@@ -1,11 +1,11 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Group Contributions
 
-**Ajinkya Borle:** 
+**Ajinkya Borle:**  Worked on Task 2
 
-**Arthur Strauss:**
+**Arthur Strauss:** Worked on Task 1
 
-**Claudio Giampa:**
+**Claudio Giampa:** Worked on Task 3
 
 **Wenmiao Yu:** Developed product overview, market, applications, and customer sections in the Business Application document. 
 
