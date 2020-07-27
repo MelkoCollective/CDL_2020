@@ -30,16 +30,17 @@ In this task we calculated the photoionization spectrum for the molecule V3 at a
 In this task we simulated a Guassian Boson Sampling (GBS) experiment for various sample sizes, then compared it results from the previous task. 
 ([Notebook](Task3.ipynb))
 
-## 10 Samples:
+#### 10 Samples:
 ![img](Plots/Task_3/10_sample_spectrum.png)
 
-## 1000 Samples:
+#### 1000 Samples:
 ![img](Plots/Task_3/1000_sample_spectrum.png)
 
-## 20000 Samples:
+#### 20000 Samples:
 ![img](Plots/Task_3/20000_sample_spectrum.png)
 
 Now comparing Guassian Boson Sampling with Frank-Condon Factor:
+
 ![img](Plots/Task_3/GBSvsFC-Task3.PNG)
 
 ## Business Application:
