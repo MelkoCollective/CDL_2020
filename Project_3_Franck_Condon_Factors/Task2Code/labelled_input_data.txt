@@ -1,0 +1,74 @@
+#Units {A = Angstrom, B = Bohr}
+A
+#Number of Atoms
+3
+#Mass of Atoms (amu)
+50.9415
+50.9415
+50.9415
+#Coordinates of Eq. Geometry of Atom 1 of Neutral Molecule (Units):
+  .000000    .000000  -1.252248
+#Coordinates of Eq. Geometry of Atom 2 of Neutral Molecule (Units)
+  .000000  -1.084004    .626124
+#Coordinates of Eq. Geometry of Atom 3 of Neutral Molecule (Units)
+  .000000   1.084004    .626124
+#Frequency of Mode 1 of Neutral Molecule (Wavenumbers)
+255.0
+#Normal Mode Matrix of Mode 1 of Neutral Molecule (eigenvectors of mass-weighted Hessian)
+  .0000    -.0226       .5797
+  .0000    -.4859      -.3095
+  .0000     .5085      -.2702
+#Frequency of Mode 2 of Neutral Molecule (Wavenumbers)
+255.0
+#Normal Mode Matrix of Mode 2 of Neutral Molecule (eigenvectors of mass-weighted Hessian)
+  .0000    -.5768      -.0228
+  .0000     .3078      -.4883
+  .0000     .2690       .5111
+#Frequency of Mode 3 of Neutral Molecule (Wavenumbers)
+420.8
+#Normal Mode Matrix of Mode 3 of Neutral Molecule (eigenvectors of mass-weighted Hessian)
+  .0000     .0001      -.5745
+  .0000    -.5025       .2873
+  .0000     .5024       .2872
+#Coordinates of Eq. Geometry of Atom 1 of Cation (Units)
+  .000000     .000000   -1.276907
+#Coordinates of Eq. Geometry of Atom 2 of Cation (Units)
+  .000000   -1.105517     .638454 
+#Coordinates of Eq. Geometry of Atom 3 of Cation (Units)
+  .000000    1.105517     .638454
+#Frequency of Mode 1 of Cation (Wavenumbers)
+261.9 
+#Normal Mode Matrix of Mode 1 of Cation (eigenvectors of mass-weighted Hessian)
+       .0000        .3701        .4448
+       .0000       -.5672        .0982
+       .0000        .1971       -.5430
+#Frequency of Mode 2 of Cation (Wavenumbers)
+263.3
+#Normal Mode Matrix of Mode 2 of Cation (eigenvectors of mass-weighted Hessian)
+       .0000        .4430       -.3710
+       .0000        .0983        .5693
+       .0000       -.5413       -.1983
+#Frequency of Mode 3 of Cation (Wavenumbers)
+421.8 
+#Normal Mode Matrix of Mode 3 of Cation (eigenvectors of mass-weighted Hessian)
+       .0000       -.0005        .5755
+       .0000        .5019       -.2881
+       .0000       -.5014       -.2873
+#Omega_min (cm-1)
+-300.
+#Omega_max (cm-1)
+2000.
+#Temperature, T (Kelvin)
+500.
+#Full Width at Half Maximum for Lorentzian Distribution (ex. 5)
+5.
+#Omega Resolution (number of omega grid points)
+1.
+#Band Position,v00 (cm-1)
+0.
+#Neutral Quanta of vibration
+6
+#Cation Quanta of vibration
+10
+#Label Limit: Signal amplitudes are reported above this threshold (ex. 0.01)
+0.001

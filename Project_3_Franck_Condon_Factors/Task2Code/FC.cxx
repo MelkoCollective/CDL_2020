@@ -287,7 +287,17 @@ int main(int argc,char** argv)
   //Represented by S (Eq. 4) in Roy, Carrington 1995 paper 
   matrix OSmat=transpose(Lmation)*Lmat;
   matrix Smat=OSmat;
-
+  
+  // Reverse engineering for getting the Duschinsky matrix
+  
+  cout << "The Duschinsky matrix is " << "\n";
+  for(i=0; i<N;i++){
+    for(j=0;j<N;j++){
+      cout << Smat(i,j) << " ";
+    }
+	cout << "\n";
+  }
+  
   /* orthogonalisation of S */ 
   for (k=0;k<N;k++) {
     double proj1=0.0; 
@@ -327,6 +337,13 @@ int main(int argc,char** argv)
   //Displacement Vector, delta
   //d (Eq. 42c) in Quesada 2019 Paper
   vector delta=lambdaion*dvec;
+  
+  // Reverse engineer the delta
+  
+  cout << "The delta :  " << "\n";
+  for(i=0;i<N;i++){
+    cout << delta(i) << "\n";
+  }
 
   /*  <0|0> transition  */
   for (j=0;j<N;j++) int00*=(omegaion(j)/omega(j));

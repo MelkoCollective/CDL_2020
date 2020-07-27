@@ -8,7 +8,7 @@
 #Coordinates of Eq. Geometry of Atom 1 of Neutral Molecule (Units)
 ...
 #Coordinates of Eq. Geometry of Atom N of Neutral Molecule (Units)
-#Frequency of Mode 1 of Neutral Molecule (Wavenumbers)
+#Frequency of Mode 1 of Neutral Molecule (Wavenumbers) <-
 #Normal Mode Matrix of Mode 1 of Neutral Molecule (eigenvectors of mass-weighted Hessian)
 ...
 #Frequency of Mode 3N-6 of Neutral Molecule (Wavenumbers)
