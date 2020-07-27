@@ -68,3 +68,4 @@ https://bioinfoinc.com/product2018-security-analytical-instrumentation-market/
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
+https://drive.google.com/file/d/1jR35BgqxQ5qKDNzq_SQnG2JUy_adZpBE/view?usp=sharing
