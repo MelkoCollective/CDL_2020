@@ -39,7 +39,7 @@ In this task we simulated a Guassian Boson Sampling (GBS) experiment for various
 #### 20000 Samples:
 ![img](Plots/Task_3/20000_sample_spectrum.png)
 
-Now comparing Guassian Boson Sampling with Frank-Condon Factor:
+At ~500 samples we found convergence. Now comparing Guassian Boson Sampling with Frank-Condon Factor:
 
 ![img](Plots/Task_3/GBSvsFC-Task3.PNG)
 
