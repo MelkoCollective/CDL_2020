@@ -14,21 +14,21 @@
 ### Task1
 ([Notebook](Task1.ipynb))
 
-![img](Plots/Task_1/FCFvsSpectral-Task1.png)
+![img](Plots/Task_1/FCFvsSpectral-Task1.PNG)
 
 ### Task2
 ([Notebook](Task2_viz.ipynb))
 
 ![pdf](Task2.pdf)
 
-![img](Plots/Task_2/Spectrum-FCFvsSpectral-Task2.png)
+![img](Plots/Task_2/Spectrum-FCFvsSpectral-Task2.PNG)
 
 ### Task3
-([Notebook](Task3-solution.ipynb))
+([Notebook](Task3.ipynb))
 
-![img](Plots/Task_2/10_sample_spectrum.png)
-![img](Plots/Task_2/1000_sample_spectrum.png)
-![img](Plots/Task_2/20000_sample_spectrum.png)
+![img](Plots/Task_2/10_sample_spectrum.PNG)
+![img](Plots/Task_2/1000_sample_spectrum.PNG)
+![img](Plots/Task_2/20000_sample_spectrum.PNG)
 
 ## Further Challenges:
 
