@@ -4,7 +4,7 @@
 
 
 ## Step 1: Explain the technical problem you solved in this exercise
-The aim of this exercise was to derive a fundamental molecular property named Franck Condons Factor using classical and breakthrough quantum computing methods. This quantity is crucial to assess spectroscopic properties, and digs up the knowledge of the inherent structure of the molecule. 
+In this exercise we to derived a fundamental molecular property named Franck Condon Factor using classical and quantum computing methods. This quantity is crucial to assess spectroscopic properties, and helps us study vibronic transitions in molecules. Utilizing Boson Sampling techniques, we can leverage a exponential speedup over classical computers with near term quantum devices when sampling over the quantum optics or photonics field.
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
@@ -68,3 +68,4 @@ https://bioinfoinc.com/product2018-security-analytical-instrumentation-market/
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
+https://drive.google.com/file/d/1jR35BgqxQ5qKDNzq_SQnG2JUy_adZpBE/view?usp=sharing
