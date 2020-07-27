@@ -20,6 +20,7 @@ Task 2 : Use matrix elements to calculate FCF and spectra of V<sub>3</sub>
 
 We use FC.cxx and the input file V<sub>3</sub> that contained information about the molecule to generate the following figure
 <img src="https://github.com/Week3-Group1-CDL2020/CohortProject_2020/blob/master/Project_3_Franck_Condon_Factors/Task2_plot.png"  width="800" height="400">
+
 We also include the V3_tex.pdf that contains a table of the spectrum assignments. We also placed print statements within the FC.cxx code to learn the Duschinsky Matrix and the displacement vector (for the next task)
 
 
