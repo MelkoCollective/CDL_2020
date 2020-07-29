@@ -10,4 +10,4 @@ def anneal(ising, schedule, mc_steps=1):
         for _ in range(mc_steps):
             E = ising.mc_step(T)
 
-    return ising.energy(), ising.get_spins()
+    return ising.energy(), ising.spins
