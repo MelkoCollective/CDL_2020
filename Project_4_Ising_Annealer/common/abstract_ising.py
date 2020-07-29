@@ -14,6 +14,10 @@ class AbstractIsing(abc.ABC):
     @abc.abstractmethod
     def rand_site(self):
         """Selects a site in the lattice at random"""
+        
+    @abc.abstractmethod
+    def all_configurations(self):
+        """Returns all possible spin configurations"""
     
     def mc_step(self, T):
         """Performs a full update of the given Ising model using the Metropolis-Hastings algorithm"""
