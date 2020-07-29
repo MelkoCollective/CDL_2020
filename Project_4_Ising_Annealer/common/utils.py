@@ -2,7 +2,7 @@ import numpy as np
 
 def exp_decay_schedule(N, T_i, T_f):
     t = np.arange(N+1)
-    return T_i * ((T_f/T_i) ** (t/N))
+    return T_i * ((T_f/T_i) ** (t/N)), t
 
 
 def anneal(ising, schedule, mc_steps=1):
