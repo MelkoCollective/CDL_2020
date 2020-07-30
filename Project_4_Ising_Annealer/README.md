@@ -4,17 +4,20 @@
 ### Members
 
 * Nick Allgood (Technical)
-* Eunice Ofori Addo
+* Eunice Ofori Addo (Business)
 * Hoa Nghiem
 * Nam Nguyen
 * Agustin Bignu
 
 ## Tasks include:
 
+* Task 2: (Group2-Task2.ipynb)
+
 ## Further Challenges: 
 
 
 ## Business Application
 
-## Presenting your results in your pull request
+
+## Video 
 
