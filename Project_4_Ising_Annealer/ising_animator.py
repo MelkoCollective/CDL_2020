@@ -2,6 +2,7 @@ from matplotlib import animation, rc
 import matplotlib.pyplot as plt
 from IPython.display import HTML
 
+
 class IsingAnimator():
     def __init__(self, system):
         self.system = system
