@@ -1,19 +1,52 @@
 import numpy as np
 
-def exp_decay_schedule(N, T_i, T_f):
+
+def exp_decay_schedule(N, Ti, Tf):
     """
-    Construct a sequence of exponential temperature decay schedule
+    Construct a temperature sequence for exponential decay schedule
     
     Arguments:
         N: number of discrete time points
-        T_i: initial temperature
-        T_f: final temperature
+        Ti: initial temperature
+        Tf: final temperature
         
     Returns:
         The sequence of temperature updates and the list of discrete time points
     """
-    t = np.arange(N+1)
-    return T_i * ((T_f/T_i) ** (t/N)), t
+    time = np.arange(N + 1)
+    return Ti * ((Tf/Ti) ** (time / N)), time
+
+
+def inv_decay_schedule(N, Ti, Tf):
+    """
+    Construct a temperature sequence for hyperbolic decay schedule
+    
+    Arguments:
+        N: number of discrete time points
+        Ti: initial temperature
+        Tf: final temperature
+        
+    Returns:
+        The sequence of temperature updates and the list of discrete time points
+    """
+    time = np.arange(N + 1)
+    return Ti / (1 + (Ti / Tf - 1) * time / N), time
+
+
+def lin_decay_schedule(N, Ti, Tf):
+    """
+    Construct a temperature sequence for linear decay schedule
+    
+    Arguments:
+        N: number of discrete time points
+        Ti: initial temperature
+        Tf: final temperature
+        
+    Returns:
+        The sequence of temperature updates and the list of discrete time points
+    """
+    time = np.arange(N + 1)
+    return Ti + (Tf - Ti) * time / N, time
 
 
 def anneal(ising, schedule, mc_steps=1):
