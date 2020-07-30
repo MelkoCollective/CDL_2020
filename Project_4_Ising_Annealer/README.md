@@ -11,7 +11,7 @@
 
 ## Tasks include:
 
-* (./Group2-Task2.ipynb)
+* ![Task 2: (./Group2-Task2.ipynb)]
 
 ## Further Challenges: 
 
