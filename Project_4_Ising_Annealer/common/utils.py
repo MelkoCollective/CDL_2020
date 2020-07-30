@@ -6,7 +6,7 @@ def exp_decay_schedule(N, Ti, Tf):
     Construct a temperature sequence for exponential decay schedule
     
     Arguments:
-        N: number of discrete time points
+        N: number of steps
         Ti: initial temperature
         Tf: final temperature
         
@@ -22,7 +22,7 @@ def inv_decay_schedule(N, Ti, Tf):
     Construct a temperature sequence for hyperbolic decay schedule
     
     Arguments:
-        N: number of discrete time points
+        N: number of steps
         Ti: initial temperature
         Tf: final temperature
         
@@ -38,7 +38,7 @@ def poly_decay_schedule(N, Ti, Tf, degree):
     Construct a temperature sequence for polynomial decay schedule given by a*x^degree + b
     
     Arguments:
-        N: number of discrete time points
+        N: number of steps
         Ti: initial temperature
         Tf: final temperature
         degree: positive integer. The degree of the polynomial
@@ -48,6 +48,10 @@ def poly_decay_schedule(N, Ti, Tf, degree):
     """
     time = np.arange(N + 1)
     return Ti + (Tf - Ti) * (time / N) **degree, time
+
+
+def lin_decay_schedule(N, Ti, Tf):
+    return poly_decay_schedule(N, Ti, Tf, degree=1)
 
 
 def osc_decay_schedule(sched, time, a, b):
