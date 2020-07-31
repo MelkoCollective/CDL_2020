@@ -8,7 +8,8 @@ For very brief introduction to the main ideas behind the project, and the basics
 And in the [Project 4 Landing Page](./Project4_LandingPage.pdf),a more technical information on the Ising Hamiltonians is provided.
 
 ## Tasks:
-**Task 1:** In this task we are given a solution to an MC simulation that employs MH algorithm for 2D ferromagnetic (J>0) Ising Model on square lattice with periodic boundary conditions (PBCs).  
+**Task 1:**   
+In this task we are given a solution to an MC simulation that employs MH algorithm for 2D ferromagnetic (J>0) Ising Model on square lattice with periodic boundary conditions (PBCs).  
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=H=-J\sum_{<i,j>}\sigma_i\sigma_j" width="200">  
 </p>
@@ -17,22 +18,22 @@ The probability distribution of the Ising model at temperature T is given by the
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=P(\sigma,T)=\frac{1}{Z(T)}\exp{\Big(-\frac{H(\sigma)}{T}\Big)}," width="200">
 </p>  
-where Z(T) is the normalization constant (also known as the partition function), <img src="https://render.githubusercontent.com/render/math?math=\sigma" > describes one of (exponentially) many possible microscopic configurations that the system can be in, H is the corresponding energy (Hamiltonian). So the goal is to sample configurations from the distribution P. As the partition function requires exponential resources to compute, the MH algorithm is employes instead as approximation to original problem. In [Task 1 jupyter notebook](./Task_1.ipynb) the procedure is implemented using initial and final temperatures T=100 and T=0.01, respectively with exponentially decaying schedule 
+where Z(T) is the normalization constant (also known as the partition function), <img src="https://render.githubusercontent.com/render/math?math=\sigma"> describes one of (exponentially) many possible microscopic configurations that the system can be in, H is the corresponding energy (Hamiltonian). So the goal is to sample configurations from the distribution P. As the partition function requires exponential resources to compute, the MH algorithm is employes instead as approximation to original problem. In [Task 1 jupyter notebook](./Task_1.ipynb) the procedure is implemented using initial and final temperatures T=100 and T=0.01, respectively with exponentially decaying schedule 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=T(t)=T_{\text{init}}\Big(\frac{T_{\text{fin}}}{T_{\text{init}}}\Big)^{t/N} \hspace{1cm} t=[0,1,2,\ldots, N]" width="400">
 </p> 
 The notebook contains the object `Ising2DPBC` which creates an instance of an ising model by specifying the 2D grid and the parameter J. This object can compute the energy for the specified system and the energy difference that results from flipping one of the sites in the grid. The object `Ising2DPBC` inherits from the `AbstractIsing` parent class implemented in the `common/abstract_ining.py` file which also performs the Monte-Carlo step using Metropolis-Hastings algorithm.  
-Another nice feature is implemented in the `common/ising_animator.py` file.  
-
-* Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
-* Perform thermal annealing to solve for the groundstate of disordered Ising models.
-* Apply what you have learned to solve the Hydrogen molecule groundstate.
+Another nice feature is implemented in the `common/ising_animator.py` file. It creates an animation of the Ising Lattice simulation following the given annealing schedule. Here is an animation of the 2D Ising model:  
+![animation](https://user-images.githubusercontent.com/25146937/89028323-2971a180-d33d-11ea-96af-d9e7f4bcf1e0.gif)
+ 
 
 TODO: save at least one animation as gif, and put it here in readme.
 
-**Task 2:** In this task we investigate two 1D model - random bond nearest neighbor ising model and a fully connected mode. Our main focus here is the analysis of different temperature decay schedules to find out which one works best. We have considered schedules of exponential, hyperbolic, linear and polynomial shapes, and oscillating variations of thereof. (TODO: add figure here). The analysis shows, that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model (TODO: figure?). Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model.
+**Task 2:**   
+In this task we investigate two 1D model - random bond nearest neighbor ising model and a fully connected mode. Our main focus here is the analysis of different temperature decay schedules to find out which one works best. We have considered schedules of exponential, hyperbolic, linear and polynomial shapes, and oscillating variations of thereof. (TODO: add figure here). The analysis shows, that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model (TODO: figure?). Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model.
 
-**Task 3:** In this task we look at the hydrogen molecule and show, that its hamiltonian can be written in polynomial form, i.e. it can be mapped to an ising model. (TODO: add something about 4-localness of this Hamiltonian). Then this ising model is used along with the software framework developed in previous tasks to find the ground state of the hydrogen molecule using simulated thermal annealing of the corresponding ising model. (TODO: figure and explanations). As an additional challenge, we also demonstrate, that this 4-local hamiltonian can be converted into a 2-local hamiltonian (QUBO) by adding variables, and then this can be executed against the Dwave machine. We validate the results of this approach and show that they are in line with the other solution. (TODO: figure here?)
+**Task 3:**   
+In this task we look at the hydrogen molecule and show, that its hamiltonian can be written in polynomial form, i.e. it can be mapped to an ising model. (TODO: add something about 4-localness of this Hamiltonian). Then this ising model is used along with the software framework developed in previous tasks to find the ground state of the hydrogen molecule using simulated thermal annealing of the corresponding ising model. (TODO: figure and explanations). As an additional challenge, we also demonstrate, that this 4-local hamiltonian can be converted into a 2-local hamiltonian (QUBO) by adding variables, and then this can be executed against the Dwave machine. We validate the results of this approach and show that they are in line with the other solution. (TODO: figure here?)
 
 ## Further Challenges: 
 * Explore the annealing procedure on the Mattis glass.
