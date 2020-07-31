@@ -24,6 +24,7 @@ where Z(T) is the normalization constant (also known as the partition function),
 </p> 
 The notebook contains the object `Ising2DPBC` which creates an instance of an ising model by specifying the 2D grid and the parameter J. This object can compute the energy for the specified system and the energy difference that results from flipping one of the sites in the grid. The object `Ising2DPBC` inherits from the `AbstractIsing` parent class implemented in the `common/abstract_ining.py` file which also performs the Monte-Carlo step using Metropolis-Hastings algorithm.  
 Another nice feature is implemented in the `common/ising_animator.py` file. It creates an animation of the Ising Lattice simulation following the given annealing schedule. Here is an animation of the 2D Ising model:  
+
 ![animation](https://user-images.githubusercontent.com/25146937/89028323-2971a180-d33d-11ea-96af-d9e7f4bcf1e0.gif)
  
 
