@@ -10,7 +10,7 @@ A brief example for each question is included for the
 [Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 
 ## Step 1: Explain the technical problem you solved in this exercise
-Simulated annealing is a probabilistic approach to determine the global optimum within large search spaces.  The inspiration for this originates from metallurgical annealing.  Annealing is the process of heating a metal and slowly lowering its temperature to decrease defects in the metal, which minimizes the energy of the system. 
+Simulated annealing is a probabilistic approach to determine the global optimum within large search spaces.  The inspiration for this originates from metallurgical annealing.  Annealing is the process of heating a metal and slowly lowering its temperature to decrease defects in the metal, which minimizes the energy of the system. The temperature will incrementally decline from an initial positive value to zero. The algorithm will randomly choose a solution close to the current solution and measures the viability before moving to that solution. 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
