@@ -11,7 +11,7 @@ A brief example for each question is included for the
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to do so.
+Simulated annealing is a probabilistic approach to determine the global minimum within large search spaces. 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
