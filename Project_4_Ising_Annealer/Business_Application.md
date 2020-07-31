@@ -14,7 +14,11 @@ Simulated annealing is a probabilistic approach to determine the global optimum 
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize travel time. (e.g., “the travelling salesman problem”).
+Aircraft Trajectory Planning:
+
+Reactive Power Planning:
+
+Generator Maintenance Scheduling and Unit Commitment:
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
