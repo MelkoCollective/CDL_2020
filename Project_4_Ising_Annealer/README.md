@@ -28,6 +28,12 @@ Another nice feature is implemented in the `common/ising_animator.py` file.
 * Perform thermal annealing to solve for the groundstate of disordered Ising models.
 * Apply what you have learned to solve the Hydrogen molecule groundstate.
 
+TODO: save at least one animation as gif, and put it here in readme.
+
+**Task 2:** In this task we investigate two 1D model - random bond nearest neighbor ising model and a fully connected mode. Our main focus here is the analysis of different temperature decay schedules to find out which one works best. We have considered schedules of exponential, hyperbolic, linear and polynomial shapes, and oscillating variations of thereof. (TODO: add figure here). The analysis shows, that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model (TODO: figure?). Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model.
+
+**Task 3:** In this task we look at the hydrogen molecule and show, that its hamiltonian can be written in polynomial form, i.e. it can be mapped to an ising model. (TODO: add something about 4-localness of this Hamiltonian). Then this ising model is used along with the software framework developed in previous tasks to find the ground state of the hydrogen molecule using simulated thermal annealing of the corresponding ising model. (TODO: figure and explanations). As an additional challenge, we also demonstrate, that this 4-local hamiltonian can be converted into a 2-local hamiltonian (QUBO) by adding variables, and then this can be executed against the Dwave machine. We validate the results of this approach and show that they are in line with the other solution. (TODO: figure here?)
+
 ## Further Challenges: 
 * Explore the annealing procedure on the Mattis glass.
 * Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
