@@ -1,13 +1,11 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 
 
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 
-## Step 1: Explain the technical problem you solved in this exercise
+## Explain the technical problem you solved in this exercise
 Simulated annealing is a probabilistic approach to determine the global optimum within large search spaces.  The inspiration for this originates from metallurgical annealing.  Annealing is the process of heating a metal and slowly lowering its temperature to decrease defects in the metal, which minimizes the energy of the system. The temperature will incrementally decline from an initial positive value to zero. The algorithm will randomly choose a solution close to the current solution and measures the viability before moving to that solution. 
 
-## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
+## Explain or provide examples of the types of real-world problems this solution can solve
 
 Aircraft Fleet Assignment:
 >The assignment of the right aircraft types to the correct flights to make the maximum profits for airlines is a critical part of the airline production schedule and organization. Through annealing, we can not only create appropriate flight segments to optimize the resource utilization of airlines. 
@@ -21,12 +19,12 @@ Generator Maintenance Scheduling and Unit Commitment:
 Finance:
 >Monte Carlo simulation is a widely used technique in derivatives pricing. It generates a series of random variables that have similar properties that represent a large number of possible scenarios along with their probabilities. Although Monte Carlo simulation is used relatively rare for pricing the underlying (which is a stock price), it is the main tool to price index options (e.g. S&P500). Unlike single name options that are predominantly American and can be exercised at any time before the official expiration date, index options are mostly European style and can be exercised on an expiration date only. However, as almost any other method it has its drawbacks. The main disadvantage of MC simulation is that it is rather computationally expensive and slow if the number of scenarios is significantly large. I know the industry cases when that procedure can run through the whole night. Therefore any meaningful speedup would be highly beneficial for the financial industry. If I get it correctly, quantum algorithm can potentially provide a quadratic speedup for the Monte Carlo. Therefore, virtually all financial firms involved in the options trading would be desperate to become a client. Those firms can be divided in 2 groups: large investment banks and proprietary trading firms. Most prominent investment banks are Goldman Sachs, JP Morgan, Morgan Stanley, Citi Group, etc. They have huge resources but in the same time are relatively bureaucratic and I would not expect them to become the first customers. Proprietary trading companies include names like Optiver, IMC, Jump trading, Flow traders, etc. Those firms are relatively small but ultimately efficient in implementing novel technologies. As such, I would expect them to become the initial customers.
 
-## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
+## Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
 Examples: 
 - Federal Express
 - Canada Post
 
-## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
+## Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
