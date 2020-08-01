@@ -38,6 +38,9 @@ Example: By travelling to all destinations via the shortest route, a courier can
 
 ### References 
 1.) https://www.iata.org/en/pressroom/pr/2020-06-09-01/
+
 2.) https://www.newswire.ca/news-releases/air-canada-reports-first-quarter-2020-results-828228130.html
+
 3.) https://www.intechopen.com/books/simulated-annealing-advances-applications-and-hybridizations/applications-of-simulated-annealing-based-approaches-to-electric-power-systems
+
 4.) https://www.cbc.ca/news/business/air-canada-financial-results-1.5554267
