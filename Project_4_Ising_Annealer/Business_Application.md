@@ -21,11 +21,12 @@ Finance:
 
 ## Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-Crew schedule planning is a periodic human resource planning ritual all airlines participate in to ensure their flights are assigned qualified and adequately rested pilots capable of safely operating the aircraft. 
+Crew schedule planning is a periodic human resource ritual all airlines participate in to ensure their flights are assigned qualified and adequately rested pilots capable of safely operating the aircraft. 
 
 Airlines generate flight schedules twice a year, one per season with transitions at daylight savings time to accommodate for seasonal demand and market adjustments.  
 
 Trip Generation creates routes using the aircraft routing for assigning to pilots and flight attendants during the Trip Assignment process.  The complexity grows with an increasing number of aircraft. A small fleet comprised of one or two jetliners is handled manually. However, at a fleet size of 10, the problem begins to require automation and optimization becomes necessary.
+
 
 
 ## Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
