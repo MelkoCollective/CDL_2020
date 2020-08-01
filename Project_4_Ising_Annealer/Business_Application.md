@@ -21,7 +21,7 @@ Finance:
 
 ## Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
->Crew schedule planning is a periodic human resource ritual all airlines participate in to ensure their flights are assigned qualified and adequately rested pilots capable of safely operating the aircraft. 
+>Crew schedule planning is a periodic human resource ritual all airlines participate in; to ensure their flights are assigned qualified and adequately rested pilots capable of safely operating the aircraft. 
 
 >Airlines generate flight schedules twice a year, one per season with transitions at daylight savings time to accommodate for seasonal demand and market adjustments.  
 
