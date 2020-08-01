@@ -34,7 +34,7 @@ Finance:
 
 ### Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+[![Introduction](../figures/video.png)](https://youtu.be/rP7bfcmLl48)
 
 ### References 
 1.) https://www.iata.org/en/pressroom/pr/2020-06-09-01/
