@@ -74,3 +74,7 @@ In [Task_3](./Task_3.ipynb) our class `GeneralizedIsingModel` allows preparation
 We find that an exponential annealing schedule is good enough to find the exact solution for all bond lengths.
 
 ![](figures/h2_4local.png)
+
+We also try a 2-local version of the same problem and find reasonable agreement with the 4-local version:
+
+![](figures/h2_2local.png)
