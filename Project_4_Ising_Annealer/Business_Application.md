@@ -27,6 +27,7 @@ Finance:
 
 >Trip Generation creates routes assigned to pilots and flight attendants during the Trip Assignment process. The complexity grows with an increasing number of aircraft. A small fleet comprised of one or two jetliners is handled manually. However, at a fleet size of 10, the problem begins to require automation where optimization becomes necessary.
 
+>The airline industry will lose upwards of 84billion as a result of COVID-19.  Organizations like air Canada have begun to reduce cost structure and reduce fleets as a way to curb the bleeding. With the dynamics of the world shifting so regularly, we believe a solution that can help expedite and optimize resource management relative to present realities can help in making better operational decisions. 
 
 
 ## Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
