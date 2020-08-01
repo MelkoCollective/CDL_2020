@@ -57,8 +57,8 @@ To benchmark different schedules for different models, we also considered a hybr
 <img src="media/hybrid_schedule.png" width="400"/>
 </p>  
 
-The analysis shows (see our [Task 2 jupyter notebook](./Task_2.ipynb) for details) that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model.  
-(**Challenge 1**) Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model.
+The analysis shows (see our [Task 2 jupyter notebook](./Task_2.ipynb) for details) that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model.   
+(**Challenge 1**) Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model ("glass"). This challenge is implemented in the same jupyter notebook for Task 2. As expected, at the end of the annealing procedure we confirm that we've found the ground state by checking that 𝜉i is equal to  𝜎𝑖  up to a global sign, i.e. if we multiply the spin configuration elementwise with 𝜉, we will get all 1s, or all -1s.
 
 **Task 3: Electronic Structure Calculations using Generalized Ising Hamiltonians**   
 In this task we look at the hydrogen molecule and show, that its hamiltonian can be written in polynomial form, i.e. as a generalized Ising model. Then this Ising model is used along with the software framework developed in previous tasks to find the ground state of the Hydrogen molecule using simulated thermal annealing of the corresponding Ising model. 
@@ -68,13 +68,14 @@ In this task we look at the hydrogen molecule and show, that its hamiltonian can
 </p>
 
 The left figure above shows the energies (exact and from simulated annealing results for the generalized Ising model) for different bond distances for Hydrogen molecule. The data for loading into our generalized Ising model are provided in the `./hamiltonians` folder (it would be good to have more data corresponding to smaller bond distances to see the familiar full curve and not only the minimum and the right part). As we can see there is a good correspondence.  
+
 (**Challenges 2 and 3**)   
 The right figure above is the comparison between:  
 - the exact model for full generalized 4-body Ising model,
 - the model run on the Dwave's commercial software,
 - and the `GeneralizedIsingModel` devised in this task.   
 
-(**Challenge 2**) The for the last two cases we have used the function `poly_to_quadratic` function implemented using `dimod.make_quadratic`.   
+For the last two cases we have used the function `poly_to_quadratic` function implemented using `dimod.make_quadratic`(**Challenge 2)**.   
 As can be seen they are all in line with the other solutions.  
 See more details on the code implementations and demos in our [Task 3 jupyter notebook](./Task_3.ipynb).
 
