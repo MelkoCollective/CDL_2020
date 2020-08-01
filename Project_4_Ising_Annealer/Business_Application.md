@@ -10,7 +10,7 @@ This week’s project focuses on finding the lowest energy of a system/body usin
 
 The utilization of Monte Carlo simulations and applications is found in widely (interdisciplinary)disparate fields and areas in chemistry, molecular dynamics, quantum physics, Ising model, electron dynamics, finance and business, telecommunications, remote sensing.
 #### Biotechnology
->> Application of Monte Carlo Simulation in Optical Tweezers in Biotechnology has become an indispensable tool for quantitatively studying life processing and transforming life activities. It has applications in cancer cell sorting, enabling the identification of healthy or cancerous cells.
+Application of Monte Carlo Simulation in Optical Tweezers in Biotechnology has become an indispensable tool for quantitatively studying life processing and transforming life activities. It has applications in cancer cell sorting, enabling the identification of healthy or cancerous cells.
 
 #### Food Safety 
 Using predictive microbiology and the Monte Carlo simulation for assessing the level of exposure of a hazard. Helping the production of safer foodstuff and reducing the number of food borne illnesses.
