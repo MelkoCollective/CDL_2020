@@ -25,7 +25,7 @@ Crew schedule planning is a periodic human resource ritual all airlines particip
 
 Airlines generate flight schedules twice a year, one per season with transitions at daylight savings time to accommodate for seasonal demand and market adjustments.  
 
-Trip Generation creates routes using the aircraft routing for assigning to pilots and flight attendants during the Trip Assignment process.  The complexity grows with an increasing number of aircraft. A small fleet comprised of one or two jetliners is handled manually. However, at a fleet size of 10, the problem begins to require automation and optimization becomes necessary.
+Trip Generation creates routes using the aircraft routing for assigning to pilots and flight attendants during the Trip Assignment process.  The complexity grows with an increasing number of aircraft. A small fleet comprised of one or two jetliners is handled manually. However, at a fleet size of 10, the problem begins to require automation where optimization becomes necessary.
 
 
 
