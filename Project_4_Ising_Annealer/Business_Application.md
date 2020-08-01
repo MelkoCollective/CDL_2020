@@ -8,7 +8,7 @@ Simulated annealing is a probabilistic approach to determine the global optimum 
 ## Explain or provide examples of the types of real-world problems this solution can solve
 
 Aircraft Fleet Assignment:
->The assignment of the right aircraft types to the correct flights to make the maximum profits for airlines is a critical part of the airline production schedule and organization. Through annealing, we can not only create appropriate flight segments to optimize the resource utilization of airlines. 
+>The assignment of the right aircraft types to the correct flights to make the maximum profits for airlines is a critical part of the airline production schedule and organization. Through annealing we can create appropriate flight segments to optimize the resource utilization of airlines. 
 
 Reactive Power Planning:
 >Reactive power planning seeks to optimize the allocation of reactive power sources in a power system based on location and size. The goal of power planning is to minimize the cost of new power supplies. 
