@@ -8,7 +8,7 @@ For very brief introduction to the main ideas behind the project, and the basics
 And in the [Project 4 Landing Page](./Project4_LandingPage.pdf),a more technical information on the Ising Hamiltonians is provided.
 
 ## Tasks:
-**Task 1:**   
+**Task 1: 2D ferromagnetic Ising Model**   
 In this task we are given a solution to an MC simulation that employs MH algorithm for 2D ferromagnetic (J>0) Ising Model on square lattice with periodic boundary conditions (PBCs).  
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=H=-J\sum_{<i,j>}\sigma_i\sigma_j" width="200">  
@@ -21,10 +21,8 @@ The probability distribution of the Ising model at temperature T is given by the
 
 where Z(T) is the normalization constant (also known as the partition function), <img src="https://render.githubusercontent.com/render/math?math=\sigma" width="15"> describes one of (exponentially) many possible microscopic configurations that the system can be in, H is the corresponding energy (Hamiltonian). So the goal is to sample configurations from the distribution P. As the partition function requires exponential resources to compute, the MH algorithm is employes instead as approximation to original problem. 
 
-In our [Task 1 jupyter notebook](./Task_1.ipynb) the procedure is implemented using initial and final temperatures T=100 and T=0.01, respectively with exponentially decaying schedule 
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=T(t)=T_{\text{init}}\Big(\frac{T_{\text{fin}}}{T_{\text{init}}}\Big)^{t/N} \hspace{1cm} t=[0,1,2,\ldots, N]" width="400">
-</p> 
+In our [Task 1 jupyter notebook](./Task_1.ipynb) the procedure is implemented using initial and final temperatures T=100 and T=0.01, respectively with exponentially decaying schedule. 
+
 The notebook contains the object `Ising2DPBC` which creates an instance of an ising model by specifying the 2D grid and the parameter J. This object can compute the energy for the specified system and the energy difference that results from flipping one of the sites in the grid. The object `Ising2DPBC` inherits from the `AbstractIsing` parent class implemented in the `common/abstract_ining.py` file which also performs the Monte-Carlo step using Metropolis-Hastings algorithm.  
 Another nice feature is implemented in the `common/ising_animator.py` file. It creates an animation of the Ising Lattice simulation following the given annealing schedule. Here is an animation of the 2D Ising model:  
 
@@ -32,8 +30,8 @@ Another nice feature is implemented in the `common/ising_animator.py` file. It c
  
 
 
-**Task 2:**   
-In this task we investigate two 1D models - random bond nearest neighbor ising model  
+**Task 2: 1D random bond nearest neighbor, and random bond fully connected Ising models**   
+In this task we investigate two 1D models - random bond nearest neighbor Ising model  
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=H=J\sum_{<i,j>}B_{ij}\sigma_i\sigma_j" width="200">
@@ -59,15 +57,28 @@ To benchmark different schedules for different models, we also considered a hybr
 <img src="media/hybrid_schedule.png" width="400"/>
 </p>  
 
-The analysis shows (see our [Task 2 jupyter notebook](./Task_2.ipynb) for details) that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model. Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model.
+The analysis shows (see our [Task 2 jupyter notebook](./Task_2.ipynb) for details) that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model.  
+(**Challenge 1**) Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model.
 
-**Task 3:**   
-In this task we look at the hydrogen molecule and show, that its hamiltonian can be written in polynomial form, i.e. it can be mapped to an ising model. (TODO: add something about 4-localness of this Hamiltonian). Then this ising model is used along with the software framework developed in previous tasks to find the ground state of the hydrogen molecule using simulated thermal annealing of the corresponding ising model. (TODO: figure and explanations). As an additional challenge, we also demonstrate, that this 4-local hamiltonian can be converted into a 2-local hamiltonian (QUBO) by adding variables, and then this can be executed against the Dwave machine. We validate the results of this approach and show that they are in line with the other solution. (TODO: figure here?)
+**Task 3: Electronic Structure Calculations using Generalized Ising Hamiltonians**   
+In this task we look at the hydrogen molecule and show, that its hamiltonian can be written in polynomial form, i.e. as a generalized Ising model. Then this Ising model is used along with the software framework developed in previous tasks to find the ground state of the Hydrogen molecule using simulated thermal annealing of the corresponding Ising model. 
+
+<p align="center">
+<img src="./media/mc_and_exact.png" width="400"/>  <img src="./media/energies_comparison.png" width="400"/>
+</p>
+
+The left figure above shows the energies (exact and from simulated annealing results for the generalized Ising model) for different bond distances for Hydrogen molecule. The data for loading into our generalized Ising model are provided in the `./hamiltonians` folder (it would be good to have more data corresponding to smaller bond distances to see the familiar full curve and not only the minimum and the right part). As we can see there is a good correspondence.  
+(**Challenges 2 and 3**)   
+The right figure above is the comparison between:  
+- the exact model for full generalized 4-body Ising model,
+- the model run on the Dwave's commercial software,
+- and the `GeneralizedIsingModel` devised in this task.   
+
+(**Challenge 2**) The for the last two cases we have used the function `poly_to_quadratic` function implemented using `dimod.make_quadratic`.   
+As can be seen they are all in line with the other solutions.  
+See more details on the code implementations and demos in our [Task 3 jupyter notebook](./Task_3.ipynb).
 
 ## Further Challenges: 
-* Explore the annealing procedure on the Mattis glass.
-* Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
-* Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
 * Go wild and try thermal annealing on your favorite NP-hard problem!
 
 ## Business Application
