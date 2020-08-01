@@ -29,7 +29,15 @@ Finance:
 
 >The airline industry will lose upwards of 84billion as a result of COVID-19.  Organizations like air Canada have begun to reduce cost structure and reduce fleets as a way to curb the bleeding. With the dynamics of the world shifting so regularly, we believe a solution that can help expedite and optimize resource management relative to present realities can help in making better operational decisions. 
 
+>Though difficult, we believe that if the Job To Be Done is understood well and the solution implemented well, we can help improve the value chain in these uncertain times and better situate airlines to remain viable. 
+
 
 ## Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+
+## References 
+1.) https://www.iata.org/en/pressroom/pr/2020-06-09-01/
+2.) https://www.newswire.ca/news-releases/air-canada-reports-first-quarter-2020-results-828228130.html
+3.) https://www.intechopen.com/books/simulated-annealing-advances-applications-and-hybridizations/applications-of-simulated-annealing-based-approaches-to-electric-power-systems
+4.) https://www.cbc.ca/news/business/air-canada-financial-results-1.5554267
