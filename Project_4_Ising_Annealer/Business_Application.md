@@ -34,7 +34,7 @@ Finance:
 
 ### Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-[![Introduction](../figures/video.png)](https://youtu.be/rP7bfcmLl48)
+[![Introduction](../figures/embed.png)](https://youtu.be/rP7bfcmLl48)
 
 ### References 
 1.) https://www.iata.org/en/pressroom/pr/2020-06-09-01/
