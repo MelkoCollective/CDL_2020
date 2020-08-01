@@ -88,6 +88,109 @@ class GroundStateEnergy:
 
     def get_g_values(self,R):
         return(self.coeffs[R][0])
+    
+    # Given 2 binary spins state for a given R (which can be obtained by a ising solver of your choice),
+    # calculate the ground state energy
+    def get_energy_from_binary_spins(self,R,x0,x1):
+        
+        g_values = self.get_g_values(R)
+        g3_addition = g_values['g3add']
+        g0 = g_values['g0']
+        g1 = g_values['g1']
+        g2 = g_values['g2']
+        g3 = g_values['g3']
+
+        q_coeff = self.get_qubo_coeffs(R)
+        a1 = q_coeff['a1']
+        a2 = q_coeff['a2']
+        a3 = q_coeff['a3']
+        
+        Y = 4 * x0 * x1 + (2*a2 - 2*a3) * x0 + (2*a2-2*a3) * x1 + a3 - 2*a2 + a1
+
+        # convert x0,x1 to ising spins 
+        
+        sz0 = ( 2 * x0 ) -1 
+        sz1 = ( 2 * x1 ) -1 
+
+        # Get hx1 and hx2 in :
+        # hx**2 + 2*g3*hx = Y
+        # a = 1, b = 2g3, c = -Y
+        
+        a = 1
+        b = 2 * g3
+        c = -Y
+
+        #print("a,b,c,b**2-4*a*c : ", a,b,c,b**2-4*a*c)
+        
+        # Solve H1 for x (minimum of the two possibilities)
+        hx1 = ( -b + np.sqrt(b**2-4*a*c)) / (2 * a ) 
+        hx2 = ( -b - np.sqrt(b**2-4*a*c)) / (2 * a ) 
+
+        if ( hx2 < hx1):
+            swp = hx2
+            hx2 = hx1
+            hx1 = swp
+
+        # Add g3_addition to hx1
+        hx1 += g3_addition
+        H0_ver = (g1 * sz0) + (g2 * sz1) + (g3 * sz0 * sz1) 
+        H0 = hx1
+        H = H0 + g0
+
+        return (H)
+
+        
+        
+    # Given 2 spins state for a given R (which can be obtained by a ising solver of your choice),
+    # calculate the ground state energy
+    def get_energy_from_ising_spins(self,R,sz0,sz1):
+
+        g_values = self.get_g_values(R)
+        g3_addition = g_values['g3add']
+        g0 = g_values['g0']
+        g1 = g_values['g1']
+        g2 = g_values['g2']
+        g3 = g_values['g3']
+
+        q_coeff = self.get_qubo_coeffs(R)
+        a1 = q_coeff['a1']
+        a2 = q_coeff['a2']
+        a3 = q_coeff['a3']
+        
+        # Step 4: Calculate Y = ( a1 + a2( sz0 + sz1 ) + a3 (sz0*sz1))
+        Y = ( a1 + a2 * ( sz0 + sz1 ) + a3 * (sz0 * sz1))
+
+        # Convert to get x0,x1
+        #x0 = (sz0 + 1) / 2
+        #x1 = (sz1 + 1) / 2
+
+        # Get hx1 and hx2 in :
+        # hx**2 + 2*g3*hx = Y
+        # a = 1, b = 2g3, c = -Y
+
+        a = 1
+        b = 2 * g3
+        c = -Y
+
+        #print("a,b,c,b**2-4*a*c : ", a,b,c,b**2-4*a*c)
+        
+        # Solve H1 for x (minimum of the two possibilities)
+        hx1 = ( -b + np.sqrt(b**2-4*a*c)) / (2 * a ) 
+        hx2 = ( -b - np.sqrt(b**2-4*a*c)) / (2 * a ) 
+
+        if ( hx2 < hx1):
+            swp = hx2
+            hx2 = hx1
+            hx1 = swp
+
+        # Add g3_addition to hx1
+        hx1 += g3_addition
+        H0_ver = (g1 * sz0) + (g2 * sz1) + (g3 * sz0 * sz1) 
+        H0 = hx1
+        H = H0 + g0
+        
+        return(H)
+
 
     def solve_ising(self,R,samples,exact,verbose,useQPU=False,useHyb=False,useNeal=False,useTabu=False):
         return self.solve(R,False,samples,exact,verbose,useQPU,useHyb,useNeal,useTabu)
@@ -211,6 +314,8 @@ class GroundStateEnergy:
                 if (verbose==True): print("x0,x1,ener : ",x0,x1,energy)
                 break
 
+            H_b = self.get_energy_from_binary_spins(R,x0,x1)
+            
             Y = 4 * x0 * x1 + (2*a2 - 2*a3) * x0 + (2*a2-2*a3) * x1 + a3 - 2*a2 + a1
 
             # convert x0,x1 to ising spins 
@@ -232,6 +337,8 @@ class GroundStateEnergy:
                 if (verbose==True): print("sz0,sz1,ener : ",sz0,sz1,energy)
                 break
 
+            H_b = self.get_energy_from_ising_spins(R,sz0,sz1)
+            
             # Step 4: Calculate Y = ( a1 + a2( sz0 + sz1 ) + a3 (sz0*sz1))
             Y = ( a1 + a2 * ( sz0 + sz1 ) + a3 * (sz0 * sz1))
 
@@ -264,4 +371,7 @@ class GroundStateEnergy:
         H0 = hx1
         H = H0 + g0
 
+        assert( H_b == H )
+        
         return (H)
+
