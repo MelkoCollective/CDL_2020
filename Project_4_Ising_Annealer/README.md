@@ -72,3 +72,5 @@ Overall we found that none of our fancier methods could really outperform vanill
 In [Task_3](./Task_3.ipynb) our class `GeneralizedIsingModel` allows preparation of an arbitray model, not just limited to 4-locality.
 
 We find that an exponential annealing schedule is good enough to find the exact solution for all bond lengths.
+
+![](figures/h2_4local.png)
