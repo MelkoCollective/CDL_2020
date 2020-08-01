@@ -16,6 +16,7 @@ Reactive Power Planning:
 >Reactive power planning seeks to optimize the allocation of reactive power sources in a power system based on location and size. The goal of power planning is to minimize the cost of new power supplies. 
 
 Generator Maintenance Scheduling and Unit Commitment:
+>Generators require a maintenance schedule that is critical to their economics and reliable operation. Preventative maintenance will prevent premature aging and the failure of generators in power systems. Unplanned and costly power outages are preventable by employing regular maintenance schedules.  Annealing can be a powerful tool when it comes to determining the optimal maintenance schedule for the machines. 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
