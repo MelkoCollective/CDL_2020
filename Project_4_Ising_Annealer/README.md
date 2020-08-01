@@ -12,7 +12,7 @@
 ## Tasks include:
 
 * [Task 2:](./Group2-Task2.ipynb)
-* [Task 3:](./Group2-Task3.ipynb)
+* [Task 3:](./Task_3.ipynb)
 
 ## Further Challenges: 
 
