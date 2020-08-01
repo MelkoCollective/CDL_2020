@@ -1,6 +1,6 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 
-#PathFinder: Airline Routing
+# PathFinder: Airline Routing
 
 ## Explain the technical problem you solved in this exercise
 Simulated annealing is a probabilistic approach to determine the global optimum within large search spaces.  The inspiration for this originates from metallurgical annealing.  Annealing is the process of heating a metal and slowly lowering its temperature to decrease defects in the metal, which minimizes the energy of the system. The temperature will incrementally decline from an initial positive value to zero. The algorithm will randomly choose a solution close to the current solution and measures the viability before moving to that solution. 
