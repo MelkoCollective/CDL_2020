@@ -38,10 +38,9 @@ Monte Carlo simulations approach provide one of the most powerful, efficient met
 Quantum computers can provide an advantage in energy system optimization. As OE has continued investing in research and development of advanced technologies, it will be a smart move for them to partner with quantum computing companies to leverage the power of quantum computers in grid modernization for an enormous increase in efficiency of electric power systems.
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S0360544219308254-egi10GR9GX6313_lrg.jpg) 
 
+## Video
 
-
-
-## Here is a 90 second video explaining the value proposition of our innovation to potential customer in non-technical language
+https://drive.google.com/file/d/1LxFI78JVIp-8BEODgQk53MeyQHmGzMuO/view?usp=sharing
 
 ## References
 
