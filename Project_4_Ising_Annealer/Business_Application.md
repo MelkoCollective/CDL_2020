@@ -3,12 +3,13 @@
 
 ## Summary of the technical problem solved in this exercise
 
-This week’s project focuses on finding the lowest energy of a system/body using thermal annealing Monte Carlo methods. Thermal annealing exploits thermal fluctuations to discover the ground state of a system. The Monte Carlo method has proven to be very efficient computational technique in attaining approximate numerical solutions to systems which are complex and difficult to solve analytically. Monte Carlo Simulation is iterative computational method used to examine and investigate the behavior of physical and mathematical systems utilizing random techniques.
+This week’s project focuses on finding the lowest energy of a system or body using thermal annealing Monte Carlo methods. Thermal annealing exploits thermal fluctuations to discover the ground state of a system. The Monte Carlo method has proven to be very efficient computational technique in attaining approximate numerical solutions to systems which are complex and difficult to solve analytically. Monte Carlo Simulation is iterative computational method used to examine and investigate the behavior of physical and mathematical systems utilizing random techniques.
 
 
 ## Examples of the types of real-world problems this solution can solve
 
-The utilization of Monte Carlo simulations and applications is found in widely (interdisciplinary)disparate fields and areas in chemistry, molecular dynamics, quantum physics, Ising model, electron dynamics, finance and business, telecommunications, remote sensing.
+The utilization of Monte Carlo simulations and applications is found in interdisciplinary fields and areas in chemistry, quantum physics, Ising model, finance and business, telecommunications, and so forth.
+
 **Biotechnology** 
 >Application of Monte Carlo Simulation in Optical Tweezers in Biotechnology has become an indispensable tool for quantitatively studying life processing and transforming life activities. It has applications in cancer cell sorting, enabling the identification of healthy or cancerous cells.
 
@@ -35,7 +36,7 @@ Modernizing the grid to make it “smarter” and more robust through the use of
 Monte Carlo simulations approach provide one of the most powerful, efficient methods to evaluate the reliability of the power distribution grids.
 
 Quantum computers can provide an advantage in energy system optimization. As OE has continued investing in research and development of advanced technologies, it will be a smart move for them to partner with quantum computing companies to leverage the power of quantum computers in grid modernization for an enormous increase in efficiency of electric power systems.
-![](energysystems.jpg)
+![](../downloads/energysystems.jpg) 
 
 
 
