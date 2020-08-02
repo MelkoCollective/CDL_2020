@@ -58,6 +58,9 @@ To benchmark different schedules for different models, we also considered a hybr
 </p>  
 
 The analysis shows (see our [Task 2 jupyter notebook](./Task_2.ipynb) for details) that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model.   
+
+Timing of calculations for 10, 20, 21, 22, 50, 100 spins was done in [Google Colab notebook](./Week4_Task_123.ipynb) and clearly demonstrated that up to size 20 one can do a fast full-space calculation to obtain the exact ground state. Calculations above 25 are requiring too much memory to be done via brute force full-space calculations and after size 20 the annealing approach delivers the ground state energy much faster than full-space calculations.    
+
 (**Challenge 1**) Finally, we apply the obtained knowledge to a particular model of fully connected ising model, which is the Mattis model ("glass"). This challenge is implemented in the same jupyter notebook for Task 2. As expected, at the end of the annealing procedure we confirm that we've found the ground state by checking that 𝜉i is equal to  𝜎𝑖  up to a global sign, i.e. if we multiply the spin configuration elementwise with 𝜉, we will get all 1s, or all -1s.
 
 **Task 3: Electronic Structure Calculations using Generalized Ising Hamiltonians**   
@@ -67,7 +70,13 @@ In this task we look at the hydrogen molecule and show, that its hamiltonian can
 <img src="./media/mc_and_exact.png" width="400"/>  <img src="./media/energies_comparison.png" width="400"/>
 </p>
 
-The left figure above shows the energies (exact and from simulated annealing results for the generalized Ising model) for different bond distances for Hydrogen molecule. The data for loading into our generalized Ising model are provided in the `./hamiltonians` folder (it would be good to have more data corresponding to smaller bond distances to see the familiar full curve and not only the minimum and the right part). As we can see there is a good correspondence.  
+The left figure above shows the energies (exact and from simulated annealing results for the generalized Ising model) for different bond distances for Hydrogen molecule. The data for loading into our generalized Ising model are provided in the `./hamiltonians` folder (it would be good to have more data corresponding to smaller bond distances to see the familiar full curve and not only the minimum and the right part). As we can see there is a good correspondence.
+
+The importance of taking into account the 3-body and 4-body interactions in a multi-particle system is demonstrated in the figure below. The annealing was performed on the truncated Hamiltonian that contains only up-to 2-body interaction terms to determine the lowest energy configuration. Then the 3- and 4-body terms are evaluated as in first-order perturbation theory. The figure shows that at large distances where the 3- and 4-body interactions are small this recovers the correct ground state energy. However, as one moves close to R=1 A the results start to drift away from the correct ground state energy. For more details take a look at the [Google Colab notebook](./Week4_Task_123.ipynb).
+
+<p align="center">
+<img src="./media/H2in2b+3and4b_as_perturbation.png" width="400"/>
+</p>
 
 (**Challenges 2 and 3**)   
 The right figure above is the comparison between:  
