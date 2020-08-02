@@ -17,8 +17,8 @@ You will find the following files for tasks 1, 2, 3 here: [Task 1](./Task_1.ipyn
 Supporting the work for tasks 2 and 3 are the following additional python files:
 * [H2 2-Local Quantum Annealer](./CDL_DWaveH2QA.ipynb): Rework of a Week 1 Challenge to provide code to Task 2 and 3
 * [H2 Coefficients](./H2_coefficients_exact_simulated.csv): H2 2-Local coefficients table for the 2-Local annealer
-* [Quantum annealer classes](./quantum_H2_ising.py): Provides 2-local coefficients for task 2 
-* [Data set provider for Task 3/Challenge 4](./flightHelper.py): 
+* [Quantum annealer classes](./quantum_H2_ising.py): Provides 2-local coefficients for task 2, derived from quantum annealer work 
+* [TSP Annealer classes](./flightHelper.py): Data set provider for Task 3/Challenge 4, from hackathon work
 
 ## Tasks Summary
 
