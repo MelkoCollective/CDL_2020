@@ -39,3 +39,22 @@ For your pull request, consider the following for the presentation of your final
 [Business_Application.md](./Business_Application.md) file.
 - Do not directly upload your video file (or any other large files) to the repository.  Instead, provide a link e.g. to a YouTube video, or a Google Drive file.
 - Include a file contributions.md that lists the contributions of each group member.
+
+
+Task 3:
+In the notebook [Task 3]('./Task_3.ipynb') we explore using Monte Carlo simulation to olve the Ising model as applied to
+the Hydrogen molecule. This class has been written so that any dimension of Ising Hamiltonan can be passed to it, 
+meaning that we can solve any classically tractable chemical Hamiltonian using this method. We have used Monte Carlo
+sampling to  find the ground state energy and spin configuration for the Hydrogen molecule at a variety of bond 
+distances This, wen applied to larger molcules is a useful input into commercial applications such as drug or catalyst
+discovery.
+
+Challenge 4:
+In the [Challenge 4 notebook ]('./Challenge_4_Ising_Graph_Partition.ipynb') we have Hamiltonian which describes the 
+graph partition problem. In yhe Graph partition problem we age given an input graph and asked to find two equally-sized
+independent graphs. That means splitting the graph in to two equally sized sets of nodes with the fewest connections 
+between the two subsets. THis is an extremely inportant problem to solve, as it splits hard intractable graph problems 
+(such as the travelling salesman or Max-Cut) into two smaller problems which can be solved on classical or quantum
+ hardware. For example, this calssical sub routine can be used to find graphs which fit onto current quantum hardware, 
+ which would be otherwise unsolvable given the number of qubits currently available, allowing us to accelerate the time
+ needed to solve graph problems leveraging quantum hardware.
