@@ -9,7 +9,7 @@ This week’s project focuses on finding the lowest energy of a system/body usin
 ## Examples of the types of real-world problems this solution can solve
 
 The utilization of Monte Carlo simulations and applications is found in widely (interdisciplinary)disparate fields and areas in chemistry, molecular dynamics, quantum physics, Ising model, electron dynamics, finance and business, telecommunications, remote sensing.
-**Biotechnology**
+**Biotechnology**\\
 Application of Monte Carlo Simulation in Optical Tweezers in Biotechnology has become an indispensable tool for quantitatively studying life processing and transforming life activities. It has applications in cancer cell sorting, enabling the identification of healthy or cancerous cells.
 
 **Food Safety** 
