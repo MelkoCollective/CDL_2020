@@ -11,29 +11,39 @@ In our [Project4_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2
 we provide more technical information the Ising Hamiltonians involved.
 Click on this link to begin learning about your tasks for this week!
 
-## Tasks include:
+## Inventory
 
-- Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
-- Perform thermal annealing to solve for the groundstate of disordered Ising models.
-- Apply what you have learned to solve the Hydrogen molecule groundstate.
+You will find the following files for tasks 1, 2, 3 here: [Task 1](./Task_1.ipynb), [Task 2](./Task_2.ipynb), [Task 3](./Task_3-Challenge4.ipynb) 
 
-## Further Challenges:
+Supporting the work for tasks 2 and 3 are the following additional python files:
+* [H2 2-Local Quantum Annealer](./CDL_DWaveH2QA.ipynb): Rework of a Week 1 Challenge to provide code to Task 2 and 3
+* [H2 Coefficients](./H2_coefficients_exact_simulated.csv): H2 2-Local coefficients table for the 2-Local annealer
+* [Quantum annealer classes](./quantum_H2_ising.py): Provides 2-local coefficients for task 2, derived from quantum annealer work 
+* [TSP Annealer classes](./flightHelper.py): Data set provider for Task 3/Challenge 4, imported from hackathon 2020 work by Enigma
 
-- Explore the annealing procedure on the Mattis glass.
+## Tasks Summary
 
-          We have explored this challenge, please consult the results section.
+### Task 1 - Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
+* Work:         We started with the original task 1 code and created a new version [Task 1](./Task_1.ipynb)
+* Notes:        Task 1 code provided a framework to use Monte Carlo on our own customized models
 
-- Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
+### Task 2 - Perform thermal annealing to solve for the groundstate of disordered Ising models.
+* Work:         Using the original task 2 code we created a new version [Task 2](./Task_2.ipynb). 
+* Notes:        Challenge 1 is addressed in this task.     
 
-          We have created a 2-Local Ising Hamiltonian, please consult the results section.
-          
-- Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
+### Task 3 - Apply what you have learned to solve the Hydrogen molecule groundstate.
+* Work:         Using task 3 code, augmented with previous work done during CDL 2020 we created [Task 3](./Task_3-Challenge4.ipynb) 
+* Notes:        Use [Task_3-Challenge4](./Task_3-Challenge4.ipynb) as it includes a section for addressing challenge 4 for task 3.
 
-          We have included a DWave Anneal for the H2 Molecule implementing a 2-Local Ising Hamiltonian, please see the results section.
-          
-- Go wild and try thermal annealing on your favorite NP-hard problem!
+### Challenge 1 - Explore the annealing procedure on the Mattis glass. 
+* See [Task 2](./Task_2.ipynb)
+### Challenge 2 - Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
+* See [Task 3](./Task_3-Challenge4.ipynb)
+### Challenge 3 - Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
+* See [Task 3](./Task_3-Challenge4.ipynb)
+### Challenge 4 - Go wild and try thermal annealing on your favorite NP-hard problem!
+* See [Task 3](./Task_3-Challenge4.ipynb)
 
-          We have attempted to implement a demonstration solver for a routing problem using 4 nodes. Please see the results section.
 
 ## Business Application
 
@@ -89,3 +99,28 @@ We find that an exponential annealing schedule is good enough to find the exact 
 We also try a 2-local version of the same problem and find reasonable agreement with the 4-local version:
 
 ![](figures/h2_2local.png)
+
+### Applying `GeneralizedIsingModel` to a routing problem (TSP inspired)
+
+We attempted to apply our class `GeneralizedIsingModel` to a Travelling Salesman inspired problem in aviation, where one want to assemble a sequence of segments into one or more cycles with specific constraints. 
+
+To do this we imported a 4 node use case from previous work that looks like this: 
+
+![](figures/chal4_network.png)
+
+We then  mapped it to 20 qubit (4x4 nodes + 4 utility bits) and used our `GeneralizedIsingModel` to implement constraints using E0,h,J,K,L as inputs. The inputs were generated from Ising Hamiltonians created for each constraint.
+
+#### Outcome and commentary
+
+We found that attempting to code constraints using ising -1/+1 proved very difficult for this type of problem. One needs to be able to treat nodes as "selected" or "not selected" more suited to a binary method (1=selected, 0=not) so that non-selected nodes do not contribute to cost functions, whereas -1/+1 always seemed to cancel out each other providing for no control over the direction of the solution.
+
+To solve this, we added a "binary" option to `GeneralizedIsingModel` so that spins can be used as 0/1 *only* for the energy calculation. This provide good traction and the result of this work is available in [Task 3](./Task_3-Challenge4.ipynb)
+
+#### Potential improvements
+
+The Monte Carlo process (as we have it implemented) does not memorize the best solution encountered. As it moves in its final steps, moving away from its latest best to look for a better solutions, it can end up with a less optimum final solution merely because the anneal ended discovery prematurely.
+
+A "keep best" process would allow better performance for routing problems so that one can obtain the nest energy and associated spins. 
+
+Finally, the starting point of the anneal. Although random start is perfectly fine when you trust the process is bound to find the best outcome, for large routing problems, the ability to prepare an initial state from established methods (such as pre-sorting segments in a general natural flow) may yeild better results as the anneal would spend more productive time at high temparature searching for better results.
+
