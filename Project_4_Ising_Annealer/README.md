@@ -35,18 +35,14 @@ Supporting the work for tasks 2 and 3 are the following additional python files:
 * Work:         Using task 3 code, augmented with previous work done during CDL 2020 we created [Task 3](./Task_3-Challenge4.ipynb) 
 * Notes:        Use [Task_3-Challenge4](./Task_3-Challenge4.ipynb) as it includes a section for addressing challenge 4 for task 3.
 
-### Further Challenges:
-
-- Explore the annealing procedure on the Mattis glass.
-
-
-- Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
-
-          
-- Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
-
-          
-- Go wild and try thermal annealing on your favorite NP-hard problem!
+### Challenge 1 - Explore the annealing procedure on the Mattis glass. 
+* See [Task 2](./Task_2.ipynb)
+### Challenge 2 - Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
+* See [Task 3](./Task_3-Challenge4.ipynb)
+### Challenge 3 - Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
+* See [Task 3](./Task_3-Challenge4.ipynb)
+### Challenge 4 - Go wild and try thermal annealing on your favorite NP-hard problem!
+* See [Task 3](./Task_3-Challenge4.ipynb)
 
 
 ## Business Application
