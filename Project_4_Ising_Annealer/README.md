@@ -110,3 +110,17 @@ To do this we imported a 4 node use case from previous work that looks like this
 
 We then  mapped it to 20 qubit (4x4 nodes + 4 utility bits) and used our `GeneralizedIsingModel` to implement constraints using E0,h,J,K,L as inputs. The inputs were generated from Ising Hamiltonians created for each constraint.
 
+#### Outcome and commentary
+
+We found that attempting to code constraints using ising -1/+1 proved very difficult for this type of problem. One needs to be able to treat nodes as "selected" or "not selected" more suited to a binary method (1=selected, 0=not) so that non-selected nodes do not contribute to cost functions, whereas -1/+1 always seemed to cancel out each other providing for no control over the direction of the solution.
+
+To solve this, we added a "binary" option to `GeneralizedIsingModel` so that spins can be used as 0/1 *only* for the energy calculation. This provide good traction and the result of this work is available in [Task 3](./Task_3-Challenge4.ipynb)
+
+#### Potential improvements
+
+The Monte Carlo process (as we have it implemented) does not memorize the best solution encountered. As it moves in its final steps, moving away from its latest best to look for a better solutions, it can end up with a less optimum solution merely because the anneal ended. 
+
+A "keep best" process would allow better performance for routing problems so that one can obtain the nest energy and associated spins. 
+
+Finally, the starting point of the anneal. Although random start is perfectly fine when you trust the process is bound to find the best outcome, for large routing problems, the ability to prepare an initial state from established methods (such as pre-sorting segments in a general natural flow) may yeild better results as the anneal would spend more productive time at high temparature searching for better results.
+
