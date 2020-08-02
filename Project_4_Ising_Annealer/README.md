@@ -23,21 +23,15 @@ Supporting the work for tasks 2 and 3 are the following additional python files:
 
 ## Tasks Summary
 
-### Task 1
-
-* Description:  Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
+### Task 1 - Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
 * Work:         We started with the original task 1 code and created a new version [Task 1](./Task_1.ipynb)
 * Notes:        Task 1 code provided a framework to use Monte Carlo on our own customized models
 
-### Task 2
-
-* Description:  Perform thermal annealing to solve for the groundstate of disordered Ising models.
+### Task 2 - Perform thermal annealing to solve for the groundstate of disordered Ising models.
 * Work:         Using the original task 2 code we created a new version [Task 2](./Task_2.ipynb). 
 * Notes:        Challenge 1 is addressed in this task.     
 
-### Task 3
-
-* Description:  Apply what you have learned to solve the Hydrogen molecule groundstate.
+### Task 3 - Apply what you have learned to solve the Hydrogen molecule groundstate.
 * Work:         Using task 3 code, augmented with previous work done during CDL 2020 we created [Task 3](./Task_3-Challenge4.ipynb) 
 * Notes:        Use Task_3-Challenge4 as it includes a section for addressing challenge 4 for task 3.
 
