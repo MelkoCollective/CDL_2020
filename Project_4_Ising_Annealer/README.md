@@ -14,6 +14,7 @@ Click on this link to begin learning about your tasks for this week!
 ## Inventory
 
 You will find the following files for tasks 1, 2, 3 here: [Task 1](./Task_1.ipynb), [Task 2](./Task_2.ipynb), [Task 3](./Task_3-Challenge4.ipynb) 
+
 Supporting the work for tasks 2 and 3 are the following additional python files:
 * [H2 2-Local Quantum Annealer](./CDL_DWaveH2QA.ipynb): Rework of a Week 1 Challenge to provide code to Task 2 and 3
 * [H2 Coefficients](./H2_coefficients_exact_simulated.csv): H2 2-Local coefficients table for the 2-Local annealer
@@ -32,12 +33,13 @@ Supporting the work for tasks 2 and 3 are the following additional python files:
 
 * Description:  Perform thermal annealing to solve for the groundstate of disordered Ising models.
 * Work:         Using the original task 2 code we created a new version [Task 2](./Task_2.ipynb). 
-* New Code:     
+* Notes:        Challenge 1 is addressed in this task.     
 
 ### Task 3
 
-- Apply what you have learned to solve the Hydrogen molecule groundstate.
-
+* Description:  Apply what you have learned to solve the Hydrogen molecule groundstate.
+* Work:         Using task 3 code, augmented with previous work done during CDL 2020 we created [Task 3](./Task_3-Challenge4.ipynb) 
+* Notes:        Use Task_3-Challenge4 as it includes a section for addressing challenge 4 for task 3.
 
 ### Further Challenges:
 
