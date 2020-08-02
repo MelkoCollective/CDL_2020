@@ -1,7 +1,7 @@
-Members who contributed to the week 4 cohort project:
+## Members who contributed to the week 4 cohort project:
 
-## Eunice Ofori-Addo
+#### Eunice Ofori-Addo
 Contributed to the business application.
 
-## Nick Allgood
+#### Nick Allgood
 Contributed to the technical tasks and challenges.
