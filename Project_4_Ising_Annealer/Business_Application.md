@@ -1,21 +1,15 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Business Application
 
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consider the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
-
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
-
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to do so.
+We have used a powerful optimisation algorithm called simulated annealing to find optimal solutions to the Ising model [1]. The Ising model was developed to describe the interaction of a collection of quantum spins, but it can be used to model many other problems. As examples, we have solved problems in materials science and chemistry by mapping them onto the Ising model. The two problems we have tackled are solving for the magnetisation in a certain class of materials called ferromagnets, and calculating the energy-landascape of the Hydrogen molecule as its being stretched. These problems are formulated in a quantum-inspired way, such that the software is easy to adapt to running on a quantum annealer instead of simulated annealing. Such powerful annealing devices are available from companies such as D-Wave [2] and Fujitsu [3]. 
+
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize travel time. (e.g., “the travelling salesman problem”).
+The Ising model provides a model for machine learning [4,5]. With our powerful algorithms to solve the Ising model we can provide new tools into the machine-learning toolkit, particularly for problems that are inspired by
+
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
@@ -26,3 +20,12 @@ Examples:
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+
+
+###Referecens
+
+[1] https://en.wikipedia.org/wiki/Ising_model
+[2] https://www.dwavesys.com/
+[3] https://www.fujitsu.com/global/services/business-services/digital-annealer/index.html
+[4] https://www.pnas.org/content/79/8/2554
+[5] https://link.springer.com/chapter/10.1007/978-3-642-61850-5_18
