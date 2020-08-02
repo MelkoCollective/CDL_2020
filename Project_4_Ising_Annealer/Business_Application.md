@@ -29,12 +29,12 @@ Monte Carlo simulation can be used to analyse electricity markets. Players in th
 
 ## Potential customer for this solution 
 Reliance of power systems is a key aspect in modern power system planning, design and operation. The American economy depend on the reliable delivery of electricity. According to the U.S Energy Information Administration Exit, the U.S power grid is made up of over 7,300 power plants, nearly 160,00 miles of high-voltage power lines, and millions of miles of low-voltage power lines and distribution transformers, connecting 145 million customers throughout the country. 
-![Energy Generation, Transmission and Distribution](transmission.jpg)
+![Energy Generation, Transmission and Distribution](transmission.png)
 
-The Office of Electricity(OE) is working to strengthen, transform and improve energy infrastructure to ensure access to secure and reliable  sources of energy.\\
+The Office of Electricity(OE) is working to strengthen, transform and improve energy infrastructure to ensure access to secure and reliable  sources of energy.\
 
 Modernizing the grid to make it “smarter” and more robust through the use of cutting-edge technologies. The emergence of the smart grid concept has provided high hopes of developing an intelligent network that is capable of being a self-healing grid, offering the ability to overcome the interruption problems that face the utility and cost it tens of millions in repair and loss. There is the need to examine models and applications in improving the reliability of power systems.
-Monte Carlo simulations approach provide one of the most powerful, efficient methods to evaluate the reliability of the power distribution grids. \\
+Monte Carlo simulations approach provide one of the most powerful, efficient methods to evaluate the reliability of the power distribution grids. \
 
 Quantum computers can provide an advantage in energy system optimization. As OE has continued investing in research and development of advanced technologies, it will be a smart move for them to partner with quantum computing companies to leverage the power of quantum computers in grid modernization for an enormous increase in efficiency of electric power systems.
 ![](energy_systems.jpg)
