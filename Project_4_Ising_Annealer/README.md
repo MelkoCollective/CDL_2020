@@ -118,7 +118,7 @@ To solve this, we added a "binary" option to `GeneralizedIsingModel` so that spi
 
 #### Potential improvements
 
-The Monte Carlo process (as we have it implemented) does not memorize the best solution encountered. As it moves in its final steps, moving away from its latest best to look for a better solutions, it can end up with a less optimum solution merely because the anneal ended. 
+The Monte Carlo process (as we have it implemented) does not memorize the best solution encountered. As it moves in its final steps, moving away from its latest best to look for a better solutions, it can end up with a less optimum final solution merely because the anneal ended discovery prematurely.
 
 A "keep best" process would allow better performance for routing problems so that one can obtain the nest energy and associated spins. 
 
