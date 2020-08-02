@@ -82,11 +82,13 @@ For the last two cases we have used the function `poly_to_quadratic` function im
 As can be seen they are all in line with the other solutions.  
 See more details on the code implementations and demos in our [Task 3 jupyter notebook](./Task_3.ipynb).
 
-The importance of taking into account the 3-body and 4-body interactions in a multi-particle system is demonstrated in the figure below. The annealing was performed on the truncated Hamiltonian that contains only up-to 2-body interaction terms to determine the lowest energy configuration. Then the 3- and 4-body terms are evaluated as in first-order perturbation theory. The figure shows that at large distances where the 3- and 4-body interactions are small this recovers the correct ground state energy. However, as one moves close to R=1 A the results start to drift away from the correct ground state energy. For more details take a look at the [Google Colab notebook](./Week4_Task_123.ipynb).
+The importance of taking into account the 3-body and 4-body interactions in a multi-particle system is demonstrated in the figure below. The annealing was performed on the truncated Hamiltonian that contains only up-to 2-body interaction terms to determine the lowest energy configuration. Then the 3- and 4-body terms are evaluated as in first-order perturbation theory. The figure shows that at large distances where the 3- and 4-body interactions are small this recovers the correct ground state energy. However, as one moves close to R=1 A the results start to drift away from the correct ground state energy. For more details take a look at the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.ipynb).
 
 <p align="center">
 <img src="./media/H2in2b+3and4b_as_perturbation.png" width="400"/>
 </p>
+
+At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.ipynb) we also test run up-to 3-body Hamiltonian for H2 generated using the tools from week2 [Week2_Hamiltonian_gen notebook](./Week2_Hamiltonian_gen.ipynb). Note that we had to use WJ mapping because the BK is has a bug as noticed in the week 2 cohort project notebooks. 
 
 ## Further Challenges: 
 * Go wild and try thermal annealing on your favorite NP-hard problem!
