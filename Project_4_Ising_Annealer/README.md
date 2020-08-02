@@ -20,13 +20,20 @@ Click on this link to begin learning about your tasks for this week!
 ## Further Challenges:
 
 - Explore the annealing procedure on the Mattis glass.
-      **We have explored this challenge, please consult the results section
+
+          **We have explored this challenge, please consult the results section**
+
 - Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
-      **We have created a 2-Local Ising Hamiltonian, please consult the results section
+
+          **We have created a 2-Local Ising Hamiltonian, please consult the results section**
+          
 - Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
-      **We have included a DWave Anneal for the H2 Molecule implementing a 2-Local Ising Hamiltonian, please see the results section
+
+          **We have included a DWave Anneal for the H2 Molecule implementing a 2-Local Ising Hamiltonian, please see the results section**
+          
 - Go wild and try thermal annealing on your favorite NP-hard problem!
-      **We have attempted to implement a demonstration solver for a routing problem using 4 nodes. Please see the results section
+
+          **We have attempted to implement a demonstration solver for a routing problem using 4 nodes. Please see the results section**
 
 ## Business Application
 
