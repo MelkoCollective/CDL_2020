@@ -93,7 +93,7 @@ At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.
 **Challenge 4:** 
 We have explored a few different problems using thermal annealing for NP-hard problem:
 
-1. Planning a trip from the current location of a rental car that has to visit specific cities in the USA is solved and visualized using the [Car Rental Schedule notebook](./Car_Rental_Schedule.ipynb). See the figure below for a trip from San Francisco to New Your City with few stops in popular destinations.
+1. Planning a trip from the current location of a rental car that has to visit specific cities in the USA is solved and visualized using the [Car Rental Schedule notebook](./Car_Rental_Trip.ipynb). See the figure below for a trip from San Francisco to New Your City with few stops in popular destinations.
 
 <p align="center">
 <img src="./media/SF2NY.png" width="400"/>
