@@ -13,7 +13,7 @@ Reproduced Hayk's notebooks within the Google Colab environment.
 Participated in the technical and business discussions and organized the README.md file accordingly. 
 
 ## Eduard Smetanin:
-Participated in the technical and business discussions.
+Designed jupyter notebook [TSP.ipynb](TSP.ipynb) that solves Traveling Salesman Problem as challenge 4.
 
 ## Tina Sebastian:
 Produced the Business_Application.md and the video pitch.
