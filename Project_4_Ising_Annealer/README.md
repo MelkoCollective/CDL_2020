@@ -99,3 +99,14 @@ We find that an exponential annealing schedule is good enough to find the exact 
 We also try a 2-local version of the same problem and find reasonable agreement with the 4-local version:
 
 ![](figures/h2_2local.png)
+
+### Applying `GeneralizedIsingModel` to a routing problem (TSP inspired)
+
+We attempted to apply our class `GeneralizedIsingModel` to a Travelling Salesman inspired problem in aviation, where one want to assemble a sequence of segments into one or more cycles with specific constraints. 
+
+To do this we imported a 4 node use case from previous work that looks like this: 
+
+![](figures/chal4_network.png)
+
+We then  mapped it to 20 qubit (4x4 nodes + 4 utility bits) and used our `GeneralizedIsingModel` to implement constraints using E0,h,J,K,L as inputs. The inputs were generated from Ising Hamiltonians created for each constraint.
+
