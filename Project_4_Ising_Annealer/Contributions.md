@@ -1,5 +1,5 @@
  
-# Members who contributed to the week 3 cohort project in this repository:
+# Members who contributed to the week 4 cohort project in this repository:
 
 ## Alexander Soare:
 
