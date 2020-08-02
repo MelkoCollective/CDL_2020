@@ -9,19 +9,19 @@ This week’s project focuses on finding the lowest energy of a system/body usin
 ## Examples of the types of real-world problems this solution can solve
 
 The utilization of Monte Carlo simulations and applications is found in widely (interdisciplinary)disparate fields and areas in chemistry, molecular dynamics, quantum physics, Ising model, electron dynamics, finance and business, telecommunications, remote sensing.
-**Biotechnology:** 
+**Biotechnology** 
 >Application of Monte Carlo Simulation in Optical Tweezers in Biotechnology has become an indispensable tool for quantitatively studying life processing and transforming life activities. It has applications in cancer cell sorting, enabling the identification of healthy or cancerous cells.
 
-**Food Safety:** 
+**Food Safety** 
 >Using predictive microbiology and the Monte Carlo simulation for assessing the level of exposure of a hazard. Helping the production of safer foodstuff and reducing the number of food borne illnesses.
 
-**Climate Science:** 
+**Climate Science** 
 >Climate change impact assessment is subject to a range of uncertainties due to both incomplete and unknowable knowledge. We use monte carlo simulations to quantify uncertainties related to future greenhouse gas emissions, the climate sensitivity, and limitations and unpredictability in general circulation models.
 
-**Agriculture:** 
+**Agriculture** 
 >The use of Monte Carlo methods to determine optical properties for quality and safety assessment of plant tissues, for example, to detect healthy and bruised apple tissue.
 
-**Astronomy:** 
+**Astronomy** 
 >Through solar radio astronomy scientist discovered the first planets outside the solar system. Monte carlo simulations is substantial to the increase in Astronomical knowledge.  
 
 **Energy Sector** 
@@ -29,7 +29,7 @@ The utilization of Monte Carlo simulations and applications is found in widely (
 
 ## Potential customer for this solution 
 Reliance of power systems is a key aspect in modern power system planning, design and operation. The American economy depend on the reliable delivery of electricity. According to the U.S Energy Information Administration Exit, the U.S power grid is made up of over 7,300 power plants, nearly 160,00 miles of high-voltage power lines, and millions of miles of low-voltage power lines and distribution transformers, connecting 145 million customers throughout the country. 
-![Energy Generation, Transmission and Distribution](transmission.PNG)
+![Energy Generation, Transmission and Distribution](./Downloads/transmission.PNG)
 
 The Office of Electricity(OE) is working to strengthen, transform and improve energy infrastructure to ensure access to secure and reliable  sources of energy.
 
