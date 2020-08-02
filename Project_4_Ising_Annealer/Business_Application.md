@@ -1,5 +1,6 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Business Application
+# Reliability Assessment of Electric Power Systems using Monte Carlo Techniques
 
 ## Summary of the technical problem solved in this exercise
 
