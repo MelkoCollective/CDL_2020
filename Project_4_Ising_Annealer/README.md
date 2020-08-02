@@ -16,7 +16,7 @@ Click on this link to begin learning about your tasks for this week!
 You will find the following files for tasks 1, 2, 3 here: [Task 1](./Task_1.ipynb), [Task 2](./Task_2.ipynb), [Task 3](./Task_3-Challenge4.ipynb) 
 
 Supporting the work for tasks 2 and 3 are the following additional python files:
-* [H2 2-Local Quantum Annealer](./CDL_DWaveH2QA.ipynb): Rework of a Week 1 Challenge to provide code to Task 2 and 3
+* [$H_2$ 2-Local Quantum Annealer](./CDL_DWaveH2QA.ipynb): Rework of a Week 1 Challenge to provide code to Task 2 and 3
 * [H2 Coefficients](./H2_coefficients_exact_simulated.csv): H2 2-Local coefficients table for the 2-Local annealer
 * [Quantum annealer classes](./quantum_H2_ising.py): Provides 2-local coefficients for task 2, derived from quantum annealer work 
 * [TSP Annealer classes](./flightHelper.py): Data set provider for Task 3/Challenge 4, imported from hackathon 2020 work by Enigma
