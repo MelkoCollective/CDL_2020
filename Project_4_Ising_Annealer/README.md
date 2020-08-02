@@ -11,29 +11,36 @@ In our [Project4_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2
 we provide more technical information the Ising Hamiltonians involved.
 Click on this link to begin learning about your tasks for this week!
 
-## Tasks include:
+## Summary of the Work
 
-- Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
-- Perform thermal annealing to solve for the groundstate of disordered Ising models.
+### Task 1
+
+Description:  Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
+Work:         We started with the original code and created a new version [Task_1](./Task_1.ipynb)
+
+### Task 2
+
+Description:  Perform thermal annealing to solve for the groundstate of disordered Ising models.
+Work:         
+
+### Task 3
+
 - Apply what you have learned to solve the Hydrogen molecule groundstate.
 
-## Further Challenges:
+
+### Further Challenges:
 
 - Explore the annealing procedure on the Mattis glass.
 
-          We have explored this challenge, please consult the results section.
 
 - Devise a 2-local Ising Hamiltonian for the Hydrogen molecule, and compare your results.
 
-          We have created a 2-Local Ising Hamiltonian, please consult the results section.
           
 - Solve your 2-local Hamiltonian (or any Hamiltonian) on open-source commercial software, and compare the performance.
 
-          We have included a DWave Anneal for the H2 Molecule implementing a 2-Local Ising Hamiltonian, please see the results section.
           
 - Go wild and try thermal annealing on your favorite NP-hard problem!
 
-          We have attempted to implement a demonstration solver for a routing problem using 4 nodes. Please see the results section.
 
 ## Business Application
 
