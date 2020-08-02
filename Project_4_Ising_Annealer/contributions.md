@@ -1,4 +1,7 @@
-Technical work - Nick Allgood
+Members who contributed to the week 4 cohort project:
 
+# Eunice Ofori-Addo
+Contributed to the business application.
 
-Business Application - Eunice Ofori-Addo
+# Nick Allgood
+Contributed to the technical tasks.
