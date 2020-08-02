@@ -33,7 +33,7 @@ Supporting the work for tasks 2 and 3 are the following additional python files:
 
 ### Task 3 - Apply what you have learned to solve the Hydrogen molecule groundstate.
 * Work:         Using task 3 code, augmented with previous work done during CDL 2020 we created [Task 3](./Task_3-Challenge4.ipynb) 
-* Notes:        Use Task_3-Challenge4 as it includes a section for addressing challenge 4 for task 3.
+* Notes:        Use [Task_3-Challenge4](./Task_3-Challenge4.ipynb) as it includes a section for addressing challenge 4 for task 3.
 
 ### Further Challenges:
 
