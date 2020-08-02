@@ -90,8 +90,10 @@ The importance of taking into account the 3-body and 4-body interactions in a mu
 
 At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.ipynb) we also test run up-to 3-body Hamiltonian for H2 generated using the tools from week2 [Week2_Hamiltonian_gen notebook](./Week2_Hamiltonian_gen.ipynb). Note that we had to use WJ mapping because the BK is has a bug as noticed in the week 2 cohort project notebooks. 
 
-## Further Challenges: 
-* Go wild and try thermal annealing on your favorite NP-hard problem!
+**Challenge 4:** 
+We have explored a few different problems using thermal annealing for NP-hard problem:
+
+1. Planning a trip from the current location of a rental car that has to visit specific cities in the USA is solved and visualized using the [Car Rental Schedule notebook](./Car_Rental_Schedule.ipynb).
 
 ## Business Application
 We provide examples of real-world problems our solutions in above tasks can solve. We then identify a potential customer for this solutions. We also prepare a short video explaining the value proposition of our innovation to this potential customer in non-technical language.  
