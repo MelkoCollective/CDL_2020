@@ -72,12 +72,6 @@ In this task we look at the hydrogen molecule and show, that its hamiltonian can
 
 The left figure above shows the energies (exact and from simulated annealing results for the generalized Ising model) for different bond distances for Hydrogen molecule. The data for loading into our generalized Ising model are provided in the `./hamiltonians` folder (it would be good to have more data corresponding to smaller bond distances to see the familiar full curve and not only the minimum and the right part). As we can see there is a good correspondence.
 
-The importance of taking into account the 3-body and 4-body interactions in a multi-particle system is demonstrated in the figure below. The annealing was performed on the truncated Hamiltonian that contains only up-to 2-body interaction terms to determine the lowest energy configuration. Then the 3- and 4-body terms are evaluated as in first-order perturbation theory. The figure shows that at large distances where the 3- and 4-body interactions are small this recovers the correct ground state energy. However, as one moves close to R=1 A the results start to drift away from the correct ground state energy. For more details take a look at the [Google Colab notebook](./Week4_Task_123.ipynb).
-
-<p align="center">
-<img src="./media/H2in2b+3and4b_as_perturbation.png" width="400"/>
-</p>
-
 (**Challenges 2 and 3**)   
 The right figure above is the comparison between:  
 - the exact model for full generalized 4-body Ising model,
@@ -87,6 +81,12 @@ The right figure above is the comparison between:
 For the last two cases we have used the function `poly_to_quadratic` function implemented using `dimod.make_quadratic`(**Challenge 2)**.   
 As can be seen they are all in line with the other solutions.  
 See more details on the code implementations and demos in our [Task 3 jupyter notebook](./Task_3.ipynb).
+
+The importance of taking into account the 3-body and 4-body interactions in a multi-particle system is demonstrated in the figure below. The annealing was performed on the truncated Hamiltonian that contains only up-to 2-body interaction terms to determine the lowest energy configuration. Then the 3- and 4-body terms are evaluated as in first-order perturbation theory. The figure shows that at large distances where the 3- and 4-body interactions are small this recovers the correct ground state energy. However, as one moves close to R=1 A the results start to drift away from the correct ground state energy. For more details take a look at the [Google Colab notebook](./Week4_Task_123.ipynb).
+
+<p align="center">
+<img src="./media/H2in2b+3and4b_as_perturbation.png" width="400"/>
+</p>
 
 ## Further Challenges: 
 * Go wild and try thermal annealing on your favorite NP-hard problem!
