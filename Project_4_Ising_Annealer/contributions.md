@@ -4,4 +4,4 @@ Members who contributed to the week 4 cohort project:
 Contributed to the business application.
 
 # Nick Allgood
-Contributed to the technical tasks.
+Contributed to the technical tasks and challenges.
