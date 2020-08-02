@@ -15,13 +15,15 @@ Click on this link to begin learning about your tasks for this week!
 
 ### Task 1
 
-Description:  Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
-Work:         We started with the original code and created a new version [Task_1](./Task_1.ipynb)
+* Description:  Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
+* Work:         We started with the original task 1 code and created a new version [Task 1](./Task_1.ipynb)
+* Notes:        Task 1 code provided a framework to use Monte Carlo on our own customized models
 
 ### Task 2
 
-Description:  Perform thermal annealing to solve for the groundstate of disordered Ising models.
-Work:         
+* Description:  Perform thermal annealing to solve for the groundstate of disordered Ising models.
+* Work:         Using the original task 2 code we created a new version [Task 2](./Task_2.ipynb). 
+* New Code:     
 
 ### Task 3
 
