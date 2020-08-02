@@ -22,5 +22,3 @@
 * [Business Application](./Business_Application.md)
 
 
-## Video 
-

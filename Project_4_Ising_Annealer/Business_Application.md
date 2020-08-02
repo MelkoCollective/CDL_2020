@@ -1,28 +1,56 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
 # Quantum Cohort Project Business Application
 
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consider the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
+## Summary of the technical problem solved in this exercise
 
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+This week’s project focuses on finding the lowest energy of a system or body using thermal annealing Monte Carlo methods. Thermal annealing exploits thermal fluctuations to discover the ground state of a system. The Monte Carlo method has proven to be very efficient computational technique in attaining approximate numerical solutions to systems which are complex and difficult to solve analytically. Monte Carlo Simulation is iterative computational method used to examine and investigate the behavior of physical and mathematical systems utilizing random techniques.
 
-## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to do so.
+## Examples of the types of real-world problems this solution can solve
 
-## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
+The utilization of Monte Carlo simulations and applications is found in interdisciplinary fields and areas in chemistry, quantum physics, Ising model, finance and business, telecommunications, and so forth.
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize travel time. (e.g., “the travelling salesman problem”).
+**Biotechnology** 
+>Application of Monte Carlo Simulation in Optical Tweezers in Biotechnology has become an indispensable tool for quantitatively studying life processing and transforming life activities. It has applications in cancer cell sorting, enabling the identification of healthy or cancerous cells.
 
-## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
+**Food Safety** 
+>Using predictive microbiology and the Monte Carlo simulation for assessing the level of exposure of a hazard. Helping the production of safer foodstuff and reducing the number of food borne illnesses.
 
-Examples: 
-- Federal Express
-- Canada Post
+**Climate Science** 
+>Climate change impact assessment is subject to a range of uncertainties due to both incomplete and unknowable knowledge. We use monte carlo simulations to quantify uncertainties related to future greenhouse gas emissions, the climate sensitivity, and limitations and unpredictability in general circulation models.
 
-## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
+**Agriculture** 
+>The use of Monte Carlo methods to determine optical properties for quality and safety assessment of plant tissues, for example, to detect healthy and bruised apple tissue.
 
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+**Astronomy** 
+>Through solar radio astronomy scientist discovered the first planets outside the solar system. Monte carlo simulations is substantial to the increase in Astronomical knowledge.  
+
+**Energy Sector** 
+>Monte Carlo simulation can be used to analyse electricity markets. Players in the electricity market can use simulation to decide whether or not an investment can be expected to be profitable, and authorities can by means of simulation find out which consequences a certain market design can be expected to have on electricity prices, environmental impact, etc. 
+
+## Potential customer for this solution 
+Reliance of power systems is a key aspect in modern power system planning, design and operation. The American economy depend on the reliable delivery of electricity. According to the U.S Energy Information Administration Exit, the U.S power grid is made up of over 7,300 power plants, nearly 160,00 miles of high-voltage power lines, and millions of miles of low-voltage power lines and distribution transformers, connecting 145 million customers throughout the country. 
+The Office of Electricity(OE) is working to strengthen, transform and improve energy infrastructure to ensure access to secure and reliable  sources of energy.
+
+Modernizing the grid to make it “smarter” and more robust through the use of cutting-edge technologies. The emergence of the smart grid concept has provided high hopes of developing an intelligent network that is capable of being a self-healing grid, offering the ability to overcome the interruption problems that face the utility and cost it tens of millions in repair and loss. There is the need to examine models and applications in improving the reliability of power systems.
+Monte Carlo simulations approach provide one of the most powerful, efficient methods to evaluate the reliability of the power distribution grids.
+
+Quantum computers can provide an advantage in energy system optimization. As OE has continued investing in research and development of advanced technologies, it will be a smart move for them to partner with quantum computing companies to leverage the power of quantum computers in grid modernization for an enormous increase in efficiency of electric power systems.
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0360544219308254-egi10GR9GX6313_lrg.jpg) 
+
+
+
+
+## Here is a 90 second video explaining the value proposition of our innovation to potential customer in non-technical language
+
+## References
+
+Applications of Monte Carlo Method in Science and Engineering. Edited by Shaul Mordechai
+https://www.intechopen.com/books/applications-of-monte-carlo-method-in-science-and-engineering
+
+https://www.epa.gov/greenpower/us-electricity-grid-markets
+
+https://www.energy.gov/oe/activities/technology-development/grid-modernization-and-smart-grid
+
+https://doi.org/10.1016/j.energy.2019.04.186
+
