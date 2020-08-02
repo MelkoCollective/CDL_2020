@@ -36,7 +36,7 @@ Modernizing the grid to make it “smarter” and more robust through the use of
 Monte Carlo simulations approach provide one of the most powerful, efficient methods to evaluate the reliability of the power distribution grids.
 
 Quantum computers can provide an advantage in energy system optimization. As OE has continued investing in research and development of advanced technologies, it will be a smart move for them to partner with quantum computing companies to leverage the power of quantum computers in grid modernization for an enormous increase in efficiency of electric power systems.
-![](../downloads/energysystems.jpg) 
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0360544219308254-egi10GR9GX6313_lrg.jpg) 
 
 
 
@@ -44,9 +44,13 @@ Quantum computers can provide an advantage in energy system optimization. As OE 
 ## Here is a 90 second video explaining the value proposition of our innovation to potential customer in non-technical language
 
 ## References
-https://doi.org/10.1016/j.energy.2019.04.186
+
+Applications of Monte Carlo Method in Science and Engineering. Edited by Shaul Mordechai
+https://www.intechopen.com/books/applications-of-monte-carlo-method-in-science-and-engineering
 
 https://www.epa.gov/greenpower/us-electricity-grid-markets
 
 https://www.energy.gov/oe/activities/technology-development/grid-modernization-and-smart-grid
+
+https://doi.org/10.1016/j.energy.2019.04.186
 
