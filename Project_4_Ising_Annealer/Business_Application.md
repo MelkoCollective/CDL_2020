@@ -41,5 +41,4 @@ Starting from quantum chemical calculations to calculate transition states, acti
 
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
-
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+Check it out over [here](https://drive.google.com/file/d/1NYc4cw0udbVqSqc6P3Jept1bc7bSXu0D/view?usp=sharing)
