@@ -34,4 +34,4 @@ independent graphs. That means splitting the graph into two equally sized sets o
 * Apply what you have learned to solve the Hydrogen molecule ground state.
 
 ## Business Application
-For more details refer to the [Business Application found here](./Business_Application.md
+For more details refer to the [Business Application found here](./Business_Application.md)
