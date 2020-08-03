@@ -94,13 +94,8 @@ At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.
 We have explored a few different problems using thermal annealing for NP-complete adn NP-hard problems:
 
 1. Planning a trip from the current location of a rental car that has to visit specific cities in the USA is solved and visualized using the [Car Rental Schedule notebook](./Car_Rental_Trip.ipynb). See the figure below for a trip from San Francisco to New York City with few stops in popular destinations.
-2. Another implementation of Traveling Salesman Problem [TSP notebook](./TSP.ipynb). featuring solving on random graphs using D-Wave Leap Hybrid as well as simulator. See the figure below for a random 50 cities route.
-<p align="center">
-<img src="./media/SF2NY.png" width="400"/>
-&nbsp;
-<img src="./media/TSP-50.png" width="300"/>
-</p>
-3. Implementation of Graph vertex coloring, which is a NP-Complete problem can be found in the [Graph coloring notebook](./Vertex_Coloring.ipynb)
+2. Another implementation of Traveling Salesman Problem [TSP notebook](./TSP.ipynb). featuring solving on random graphs using D-Wave Leap Hybrid as well as simulator. See the figure below for a random 50 cities route. <p align="center"> <img src="./media/SF2NY.png" width="400"/> &nbsp;<img src="./media/TSP-50.png" width="300"/></p>
+3. Implementation of Graph vertex coloring, which is a NP-Complete problem can be found in the [Graph coloring notebook](./Vertex_Coloring.ipynb).
 
 ## Business Application
 The business application is described in [Business Application file](./Business_Application.md)
