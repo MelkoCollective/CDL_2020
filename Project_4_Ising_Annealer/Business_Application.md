@@ -28,17 +28,28 @@ USD
 Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
 
 
-###Referecens
+## References
 
 [1] https://en.wikipedia.org/wiki/Ising_model
+
 [2] https://www.dwavesys.com/
+
 [3] https://www.fujitsu.com/global/services/business-services/digital-annealer/index.html
+
 [4] https://www.pnas.org/content/79/8/2554
+
 [5] https://link.springer.com/chapter/10.1007/978-3-642-61850-5_18
+
 [6] https://arxiv.org/pdf/q-bio/0512013.pdf
+
 [7] https://hbr.org/2018/01/how-ai-could-help-the-public-sector
+
 [8] https://www.tech.gov.sg/media/technews/big-push-for-ai-proves-fruitful-and-useful
+
 [9] https://emerj.com/ai-sector-overviews/artificial-intelligence-applications-lending-loan-management/
+
 [10] https://www2.deloitte.com/us/en/pages/financial-services/articles/regulating-ai-in-the-banking-space.html
+
 [11] https://qz.com/1277305/ai-for-lending-decisions-us-bank-regulations-make-that-tough/
+
 [12] https://www.mckinsey.com/featured-insights/artificial-intelligence/notes-from-the-ai-frontier-applications-and-value-of-deep-learning#
