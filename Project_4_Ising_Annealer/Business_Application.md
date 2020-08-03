@@ -23,10 +23,7 @@ Various government agencies have tried using AI tools based on neural networks t
 Industries such as banking and insurance [9] have started using AI tools based on neural networks to make decisions regarding mortgages and insurance premiums. This has raised concerns about discrimination and lack of transparency of the decision making process [10]. Governemnts have laws and regulations that require equal treatment of customers, which in practice mean that any decisions taken must be explicable [11]. By using our tool based on the Ising-model these actors can gain new insight into the correlations between observables and use that to explain the decison made by the neural network. The enables banks and insurers to make wide-spread use of neural networks and achieve huge efficiency gains. These gains are estimated at 250B USD in both banking and insurance [12].
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
-
-https://drive.google.com/file/d/1Tv8Uie6FuuUC-fqgKG0LSSGBW3J_twws/view?usp=sharing
-Starts at 3:33.
-
+https://drive.google.com/file/d/1fs-Mm9esybu5-6sB3NujqG1LTs8QF3bl/view?usp=sharing
 
 ## References
 
