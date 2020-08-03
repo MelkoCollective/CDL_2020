@@ -1,28 +1,35 @@
 ![CDL 2020 Cohort Project](../figures/CDL_logo.jpg)
-# Quantum Cohort Project Business Application
+# Zzziiippp around the world with a Zipcar!
 
-For each weekly project, your team is asked to complete the below business application exercise.
-To complement the technical tasks, please consider the four questions below.
-You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
-the content (or links to the content) on your forked repository.
+## Thermal Annealing as an Efficient Optimization procedure
 
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+The technical problem we solved in this exercise is to use thermal annealing to find the groundstate of a model. The model is important because we are mapping an electronic structure hamiltonian to a classical Ising model. Thermal annealing allows us exploit thermal fluctuations to escape local minimum. This mapping from scientific to business applications is due to the application of a probabilistic technique which helps us approxinate the global optimum of a given function.
+The Monte Carlo simulation uses the Metropolis-Hastings algorithm for 2D ferromagnetic (J > 0) Ising model on a square lattice with periodic boundary conditions (PBCs).
 
-## Step 1: Explain the technical problem you solved in this exercise
+We also investigate two 1D models - random bond nearest neighbor Ising model and a fully connected random bond Ising model, with the goal of analyzing different temperature decay schedules to figure out which works best. The comparisons were between the following: Exponential, Hyberbolic, Linear and Polynomial schedules. We also consider oscillating variations. The benchmarking of different schedules for different models is achieved using a hybrid scheduling, which is a mix of two parts including the hyperbolic, lowering the temperature rapidly and then transforming into linear until the end. The results are the conclusions that a new hybrid schedule works best for the nearest neighbor random model, and the exponential schedule works best for the fully connected model. This conclusion is then applied to the Mattis model, which is a fully connected Ising model.
 
-Example: Finding a global minimum in settings where a classical approach may not be able to do so.
+We then consider the hydrogen molecule and show that its hamiltonian can be written in polynomial form, i.e. it can be mapped to an Ising model. Then this Ising model is used along with the software framework developed in previous tasks to find the ground state of the hydrogen molecule using simulated thermal annealing of the corresponding Ising model. As an additional challenge, we demonstrated that this 4-local hamiltonian can be converted into a 2-local hamiltonian (QUBO) by adding variables, and then this can be executed against the D-Wave machine. We validated the results of this approach and showed that they are in line with the other solution. 
 
-## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
+## Examples of real-world problems that can benefit from Thermal Annealing as an Efficient Optimization procedure
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize travel time. (e.g., “the travelling salesman problem”).
+Everyday Problems, where there is an exponential increase in the number of possibilities due to their combinatorial nature, are well-suited for Thermal Annealing.
+The method can solve any real-world problem that is based on the traveling salesman problem. Some common applicable uses are:
 
-## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
+1) Routing signals in electronics to minimize cross-talk;
+2) Distributing ﬁnancial portfolios to maximize proﬁt while minimizing risk;
+3) Identifying the most likely nexus within a dense network of telephone calls;
+4) Identifying the best pick up and drop off locations for car rental service;
+5) Routing robotic applications on a factory floor;
+6) Fleet routing including school bus and airlines;
+7) Planning for delivery services;
 
-Examples: 
-- Federal Express
-- Canada Post
+## Why Zipcar could be a great partner and how Thermal Annealing can help
 
-## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
+Zipcar is an American car-sharing company and a subsidiary of Avis Budget Group. Zipcar provides automobile reservations to its members, billable by the minute, hour or day; members may have to pay a monthly or annual membership fee in addition to car reservations charges. Zipcar was founded in 2000 by Antje Danielson and Robin Chase.
+Members can reserve vehicles with Zipcar's mobile app, online, or in some places by phone at any time, either immediately or up to a year in advance. Zipcar members have automated access to the cars using an access card which unlocks the door; the keys are already located inside. Alternatively, members can use Zipcar's Android or iPhone app to locate a Zipcar by honking its horn as well as to unlock the doors. Zipcar charges a one-time application fee, an annual fee, and a reservation charge. Fuel, parking, insurance, and maintenance are included in the price.
 
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
+We are proposing a new service for Zipcar for budget travel from one city to another. This may be usefull for people who need to get to another city, but are not concerned with exact date when this is going to happen. First, many people need to request a car to travel from one city to another. Then, Traveling Salesman Problem can be used to model this where a single car is represented by salesman and a desired trip from city to city is represented by a single directional edge between two nodes. This way the car travels between cities changing drivers in every city. A basic implementation of Traveling Salesman Problem can be found here [TSP.ipynb](TSP.ipynb). A futher improvements to the solution in this jupyter notebook can be done by making graph single directional, removing requirement to return to the original city and changing the model to multiple salesman (cars) problem.
+
+## Below is a 90 second video explaining the value proposition of our innovation
+
+https://www.youtube.com/watch?v=dbeyh1pGVyE&feature=youtu.be
