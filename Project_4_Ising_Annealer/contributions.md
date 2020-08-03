@@ -20,8 +20,4 @@ Participated in the technical and business discussions and organized the README.
 Designed jupyter notebook [TSP.ipynb](TSP.ipynb) that solves Traveling Salesman Problem as challenge 4.
 
 ## Tina Sebastian:
-Produced the Business_Application.md and the video pitch.
-
-## Amine Aboussalah:
-
-
+Produced the [Business_Application.md](Business_Application.md) and the video pitch.
