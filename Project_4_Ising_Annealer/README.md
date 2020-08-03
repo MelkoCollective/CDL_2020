@@ -5,28 +5,28 @@ This project was focused on the process of mapping an electronic structure Hamil
 
 ## Tasks:
 Task 1: 
-In the [Task 1]('./Task_1.ipynb') we perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model exploring monte carlo methods for developing approximate solutions. 
+In the [Task 1](./Task_1.ipynb) we perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model exploring monte carlo methods for developing approximate solutions. 
 
 ![img](Plots/ExpSchedule.png)
 
 Task 2: 
-In the [Task 2]('./Task_2.ipynb') we perform thermal annealing using various schedules shown below to solve for the groundstate of disordered Ising models. The schedules used are shown below:
+In the [Task 2](./Task_2.ipynb) we perform thermal annealing using various schedules shown below to solve for the groundstate of disordered Ising models. The schedules used are shown below:
 
 ![img](Plots/AnnealingSchedule.png)
 
 Task 3:
-In the notebook [Task 3]('./Task_3.ipynb') we explore using Monte Carlo simulation to olve the Ising model as applied to
+In the notebook [Task 3](./Task_3.ipynb) we explore using Monte Carlo simulation to olve the Ising model as applied to
 the Hydrogen molecule. This class has been written so that any dimension of Ising Hamiltonan can be passed to it, 
 meaning that we can solve any classically tractable chemical Hamiltonian using this method. We have used Monte Carlo
 sampling to  find the ground state energy and spin configuration for the Hydrogen molecule at a variety of bond 
 distances This, wen applied to larger molcules is a useful input into commercial applications such as drug or catalyst
 discovery.
 
-Challenge 1: In this challenge found at the end of the [Task 2 notebook ]('./Task_2.ipynb'), we explore new annealing schedles to solve the fully conmnected mantis ising model.
+Challenge 1: In this challenge found at the end of the [Task 2 notebook ](./Task_2.ipynb), we explore new annealing schedles to solve the fully conmnected mantis ising model.
 After comparing various schedulers, the best one was actually a custom schedule. This added oscilations into an expotneital decay and forced them to be positive so there was never a case of going below zero temperature. Compared to the other solutions this convered at a higher temerpature and still had accurate results. Although this schedule worked best for the mantis model, it did not work as well for other systems such as the 1D random bond ising on a periodic chain and fully connected random bond ising models. 
 
 Challenge 4:
-In the [Challenge 4 notebook ]('./Challenge_4_Ising_Graph_Partition.ipynb') we have Hamiltonian which describes the 
+In the [Challenge 4 notebook ](./Challenge_4_Ising_Graph_Partition.ipynb) we have Hamiltonian which describes the 
 graph partition problem. In yhe Graph partition problem we age given an input graph and asked to find two equally-sized
 independent graphs. That means splitting the graph in to two equally sized sets of nodes with the fewest connections 
 between the two subsets. THis is an extremely inportant problem to solve, as it splits hard intractable graph problems 
