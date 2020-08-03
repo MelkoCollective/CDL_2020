@@ -7,12 +7,12 @@ This project was focused on the process of mapping an electronic structure Hamil
 Task 1: 
 In the [Task 1](./Task_1.ipynb) we perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model exploring monte carlo methods for developing approximate solutions. 
 
-![img](Plots/ExpSchedule.png)
+![img](ExpSchedule.PNG)
 
 Task 2: 
 In the [Task 2](./Task_2.ipynb) we perform thermal annealing using various schedules shown below to solve for the groundstate of disordered Ising models. The schedules used are shown below:
 
-![img](Plots/AnnealingSchedule.png)
+![img](AnnealingSchedule.PNG)
 
 Task 3:
 In the notebook [Task 3](./Task_3.ipynb) we explore using Monte Carlo simulation to olve the Ising model as applied to
