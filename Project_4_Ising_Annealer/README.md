@@ -16,6 +16,7 @@
 
 ## Further Challenges: 
 
+* [Further Challenge #1](./Further_Challenge_1.ipynb)
 
 ## Business Application
 
