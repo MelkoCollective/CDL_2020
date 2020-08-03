@@ -88,7 +88,7 @@ The importance of taking into account the 3-body and 4-body interactions in a mu
 <img src="./media/H2in2b+3and4b_as_perturbation.png" width="400"/>
 </p>
 
-At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.ipynb) we also test run other 3- and 4-body Hamiltonians for H2 and H4 generated using the tools from week2 [Week2_Hamiltonian_gen notebook](./Week2_Hamiltonian_gen.ipynb). Note that we had to use WJ mapping because the BK has a bug as noticed in the week 2 cohort project notebooks. 
+At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.ipynb) we also test run other 3- and 4-body Hamiltonians for H2 and H4 generated using the tools from week2 [Week2_Hamiltonian_gen notebook](./Week2_Hamiltonian_gen.ipynb). Note that we had to use JW (Jordan-Wigner) mapping because the BK (Bravyi-Kitaev) has a bug as noticed in the week 2 cohort project notebooks. 
 
 **Challenge 4:** 
 We have explored a few different problems using thermal annealing for NP-hard problem:
