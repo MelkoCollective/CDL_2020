@@ -94,13 +94,12 @@ At the end of the [Google Colab notebook Week4_Task_123.ipynb](./Week4_Task_123.
 We have explored a few different problems using thermal annealing for NP-hard problem:
 
 1. Planning a trip from the current location of a rental car that has to visit specific cities in the USA is solved and visualized using the [Car Rental Schedule notebook](./Car_Rental_Trip.ipynb). See the figure below for a trip from San Francisco to New Your City with few stops in popular destinations.
-
+2. Another implementation of Traveling Salesman Problem [TSP notebook](./TSP.ipynb). featuring solving on random graphs using D-Wave Leap Hybrid as well as simulator. See the figure below for a random 50 cities route.
 <p align="center">
 <img src="./media/SF2NY.png" width="400"/>
+&nbsp;
+<img src="./media/TSP-50.png" width="300"/>
 </p>
 
 ## Business Application
-We provide examples of real-world problems our solutions in above tasks can solve. We then identify a potential customer for this solutions. We also prepare a short video explaining the value proposition of our innovation to this potential customer in non-technical language.  
-For more details refer to our [Business Application file](./Business_Application.md)
-
-(TODO) Include a file contributions.md that lists the contributions of each group member.
+The business application is described in [Business Application file](./Business_Application.md)
