@@ -11,7 +11,6 @@ A brief example for each question is included for the
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to do so.
 Here we try to find the global minimum for a classical [Ising model](https://en.wikipedia.org/wiki/Ising_model), since it has various applications in physics and chemistry. Unfortunately that is a [hard task](https://archive.siam.org/pdf/news/654.pdf). Fortunately, the process of [thermal annealing](https://en.wikipedia.org/wiki/Simulated_annealing) is a simple but powerful heuristic that aims to get to a variable configuration (spins in this case) that gives us the global minimum without exhaustively searching all the solutions.
 
 As an example, here we map the electronic structure Hamiltonian of an H<sub>2</sub> molecule to an ising objective function, and try to find the ground state by thermal annealing.
