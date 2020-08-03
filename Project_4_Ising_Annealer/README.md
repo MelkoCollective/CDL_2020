@@ -9,6 +9,18 @@ A very brief introduction to the main ideas behind the project, and the basics o
 In our [Project4_LandingPage.pdf](https://github.com/CDL-Quantum/CohortProject_2020/blob/master/Project_4_Ising_Annealer/Project4_LandingPage.pdf),
 we provide more technical information the Ising Hamiltonians involved.
 Click on this link to begin learning about your tasks for this week!
+## Task 1:
+This task is about understanding the basics of thermal annealing classes
+
+## Task 2:
+We used exponential, linear and quadratic decay anneal scehdules. We found the exponential decay schedule to work the best (especially for the larger variables
+with the linear schedule performing the worst and quadratic somewhere in between.
+
+## Task 3:
+We fleshed out the Generalized Ising Class for the 4-local ising model (for the 4 spin hydrogen ising model).
+We used the Exponential Decay anneal schedule from Task 2 and used it to figure the ground state for the H<sub>2</sub> molecule.
+
+For various <b>R</b> lengths, we tried to estimate the ground state by using annealing (and verified by brute force). We succeeded for the most cases.
 
 ## Tasks include:
 * Perform thermal annealing to solve for the groundstate of a ferromagnetic Ising model.
