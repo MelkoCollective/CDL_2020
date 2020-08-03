@@ -46,11 +46,11 @@ For more details refer to the [Business Application found here](./Business_Appli
 ## Contributors
 The Contributors to this project are (Group 3)
 
-Ajinkya Borle
-Zhanet Zaharieva
-Santanu Ganguly
-T Anandakkoomar
-Ramesh Mantha
+- Ajinkya Borle
+- Zhanet Zaharieva
+- Santanu Ganguly
+- T Anandakkoomar
+- Ramesh Mantha
 
 ## Presenting your results in your pull request
 For your pull request, consider the following for the presentation of your final results:
