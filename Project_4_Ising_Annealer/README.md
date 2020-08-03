@@ -16,9 +16,14 @@
 
 ## Further Challenges: 
 
+* [Further Challenge #1](./Further_Challenge_1.ipynb)
 
 ## Business Application
 
 * [Business Application](./Business_Application.md)
+
+## Video
+
+https://drive.google.com/file/d/1LxFI78JVIp-8BEODgQk53MeyQHmGzMuO/view?usp=sharing
 
 
